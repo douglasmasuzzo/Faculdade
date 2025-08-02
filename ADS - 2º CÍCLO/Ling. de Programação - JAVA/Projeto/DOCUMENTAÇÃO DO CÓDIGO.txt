@@ -1,0 +1,47 @@
+** DOCUMENTAÇÃO DO CÓDIGO
+
+* Este programa em Java implementa um CRUD simples (Create, Read, Update, Delete) para manipular uma lista de produtos.
+Ele permite ao usuário adicionar, visualizar, atualizar e excluir produtos interativamente no terminal. 
+
+1. Importação de Bibliotecas O código importa duas classes essenciais: 
+ - ArrayList: Para armazenar produtos dinamicamente. 
+ - Scanner: Para capturar entradas do usuário.
+
+2. Declaração da Classe e Método Principal: A classe Crud contém o método main(), que inicia a execução do programa. 
+
+3. Inicialização de Variáveis: O objeto Scanner permite ler a entrada de dados via teclado. 
+ - ArrayList<String> produtos armazena os produtos dinamicamente. 
+ - int opcao captura a escolha do usuário no menu. 
+
+4. Loop para Manter o Programa em Execução: O código usa um while (true), garantindo que o programa funcione até que o usuário escolha sair.
+
+5. Exibição do Menu: O programa apresenta um menu ao usuário com cinco opções para interagir com o CRUD. 
+
+6. Captura da Escolha do Usuário: O ler.nextInt() lê a opção escolhida, seguido de ler.nextLine() para evitar erros ao ler texto após números.
+
+7. Implementação das Funcionalidades: Cada opção do menu aciona um comando diferente:
+ - Criar Produto 
+   = (case 1): Solicita o nome do produto e o adiciona à lista.
+
+ - Listar Produtos 
+   = (case 2): Exibe os produtos armazenados ou avisa que a lista está vazia. 
+
+ - Atualizar Produto 
+   = (case 3): Pede um índice válido, solicita um novo nome e altera o produto correspondente. 
+
+ - Excluir Produto 
+   = (case 4): Remove um produto com base no índice informado. 
+
+ - Buscar Produto
+   = ( case 5 ): Verifica a existência do produto por seu ID
+
+ - Calcular Produto
+   = ( case 6 ): Após o usuário indicar o ID do produto e a especificação, o usuário insere o valor do produto
+ 
+ - Encerrar Programa 
+   = (case 7): Finaliza a execução, fechando o Scanner. 
+
+ - Caso o usuário digite um número fora do intervalo, o programa exibe "Opção inválida! Escolha entre 1 e 5." 
+
+**CONCLUSÃO
+ - Este código cria um CRUD funcional, permitindo a manipulação de produtos no terminal. rio

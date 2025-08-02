@@ -1,0 +1,74 @@
+
+** ANÁLISE UNIFICADA – SAÚDE MENTAL & SONO  **
+
+---
+## PARTE 1 – ANÁLISE DA IMAGEM DO DIAGRAMA DE ISHIKAWA
+
+# Tema Central (Efeito):
+- Problema Focal: Saúde Mental & Sono
+- O diagrama busca entender por que a qualidade do sono e o bem-estar mental são afetados.
+- O "sono" é marcado como efeito negativo, resultado de diversas causas interligadas.
+
+# Causa Principal:
+- Tempo de Tela (fator determinante representado pela espinha principal do diagrama)
+
+# Subfatores / Variáveis Relacionadas:
+- Redes Sociais
+- Nível de Estresse
+- Saldo de Eficácia
+- Horas de Sono
+
+# Aplicação da Ferramenta - Categorias de Causa:
+1. Tecnologia:
+   - Tempo de tela excessivo
+   - Uso noturno de dispositivos
+   - Exposição à luz azul
+   - Acesso contínuo a redes sociais
+
+2. Hábitos Pessoais:
+   - Falta de rotina saudável
+   - Uso imoderado de dispositivos 
+
+3. Fatores Econômicos e Sociais:
+   - Comparações sociais por redes
+   - Ansiedade e estresse 
+4. Consequências:
+   - Dificuldade em dormir
+   - Sono de má qualidade
+   - Redução da produtividade e bem-estar
+
+# Objetivo do Diagrama:
+- Identificar causas estruturais que impactam negativamente o sono
+- Sugerir ações corretivas ou preventivas para melhoria da saúde mental
+
+---
+## PARTE 2 – CONTEÚDO TEÓRICO DO PROJETO
+
+ No desenvolvimento do projeto, foram coletados dados por meio de entrevistas, onde se levantou informações como tempo de tela (anterior e atual), 
+horas de sono, nível de estresse e uso de redes sociais. A partir desses dados, foram criados gráficos ilustrativos que demonstram o comportamento dos usuários.
+ A ferramenta estratégica selecionada para análise foi o Diagrama de Ishikawa, onde o tempo de tela foi considerado a principal causa-raiz dos problemas apresentados.
+A espinha principal do diagrama representou esse fator, e a partir dela, ramificaram-se outras categorias, como redes sociais, estresse e saldo de eficácia.
+
+ Para efetuar o cálculo dos dados coletados, utilizamos de uma fórmula que pudesse verificar o Saldo de Eficácia 
+em relação a Saúde Mental, representada por: 
+
+HS / 8 - ( ( T.T x H.S ) * A + ( R.S x H.S ) * B ) 
+
+H.S - Hora de Sono
+8 - Estimativa média do Sono
+T.T x H.S - operação de correlação  ( = 0.04785 )
+A - Coluna referente a "Tempo de Tela"
+R.S x H.S - operação de correlação ( = 0.02754 )
+B - Coluna referente a "Redes Sociais 
+
+ A proposta foi analisar os impactos negativos de um tempo excessivo de exposição às telas sobre o bem-estar mental e o sono, oferecendo também sugestões de melhoria.
+Dentre elas, destacam-se:
+- Redução do tempo de tela antes de dormir
+- Estabelecimento de uma rotina de sono
+- Controle do uso de redes sociais
+- Monitoramento do saldo de eficácia (combinação entre estresse, saúde mental e produtividade)
+
+O uso da ferramenta permitiu uma visualização clara das causas inter-relacionadas e contribuiu para a proposição de intervenções estratégicas com base em evidências extraídas
+do dataset analisado.
+
+
