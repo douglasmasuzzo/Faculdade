@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var aluno;
+        var n1, n2, n3, n4;
+
+        n1 = parseInt(
+        window.prompt("Informe o valor da primeira nota:", "00")
+        );
+
+        n2 = parseInt(
+        window.prompt("Informe o valor da segunda nota:", "00")
+        );
+
+        n3 = parseInt(
+        window.prompt("Informe o valor da terceira nota:", "00")
+        );
+
+        n4 = parseInt(
+        window.prompt("Informe o valor da quarta nota:", "00")
+        );
+
+            var media = (n1+n2+n3+n4) / 4
+
+        if (media <= 3){
+            document.write("reprovado"); 
+        }
+        
+        else if(media <= 5){
+            document.write("recuperação");
+        }
+
+        else if(media <= 6){
+            document.write(substituível);
+        }
+        
+    </script>
+</body>
+</html>

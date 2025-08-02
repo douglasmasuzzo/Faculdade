@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Condicional</title>
+</head>
+<body>
+    <h3>Estrutura Condicional Simples</h3>
+    <!-- Início da Linguagem JS -->
+        <script>
+            /* Objeivo:
+                Ler dois valores numéricos inteiros independente 
+                da ordem em que forem digitados e apresentá-lo em 
+                ordem crescente. 
+
+                Referência
+                https://www.w3schools.com/js/js_if_else.asp 
+            */
+            // Definição de Variáveis
+                var js_n1;
+                var js_n2;
+                var js_n3;
+
+            // Entrada de Dados
+                js_n1 = parseInt(window.prompt('Informe o valor do primeiro número',
+                '00'));
+                js_n2 = parseInt(window.prompt('Informe o valor do segundo número', 
+                '00'));    
+                
+            // Saída de dados sem classificação 
+                document.write('Primeiro número digitalizado = ' + js_n1);
+                document.write('Segundo número digitalizado = ' + js_n2);
+
+            // Saídade dados COM classificação
+            if(js_n1 > js_n2){
+                document.write('<p><br>Classificação em ordem Crescente<br> '
+                    + js_n2+' e '+ js_n1);
+            }else
+                document.write('<p><br>Classificação em ordem Crescente<br>  '
+                    + js_n1+' e '+ js_n2);
+
+            
+            
+            document.write('<p><br>Classificação em ordem Crescente<br> '
+                +js_n1+' e '+js_n2);
+        </script>
+</body> 
+</html>

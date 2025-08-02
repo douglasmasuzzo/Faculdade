@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Condicional</title>
+</head>
+<body>
+    <h3>Estrutura Condicional Simples</h3>
+    <!-- Início da Linguagem JS -->
+    <script>
+        /* Objetivo:
+           Ler dois valores numéricos inteiros independentemente
+           da ordem em que forem digitados e apresentá-los em
+           ordem crescente.
+        */
+        // Definição de Variáveis
+        var js_n1;
+        var js_n2;
+        var js_n3;
+
+        // Entrada de Dados
+        js_n1 = parseInt(window.prompt('Informe o valor do primeiro número', '00'));
+        js_n2 = parseInt(window.prompt('Informe o valor do segundo número', '00'));    
+
+        // Saída de dados sem classificação 
+        document.write('Primeiro número digitado = ' + js_n1 + '<br>');
+        document.write('Segundo número digitado = ' + js_n2 + '<br>');
+
+        // Saída de dados COM classificação
+        if (js_n1 > js_n2) {
+            js_n3 = js_n1;
+            js_n1 = js_n2;
+            js_n2 = js_n3;
+        }
+        document.write('<p><br>Classificação em ordem Crescente <br>' + js_n1 + ' e ' + js_n2 + '</p>');
+    </script>    
+</body>
+</html>
