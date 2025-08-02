@@ -1,0 +1,108 @@
+PROTÓTIPO NAVEGÁVEL -- ORGANIZAÇÃO PESSOAL
+
+** Criar um protótipo navegável, no mínimo 5 telas, que simulem a experiência
+de um aplicativo voltado à Organização Pessoal ( controle de hábitos / 
+organização de estudos / produtividade e etc ). A atividade deve apresentar 
+esses requisitos:
+
+   - objetivo do aplicativo
+   - público alvo 
+   - fluxo de navegação
+   - decisões de design
+   - funcionalidades futuras 
+
+* Esses requisitos devem responder tais questões como:
+
+   - para que serve e qual é a solução do problema?
+   - para quem é direcionado? 
+   - demonstração do caminho entre as telas
+   - cores / ícones / hierarquia visual
+   - possíveis futuras melhorias da finalização do projeto
+
+------------------------------------------------------------------------------------------
+
+**OBJETIVO DO APLICATIVO
+
+🧠 1. Controle de Hábitos
+Objetivo: Auxiliar o usuário a criar, monitorar e manter hábitos saudáveis ou produtivos ao longo do tempo,
+como beber água, praticar exercícios, meditar, ou evitar o uso excessivo de redes sociais.
+
+📚 2. Organização de Estudos
+Objetivo: Ajudar estudantes a gerenciar cronogramas de estudo, planejar revisões e acompanhar o progresso em
+disciplinas específicas, com foco em vestibulares, ENEM ou concursos.
+
+⏳ 3. Gerenciador de Tarefas Diárias
+Objetivo: Oferecer uma interface clara e prática para o planejamento do dia, com lista de tarefas, lembretes,
+marcações de prioridade e registro de conclusão.
+
+📅 4. Agenda Pessoal com Integração de Eventos
+Objetivo: Criar uma solução para registrar e visualizar compromissos, tarefas e metas diárias, integrando com 
+calendário do celular, notificações e alarmes.
+
+💼 5. App de Produtividade para Trabalho Remoto
+Objetivo: Facilitar a organização de atividades de quem trabalha em home office, com foco em metas, sessões 
+de foco (como Pomodoro), organização por projeto e histórico de produtividade.
+
+😌 6. Saúde Mental e Bem-Estar
+Objetivo: Auxiliar usuários a registrar humor diário, emoções, momentos de gratidão e hábitos saudáveis de sono,
+promovendo o autoconhecimento e equilíbrio mental.
+
+💵 7. Organização Financeira Pessoal
+Objetivo: Proporcionar controle básico de finanças pessoais, com registro de gastos, metas de economia e lembretes de contas,
+ajudando na educação financeira do usuário.
+
+**PÚBLICO ALVO
+
+  - Entre 18 - 24 anos
+  - Entre 25 - 39 anos
+  - Entre 40 - 50 anos
+  - Entre 50 - 60 anos
+  - Entre 60+ 
+
+**FLUXO DE NAVEGAÇÃO
+
+**DECISÃO DE DESIGN 
+
+**IDENTIFICAÇÃO VISUAL
+
+* Cores associadas à organização pessoal:
+
+  - azul = tranquilidade / confiança / organização
+  - verde = esperança / crescimento 
+  - amarelo = criatividade / otimismo
+  - vermelho = urgência / energia
+  - branco = pureza / limpeza
+  - preto = seriedade / comprometimento
+  
+**POSSÍVEIS MELHORIAS
+
+1. Implementar Notificações Inteligentes
+Objetivo: Adicionar um sistema de lembretes e alertas personalizados, baseados em horários,
+frequência de uso e atrasos nas atividades. Isso aumenta o engajamento e ajuda o usuário a manter a consistência nos hábitos.
+
+2. Sincronização com Outros Dispositivos
+Objetivo: Permitir que o app seja sincronizado entre celular, tablet e computador, oferecendo 
+maior flexibilidade ao usuário na hora de acompanhar suas metas e tarefas.
+
+3. Suporte a Backup em Nuvem
+Objetivo: Implementar a funcionalidade de salvamento automático na nuvem para que os dados do
+ usuário estejam seguros, mesmo após troca ou formatação do dispositivo.
+
+4. Estatísticas Avançadas com Gráficos
+Objetivo: Fornecer relatórios visuais e dinâmicos com gráficos sobre desempenho, frequência e evolução
+dos hábitos ou tarefas, ajudando o usuário a analisar seu progresso ao longo do tempo.
+
+5. Modo Escuro / Acessibilidade
+Objetivo: Incluir opções de acessibilidade como modo escuro, aumento de fonte e leitura por voz para atender
+usuários com necessidades específicas.
+
+6. Gamificação com Recompensas
+Objetivo: Estimular o uso contínuo por meio de conquistas, medalhas ou recompensas simbólicas ao atingir metas, 
+tornando o uso do app mais motivador.
+
+7. Integração com Assistentes Virtuais (Google, Alexa, Siri)
+Objetivo: Facilitar o gerenciamento de tarefas e hábitos via comando de voz, integrando com assistentes
+para tornar o uso mais prático no dia a dia.
+
+8. Compartilhamento Social
+Objetivo: Permitir ao usuário compartilhar seu progresso com amigos ou grupos de apoio, promovendo interação e incentivo social.
