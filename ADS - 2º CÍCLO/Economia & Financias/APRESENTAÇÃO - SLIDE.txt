@@ -1,0 +1,122 @@
+ECONOMIA - CONTEÚDO
+
+** INTRODUÇÃO:
+
+- A Macroeconomia é uma área de estudo da economia que pesquisa, amplamente, as ações
+econômicas de um país, considerando tais princípios que influenciam a economia e o seu relacionamento 
+entre os demais fatores. O estudo visa o entendimento de índices que incorporam a sociedade, em um período
+de curto e longo prazo, essas análises ajudam a compreender o nível de produtividade econômica de um país, 
+de acordo com enriquecimento e bem estar social. 
+
+** CONCEITO ( Macro x Micro ) 
+
+ - MACRO 
+  = O estudo analisa a economia como um todo, focando em agregados econômicos nacionais ou regionais 
+sob fenômenos amplos, como: o PIB, Inflação, Desemprego, Taxa de Juros e Políticas Econômicas. Visando 
+o entendimento geral da economia, por meio de ciclos e os impactos sobre o crescimento e estabilidade econômica.
+
+ - MICRO 
+  = O estudo analisa o comportamento individual de agentes econômicos e como são definidas as 
+decisões sobre a alocação de recursos escassos. Verificando mercados específicos, formação de preços,
+conceitos de oferta e demanda, salários e custos de produção, tratando de ações que afetam os agentes e 
+o mercado.
+
+** OBJETIVO
+
+ -  O estudo busca cumprir com os objetivos necessários para promover a estabilidade e o 
+desenvolvimento econômico. Os principais objetivos incluem: 
+
+ - Alta Empregabilidade 
+  = O índice referente a taxa de desemprego é utilizado para medir a saúde do mercado de trabalho
+
+ - Crescimento Econômico
+  = O crescimento sustentável é o nível recomendado ao demonstrar melhorias sobre
+as condições de vidas e o aumento de bens e serviços. O estudo promove um crescimento
+estável e contínuo, sem gerar desequilíbrios comparados a crises financeiras e taxas 
+de inflações descontroladas.
+ 
+ - Controle da Inflação
+  = A inflação excessiva reduz o poder de compra da população, interferindo na estabilidade
+econômica. O objetivo visa preços estáveis, promovendo um ambiente saudável entre as organizações
+e seus clientes.
+
+ - Distribuição Justa de Renda
+  = A ciência busca promover a justiça social, com intuito de reduzir desigualdades e assegurar
+a distribuição equitativa de benefícios.
+
+** INDICADORES MACROECONÕMICOS
+
+ - Os indicadores são ferramentas para avaliar o nível econômico, por meio de requisitos 
+selecionados por cada nação. Estes indicadores fornecem informações necessárias sobre o desempenho
+econômico, auxiliando em processos de tomada de decisões para os setores econômicos.
+
+ - PIB ( Produto Interno Bruto ) 
+  = O índice mede o valor total de bens e serviços finais produzidos em um determinado período 
+( geralmente, equivalente a 1 ano ). É um indicador que ajuda na compreensão caso a Economia está 
+apresentando crescimento ou recessão, avaliando o crescimento econômico e atividade econômica do país.
+
+ - PNB ( Produto Nacional Bruto ) 
+  = O índice representa o valor total de bens e serviços finais produzidos 
+por fatores de produção de propriedades residentes em um país. Diferentemente do PIB,
+a medida ocorre sob desempenho nacional, realizada internamente.
+
+ - Inflação 
+  = A inflação indica o aumento generalizado dos preços de bens e serviços à longo prazo. 
+Tecnicamente, o alto índice pode acarretar na redução do poder de compra dos consumidores, e caso esteja 
+em baixo nível, pode sinalizar que houve uma estabilidade.
+
+ - Taxa de Desemprego
+  = A taxa representa a porcentagem da população economicamente inativa, sendo crucial para entender o 
+ambiente do mercado de trabalho e os desafios de gerações de empregos.
+
+ - Balanço Comercial 
+  = O índice mede a diferença entre os processos de exportações e importações. Quando um país realiza
+mais exportações do que importações, ele apresenta um Superávit comercial, fortalecendo a economia e a moeda.
+Entretanto, caso apresente um Déficit comercial, nota-se um possível desequilíbrio econômico. 
+
+** AGENTES / SETORES ECONÔMICOS 
+
+ - Os principais instrumentos são utilizados para desempenhar papéis fundamentais na produção, distribuição 
+e consumo de bens e serviços , possuindo um impacto significativo sobre a produção econômica.
+
+ - Famílias 
+  = Consumidores responsáveis pela utilização de bens e serviços, possuindo 
+decisão final de compra.
+
+ - Empresas
+  = Responsáveis pela produção e comercialização de recursos, baseado pelo investimento e 
+desenvolvimento tecnológico.
+
+ - Governo 
+  =  Possuindo diferentes funcionalidades, atua de forma direta no processo de produção
+de bens e serviços, e indiretamente em relação a distribuição de funções. Além de realizar
+políticas monetárias e fiscais para regular a economia.
+
+** POLÍTICAS ECONÔMICAS
+
+ - Os instrumentos políticos demonstram um posicionamento do Governo em relação a capacidade produtiva e as 
+despesas planejadas, tendo como o objetivo de permitir que a economia semeie empregos,
+com baixos índices de inflação, com uma distribuição de renda justa e crescimento sustentável
+e contínuo. As principais políticas são representadas como:
+
+  - Política Fiscal: 
+   = Relaciona-se à arrecadação de tributos e aos gastos públicos 
+
+  - Política Monetária: 
+   = Envolve o controle da oferta de moeda, concessão de créditos e definição de taxas de juros
+
+  - Política de Rendas:
+   = Abrange o controle de salários, aluguéis e congelamento de preços
+
+  - Política Cambial: 
+   = Refere-se a administração da moeda nacional em relação a moedas estrangeiras e as taxas de câmbio.
+
+** FONTES
+
+ EMPIRICUS. Macroeconomia: Entenda o Conceito e os Principais Indicadores 
+dessa área da economia. Disponível em: https://www.empiricus.com.br/explica/macroeconomia/.
+Acesso em: 19 mai. 2025.
+
+ RODRIGUES, Natalia. O que é Macroeconomia: Descubra a importância, objetivos
+e indicadores. Disponível em: https://cmcapital.com.br/blog/macroeconomia/.
+Acesso em: 19 mai. 2025.

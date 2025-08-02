@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora Científica</h1>
+        <h2>Operações Básicas</h2>
+
+        <input type="number" id="value" placeholder="Digite um valor">
+        <br>
+        <button onclick="calcularSeno()">Sen(X)</button>
+        <button onclick="calcularCosseno()">Cos(X)</button>
+        <button onclick="calcularLn()">Ln(X)</button>
+        <button onclick="calcularExponencial()">E^(X)</button>
+
+        <h3>Raiz N-ésima ( Newton-Raphson ) </h3>
+        <input type="number" id="raizValor" placeholder="Valor">
+        <input type="number" id="raizIndice" placeholder="índice Nº">
+        <button onclick="calcularRaiz()">Calcular</button>
+
+        <h3>Polinômio de Taylor (E^x)</h3>
+        <input type="number" id="taylorValor" placeholder="Valor de X">
+        <input type="number" id="taylorTermos" placeholder="Nº de termos">
+        <button onclick="calcularPolinomioTaylor()">Aproximar</button>
+
+        <h2 id="resultado"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
