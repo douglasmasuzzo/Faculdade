@@ -1,7 +1,7 @@
 ESTUDO - ECONOMIA
 
 ** CONCEITO DE ECONOMOIA:
-  - é a CIÊNCIA SOCIAL que estuda como os indivíduos e a sociedade GERENCIAM os
+  -- é a CIÊNCIA SOCIAL que estuda como os indivíduos e a sociedade GERENCIAM os
 RECURSOS produtivos ESCASSOS na produção de BENS / SERVIÇOS, afim de satisfazer as 
 necessidades humanas.
 
@@ -15,141 +15,162 @@ necessidades humanas.
 
 ** OBJETIVO 
 
-  - maximizar a utilização e o retorno para a satisfação das necessidades de:
-     * pessoas
-     * empresas ou governos
-
+  -- maximizar a utilização e o retorno para a satisfação das necessidades de:
+	+ pessoas, empresas ou governos
+	
 ** HISTÓRIA
-   - a palavra economia deriva do grego: " OIKINOMIA "
+
+  -- " OIKINOMIA "
      * oiko = casa  
      * nomia = lei 
 
-   - BENS : coisas que podem ser úteis ou necessárias para PROVER A SUBSISTÊNCIA 
+  -- BENS 
+	+ coisas que podem ser úteis ou necessárias para PROVER A SUBSISTÊNCIA 
 
-   - as NECESSIDADES HUMANAS são: ILIMITADOS e INFINITOS
+  -- NECESSIDADES HUMANAS
+	+ ILIMITADOS E INFINITOS
 
-   - os FATORES DE PRODUÇÃO são: FINITOS E LIMITADOS
+  -- FATORES DE PRODUÇÃO 
+	+ FINITOS E LIMITADOS
    
    * FATORES DE PRODUÇÃO:
       - TERRA 
       - TRABALHO 
       - CAPITAL
       - TECNOLOGIA
- 
-    " A Economia é definida como a CIÊNCIA QUE ESTUDA A ESCASSEZ ou a ciência que estuda 
+
+  -- RESUMO 
+    + " A Economia é definida como a CIÊNCIA QUE ESTUDA A ESCASSEZ ou a ciência que estuda 
 o uso dos RECURSOS ESCASSOS na produção de bens "
 
 ** TRILOGIA DA ECONOMIA:
 
-   - o que e quanto produzir? 
-      = dada a escassez de recursos de produção, é necessário ESCOLHER dentro das POSSIBILIDADES
+   -- O QUE PRODUZIR E QUANTO PRODUZIR?
+	+ dada a escassez de recursos de produção, é necessário ESCOLHER dentro das POSSIBILIDADES
 de PRODUÇÃO, quais serão produzidos e fabricados.
 
-   - como produzir?
-      = a SOCIEDADE deve escolher QUAL É O MELHOR MÉTODO DE PRODUÇÃO de acordo com o menor
+   -- COMO PRODUZIR?
+    + a SOCIEDADE deve escolher QUAL É O MELHOR MÉTODO DE PRODUÇÃO de acordo com o menor
 nível tecnológico e o menor custo possível
 
-   - para quem produzir?
-      = a sociedade deve decidir COMO OS MEMBROS PARTICIPARÃO DA DISTRIBUIÇÃO dos RESULTADOS
+   -- PARA QUEM PRODUZIR?
+    + a sociedade deve decidir COMO OS MEMBROS PARTICIPARÃO DA DISTRIBUIÇÃO dos RESULTADOS
 de PRODUÇÃO
 
 ** SISTEMAS ECONÔMICOS:
-    =  conjunto de NORMAS e REGULAMENTOS que DETERMINA o que as PESSOAS e EMPRESAS podem fazer 
+
+    + conjunto de NORMAS e REGULAMENTOS que DETERMINA o que as PESSOAS e EMPRESAS podem fazer 
 ou não fazer DENTRO da ECONOMIA.
 
- " Um SISTEMA ECONÔMICO pode ser definido como a FORMA POLÍTICA, SOCIAL e ECONÔMICA pela 
+    + " Um SISTEMA ECONÔMICO pode ser definido como a FORMA POLÍTICA, SOCIAL e ECONÔMICA pela 
 qual é organizada uma SOCIEDADE " ( VASCONCELOS & GARCIA, 2008 )
 
-     - classificados como:
-	* SISTEMA CAPITALISTA
-	* SISTEMA COMUNISTA 
-   
-    - SISTEMA CAPITALISTA: pouca INTERFERÊNCIA ESTATAL e livre iniciativa. a ideia principal 
-é que o MERCADO se AUTORREGULA e as EMPRESAS irão OFERECER OS PRODUTOS E SERVIÇOS, de acordo 
-com a demanda do mercado.
+    -- CLASSIFICAÇÕES
+	  + SISTEMA CAPITALISTA
+	  + SISTEMA COMUNISTA
 
-    - SISTEMA PLANIFICADO ( COMUNISTA ): possui uma forte INTERVENÇÃO do GOVERNO onde o ESTADO 
-DEFINE o que, quanto, como devem ser PRODUZIDOS os BENS e SERVIÇOS para a SOCIEDADE.
+    -- SISTEMA CAPITALISTA
+	  + pouca INTERFERÊNCIA ESTATAL e livre iniciativa
+      + a ideia principal é que o MERCADO se AUTORREGULA e as EMPRESAS irão OFERECER OS PRODUTOS E SERVIÇOS ( de acordo 
+com a demanda do mercado ).
+
+    -- SISTEMA PLANIFICADO ( COMUNISTA ):
+	  + possui uma forte INTERVENÇÃO do GOVERNO 
+	  + o ESTADO DEFINE o que, quanto, como devem ser PRODUZIDOS os BENS e SERVIÇOS para a SOCIEDADE.
 
 ** FATORES DE PRODUÇÃO E AGENTES ECONÔMICOS
 
-    - TERRA
-	* quaisquer tipos de RECURSOS NATURAIS
-    - TRABALHO 
-  	* toda FORÇA de TRABALHO que OFERECEM ao MERCADO podendo ser MÃO DE OBRA especializada ou não 
-    - CAPITAL
-	* RECURSOS FINANCEITOS que a empresa DISPÕE como ATIVO FINANCEIRO ( BENS DE CAPITAL )
+    -- TERRA
+	  + quaisquer tipos de RECURSOS NATURAIS
+
+    -- TRABALHO 
+  	  + toda FORÇA de TRABALHO que OFERECEM ao MERCADO podendo ser MÃO DE OBRA especializada ou não
+
+    -- CAPITAL
+	  + RECURSOS FINANCEITOS que a empresa DISPÕE como ATIVO FINANCEIRO ( BENS DE CAPITAL )
 
 ** CAPITALISMO FINANCEIRO ( KEYNESIANA )
    
-    - relação de CONSUMO e PRECIFICAÇÃO dos produtos é realizada pelo CONSUMO DE MERCADO
-    - quando há MOVIMENTOS DE RECESSÃO, o GOVERNO deverá se colocar no mercado, INJETANDO RECURSOS NECESSÁRIOS
+    -- relação de CONSUMO e PRECIFICAÇÃO dos produtos é realizada pelo CONSUMO DE MERCADO
+    -- quando há MOVIMENTOS DE RECESSÃO, o GOVERNO deverá se colocar no mercado, INJETANDO RECURSOS NECESSÁRIOS
     
 ** GLOBALIZAÇÃO
 
     - GLOBALIZAÇÃO = AÇÃO GLOBAL ECONÔMICA
-	* produtos com VALORES ACESSÍVEIS
-	* problemas de CUSTO EMPRESARIAL
-	* possibilidade de NOVAS TECNOLOGIAS
-	* criação de NICHOS de NEGÓCIOS
-	* PROFISSIONALIZAÇÃO
+	  + produtos com VALORES ACESSÍVEIS
+	  + problemas de CUSTO EMPRESARIAL
+	  + possibilidade de NOVAS TECNOLOGIAS
+	  + criação de NICHOS de NEGÓCIOS
+	  + profissionalização
 
 ** CURVA DA DEMANDA 
-      = do ponto de vista TEÓRICO, " a DEMANDA ou PROCURA pode ser definida como a quantidade
+
+    ++ do ponto de vista TEÓRICO, " a DEMANDA ou PROCURA pode ser definida como a quantidade
 de certo BEM ou SERVIÇO que os CONSUMIDORES desejam ADQUIRIR em DETERMINADO PERÍODO ( VASCONCELLOS & GARCIA, 2006 )
 
-
-     - LEI GERAL DA DEMANDA: " Há uma relação inversamente proporcional entre a quantidade demandada
+     -- LEI GERAL DA DEMANDA 
+	   + " Há uma relação inversamente proporcional entre a quantidade demandada
 e o preço do bem, COERIS PARIBUS " 
  
-     - CADA PREÇO MENOR, A QUANTIDADE DEMANDADA AUMENTA. CADA PREÇO MAIOR, A QUANTIDADE DIMINUI.
+     -- CADA PREÇO MENOR, A QUANTIDADE DEMANDADA AUMENTA. 
+    
+     -- CADA PREÇO MAIOR, A QUANTIDADE DIMINUI.
 
 ** CURVA DA OFERTA
-     = " A oferta pode ser definida como VÁRIAS QUANTIDADES que os produtores DESEJAM OFERECER 
+     
+	++ " A oferta pode ser definida como VÁRIAS QUANTIDADES que os produtores DESEJAM OFERECER 
 ao mercado em DETERMINADO PERÍODO de tempo "
 
-    - CADA PREÇO MAIOR DE UM BEM, a QUANTIDADE que os produtores DESEJAM OFERCER AUMENTA. 
-CADA PREÇO MENOR, A QUANTIDADE OFERTADA DIMINUÍ
+    -- CADA PREÇO MAIOR DE UM BEM, a QUANTIDADE que os produtores DESEJAM OFERCER AUMENTA. 
+	-- CADA PREÇO MENOR, A QUANTIDADE OFERTADA DIMINUÍ
 
 ** PONTO DE EQUILÍBRIO
-      = " Na interseção das curvas de oferta e demanda, teremos o PREÇO e QUANTIDADE de EQUILÍBRIO. 
+
+     ++ " Na interseção das curvas de oferta e demanda, teremos o PREÇO e QUANTIDADE de EQUILÍBRIO. 
 Isto é, o preço e quantidade que atendem os ANSEIOS DOS CONSUMIDORES E PRODUTORES. " 
 
 ** ELASTICIDADE DA OFERTA E DEMANDA
 
-   - Demanda Elástica = variação de preço comparado a grande variação na demanda
-       ( bens não essenciais )
+   - DEMANDA ELÁSTICA
+	 ++ variação de preço comparado a grande variação na demanda ( bens não essenciais )
 
-   - Demanda Inelásticas = variação de preço sobre pouca ou nenhuma variação de preços
-       ( bens essenciais )
+   - DEMANDA INELÁSTICA
+     ++ variação de preço sobre pouca ou nenhuma variação de preços ( bens essenciais )
 
-   - Oferta Elástica = produtores ajustam facilmente a oferta
+   -- OFERTA ELÁSTICA
+	 ++ produtores ajustam facilmente a oferta
 
-   - Oferta Inelástica = dificuldade de ajustes, mesmo com variação de preços
+   -- OFERTA INELÁSTICA 
+	 ++ dificuldade de ajustes, mesmo com variação de preços
  
-   - Importância = tomada de decisão estratégica, políticas públicas e precificação 
+   -- IMPORTÂNCIA
+	 ++ tomada de decisão estratégica, políticas públicas e precificação 
 
 ** LIBERALISMO x NEOLIBERALISMO
 
-    - LIBERALISMO: Ações de livre iniciativa, manipulado pela "mão invisível", sem intervenção
-do Estado, favorecendo a concorrência e o comércio internacional ( século 19 ) 
-
-     * ADAM SMITH
-     * DEFENSA DO LIVRE MERCADO E SEM INTERFERÊNCIA ESTATAL 
-
-    - NEOLIBERALISMO: Ações que são implicadas por meio de REGRAS e NORMAS 
-
-      * ÊNFASE NA PRIVATIZAÇÃO E REDUÇÃO DE IMPOSTOS 
-      * REDUÇÃO DA ATUAÇÃO ESTATAL
-      * ALINHADO COM A GLOBALIZAÇÃO  
+    -- LIBERALISMO CLÁSSICO
+      + protagonista ADAM SMITH
+      + defende a liberdade individual
+      + livre mercado ( mínima intervenção estatal )
+      + estado de direito ( leis garantem a igualdade formal e a proteção da propriedade privada )
+      + separação de poderes 
+     
+   -- NEO-LIBERALISMO
+      + redução do papel do Estado
+      + privatizações / desregulamentações
+      + defesa da estabilidade monetária
+      + flexibilização do mercado
+      + redução de gastos públicos  
 
 * CONCEITO DE TECNOLOGIA
  
-    - tecnologia =  QUALQUER CASO QUE É TRANSFORMADO POR MÉTODOS E PROCEDIMENTOS
+    -- TECNOLOGIA
+	  ++ QUALQUER CASO QUE É TRANSFORMADO POR MÉTODOS E PROCEDIMENTOS
 
 * MOEDA 
 
-    - DOLÁR E O EURO SÃO MAIS VALORIZADOS DEVIDO SUA ESTABILIDADE.
+    -- DOLÁR E O EURO SÃO MAIS VALORIZADOS DEVIDO SUA ESTABILIDADE.
+
     
 
 
