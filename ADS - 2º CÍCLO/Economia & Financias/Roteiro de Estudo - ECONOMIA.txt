@@ -1,7 +1,7 @@
 Roteiro de Estudo - ECONOMIA
 
 ** CONCEITO DE ECONOMIA
-   + É a ciência social que analisa como os recursos limitados são usados para atender
+   = É a ciência social que analisa como os recursos limitados são usados para atender
 necessidades humanas, tendo como foco: a produção, distribuição e consumo de bens e serviços.
 Destacando a escassez de recursos, necessidades ilimitadas ( ser humano ) e sustentabilidade
 
@@ -13,65 +13,61 @@ Destacando a escassez de recursos, necessidades ilimitadas ( ser humano ) e sust
 
 ** TRIOLOGIA DE ECONOMIA
     
-    -- O QUE É A PRODUÇÃO ? 
-      + decisão sobre bens / serviços a serem produzidos
-      + relacionados com o custo de oportunidade 
-      +influenciados pela curva da oferta, demanda e renda da população.
+    - o que é a produção? 
 
-    -- COMO PRODUZIR?
-      + uso de capital / trabalho / tecnologia.
-      + eficiência produtiva e desenvolvimento tecnológico
+    * decisão sobre bens / serviços a serem produzidos
+    * relacionados com o custo de oportunidade 
+    * influenciados pela curva da oferta, demanda e renda da população.
 
-    -- PARA QUEM PRODUZIR?   
-      + distribuição dos bens / serviços. 
-      + renda, localização e políticas de acesso
+    - como produzir?
+ 
+     * uso de capital / trabalho / tecnologia.
+     * Eficiência produtiva e desenvolvimento tecnológico
+
+    - para quem produzir?
+     
+     * distribuição dos bens / serviços. 
+     * Renda, localização e políticas de acesso
 
 ** SISTEMAS ECONÔMICOS
 
-   -- ECONOMIA DE MERCADO
-      + baseada na lei da oferta e demanda
-      + sem muita intervenção estatal de livre iniciativa ( privatizações )
+   - Economia de Mercado
 
-   -- ECONOMIA PLANIFICADA ( CENTRALIZADA )
-      + controle totalitário do estado em meios de produção
-      + influenciado pelo sistema político Comunismo ( Karl MARX )
+      * baseada na lei da oferta e demanda
+      * sem muita intervenção estatal de livre iniciativa ( privatizações )
+
+   - Economia Planificada ( Centralizada ) 
+     
+      * controle totalitário do estado em meios de produção
+      * influenciado pelo sistema político Comunismo ( Karl MARX )
 
 ** ELASTICIDADE DA OFERTA E DEMANDA
 
-   -- DEMANDA ELÁSTICA
-      + variação de preço comparado a grande variação na demanda ( bens não essenciais )
+   - Demanda Elástica = variação de preço comparado a grande variação na demanda
+       ( bens não essenciais )
 
-   -- DEMANDA INELÁSTICA  
-      + variação de preço sobre pouca ou nenhuma variação de preços
+   - Demanda Inelásticas = variação de preço sobre pouca ou nenhuma variação de preços
        ( bens essenciais )
 
-   -- OFERTA ELÁSTICA
-      + produtores ajustam facilmente a oferta
+   - Oferta Elástica = produtores ajustam facilmente a oferta
 
-   -- OFERTA INESLÁSTICA
-      + dificuldade de ajustes, mesmo com variação de preços
+   - Oferta Inelástica = dificuldade de ajustes, mesmo com variação de preços
  
-   -- IMPORTÂNCIA 
-      + tomada de decisão estratégica
-      + políticas públicas e precificação 
+   - Importância = tomada de decisão estratégica, políticas públicas e precificação 
 
 ** LIBERALISMO x NEOLIBERALISMO
 
-   -- LIBERALISMO CLÁSSICO
-      + protagonista ADAM SMITH
-      + defende a liberdade individual
-      + livre mercado ( mínima intervenção estatal )
-      + estado de direito ( leis garantem a igualdade formal e a proteção da propriedade privada )
-      + separação de poderes 
+   - Liberalismo Clássico = 
      
-   -- NEO-LIBERALISMO
-      + redução do papel do Estado
-      + privatizações / desregulamentações
-      + defesa da estabilidade monetária
-      + flexibilização do mercado
-      + redução de gastos públicos 
+    * ADAM SMITH 
+    * defende o livre mercado e mínima intervenção estatal
+
+   - NeoLiberalismo 
+
+    * ênfase na privatização e redução de impostos
+    * redução da atuação do Estado
+    * mais alinhado com a globalização 
 
 ** CONCEITO DE TECNOLOGIA
 
-   -- TECNOLOGIA
-      + Qualquer caso que é transformado pro métodos e procedimentos
+   - Tecnologia = Qualquer caso que é transformado pro métodos e procedimentos
