@@ -1,0 +1,23 @@
+ESTRUTURAÇÃO - PARTES
+
+** INTRODUÇÃO ( 1º PARTE ) - EXEMPLOS
+  - A Gameficação é um recurso que, cada vez mais, vem sendo utilizado no processo
+educacional. De acordo com ( citação ), "gameficação, tradução do termo em inglês
+"gamification", pode ser entendida como a utilização de elementos de jogos em contextos
+fora de jogo, isto é, dá vida real". ( CITAÇÃO DIRETA CURTA )
+
+  - A inserção das estratégias de uso de jogos na educação é resultado de questões
+como o contexto social, tecnológico e, também, das mudanças de hábitos sociais 
+( FUNDAÇÃO VANZOLINI ) 
+
+** GAMEFICAÇÃO NA EDUCAÇÃO ( 2º PARTE ) 
+** GAMIFICAÇÃO NO ENSINO MÉDIO ( 3º PARTE )
+** ESTUDO DE CASO : JOGO CRIADO ( 4º PARTE ) 
+** CONCLUSÃO ( 5ª PARTE ) 
+
+
+** REFERÊNCIAS ( 6º PARTE ) 
+
+MURR, Carolina Eliza. Entendendo e aplicando a gamificação: o que é, para que serve, potencialidades e desafios. Florianópolis: UFSC, 2020.
+
+FUNDAÇÃO VANZOLINI. Gameficação na Educação: o aprendizado por meio dos jogos. Disponível em: < https >. Acesso em: 28 mai. 2025.
