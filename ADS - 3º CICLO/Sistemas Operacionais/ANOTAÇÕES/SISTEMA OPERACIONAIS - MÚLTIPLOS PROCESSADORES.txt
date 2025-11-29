@@ -1,0 +1,227 @@
+SISTEMA OPERACIONAIS - MÚLTIPLOS PROCESSADORES
+
+---------------------------------------------------
+
+** MÚLTPLOS PROCESSADORES
+
+  " Desde o início da computação, busca-se constantemente mais potência de processamento. O primeiro computador eletrônico, o ENIAC, já era muito rápido que as calculadoras da época, mas rapidamente tornou-se insuficiente. Mesmo com as máquinas atuais sendo mais rápida, a demanda por desempenho contínua em áreas como astronomia. " 
+
+  " Hoje, os computadores, fazem milhões de bilhões de operações por segundo, mas ainda assim não é o bastante, exigindo novas tarefas que existem mais poder, como : ESTUDAR O UNIVERSO ( astronomia ) | ENTENDER O DNA ( biologia ) | PROJETAR VEÍCULOS ( engenharia ). "
+
+  " Durante muito tempo, a forma de deixar o computador mais rápido era aumentar a velocidade do processador ( CLOCK ). Porém, existe os limites físicos. Os sinais elétricos não podem viajar mais rápido que a luz, e quanto mais alta a frequência, menor precisa ser o chip. Quando o chip fica pequeno e rápido demais, ele facilmente esquenta e tem dificuldade de refrigerar seu componente. "
+
+  " CLOCK -> alterações da duração de velocidade do processador dos processos, usando taxas em que a CPU executa ciclos de operação, medida como gigahetz."
+
+  -- MULTIPROCESSADORES DE MEMÓRIA COMPARTILHAM...
+   -> TODA AS CPU'S USAM A MESMA MEMÓRIA
+    -> RÁPIDO E DIFÍCIL DE CONSTRUIR
+     -> VÁRIOS NÚCLEOS DENTRO DE UM MESMO PROCESSADOR
+
+  -- MULTICOMPUTADRES DE TROCA DE MENSAGENS...
+    -> CADA CPU TEM SUA PRÓPRIA MEMÓRIA
+     -> SE COMUNICAM ENVIANDO MENSAGENS 
+      -> FÁCIL DE CONSTRUIR E COMPLEXO DE DESENVOLVER
+
+  -- SISTEMAS DISTRIBUÍDOS
+   -> SÃO VÁRIOS COMPUTADORES COMPLETOS CONECTADOS POR UMA REDE
+    -> A COMUNICAÇÃO É MAIS LENTA, ENTÃO SÃO USADAS PARA TAREFAS QUE NÃO PRECISAM COMPARTILHAR DADOS 
+
+
+** MÚLTIPLOS PROCESSOS - MULTIPROCESSADORES 
+
+  " UM MULTIPROCESSADOR DE MEMÓRIA COMPARTILHADA É UM SISTEMA EM QUE DUAS OU MAIS CPU'S UTILIZAM A MESMA MEMÓRIA RAM "
+
+  " Pode-se ler e escrever dados no mesmo espaço de endereços, permitindo que as CPU's se comuniquem entre si por meio da memória, separados pela gravação e leitura. "
+
+  " Esses sistemas usam sistemas operacionais semelhantes aos de computadores comuns, mas precisam de recursos específicos para lidar com: SINCRONIZAÇÃO DE PROCESSOS ( para evitar conflitos de acesso à memória ) | GERENCIAMENTO DE RECURSOS ( como CPU e memória ) | ALGORITMO DE ESCALONAMENTO ( distribuição equilibrada das tarefas entre as CPU's ) " 
+
+  -- UMA - ( Uniform Memory Acess )
+   -> TODAS AS CPU'S ACESSAM QUALQUER PARTE DA MEMÓRIA COM A MESMAO VELOCIDADE
+
+  -- NUMA - ( Non-Uniform Memory Acess )
+   -> O TEMPO DE ACESSO À MEMÓRIA VARIA CONFORME A LOCALIZAÇÃO DOS DADOS ( ALGUMAS PARTES DA MEMÓRIA SÃO MAIS RÁPIDAS PARA CERTAS CPU'S DO QUE OUTRAS ) 
+
+  -- BARRAMENTO -> CANAL DE COMUNICAÇÃO
+   -> " É um conjunto de comunicações compartilhadas que permite a interligação e a troca de informações entre os diferentes componentes de hardware "
+
+** BARRAMENTO ÚNICO - MULTIPROCESSADORES UMA
+    
+   -> TODAS AS CPU'S E MÓDULOS DE MEMÓRIA COMPARTILHAM UM MESMO BARRAMENTO ( CANAL DE COMUNICAÇÃO ) 
+
+   -> QUANDO O BARRAMENTO ESTÁ OCUPADO, AS OUTRAS CPU'S PREISAM ESPERAR, O QUE CAUSA LENTIDÃO QUANDO HÁ MUITAS CPU'S ( acima de 16 | 32 bits )
+
+   -> O CACHE GUARDA BLOCOS DE DADOS ( LINHAS DE 32 | 64 BITS ) , DIMINUINDO O TRÁFEGO NO BARRAMENTO 
+
+   -> É PRECISO MANTER AS CACHES COERENTES ( TODOS COM OS MESMOS DADOS ). ISSO É FEITO POR PROTOCOLOS DE COERÊNCIA DE CACHE, QUE GARANTEM QUE, SE UMA CPU ALTERA UM DADO, AS OUTROS ATUALIZAM OU DESCARTAM SUAS CÓPIAS
+
+   -> EM VERSÕES MAIS AVANÇADAS, CADA CPU TAMBÉM PODE TER UMA MEMÓRIA LCOAL PRIVADA, USADA PARA DADOS PRÓPRIOS, ENQUANTO A MEMÓRIA COMPARTILHADA FICA RESERVADA PARA VARIÁVEIS COMUNS, REDUZINDO O TRÁFEGO 
+
+   " Mesmo com bons sistemas de cache, o uso de um único barramento limita os multiprocessadores UMA, a cerca de 16 | 32 CPU : Para ultrapassar esse limite, é preciso usar outro tipo de rede de interconexão, como o barramento cruzado ( CROSSBAR SWITCH ). " 
+
+** BARRAMENTO CRUZADOS - MULTIPROCESSAODRES NUMA 
+
+   -> O BARRAMENTO CRUZADO É COMO UMA GRANDE GRADE DE LIGAÇÕES ENTRE VÁRIAS CPU'S E VÁRIAS MEMÓRIAS
+
+   -> CADA CRUZAMENTO ( CROSSPOINT ) É UMA CHAVE ELETRÔNICA QUE PODE ABRIR OU FECHAR O CAMINHO ENTRE UMA CPU E UMA MEMÓRIA
+
+   -> ASSIM, PODEMOS ACESSAR MEMÓRIAS DIFERENTES AO MESMO TEMPO, SEM ATRAPALHAR UMA ÀS OUTRAS. POR ISSO, DIZEMOS QUE ELE NÃO É " BLOQUEANTE ", PORQUE NENHUMA CPU FICA BLOQUEADA ESPERANDO O CAMINHO LIBERAR ( DESDE QUE A MEMÓRIA ESTEJA LIVRE )
+
+   -> RESUMO: O BARRAMENTO CRUZADO É UM TIPO DE CONEXÃO INTELIGENTE QUE PERMITE MUITAS COMUNICAÇÕES SIMULTÂNEAS ENTRE PROCESSADORES E MEMÓRIAS, SEM CONGESTIONAMENTO DE BARRAMENTO.
+
+   -> BUTLERS DE PROCESSAMENTOS
+     + " Um " BUTLER DE PROCESSAMENTOS " refere-se a ferramentas e sistemas que automatizam e gerenciam tarefas e fluxos de trabalho, especialmente em contextos de processamento de dados e gestão de projetos. A palavra " BUTLER " é mencionada para descrever uma tecnologia que age como um assistente, executando automaticamente ações repetitivas e rotineiras. "
+
+** MULTIPROCESSADORES NUMA
+
+   -> MULTIPROCESSADORES NUMA ( COM UMA MEMÓRIA UNIFORME ) TÊM LIMITE DE TAMANHO, POIS O BARRAMENTO ÚNICO OU CRUZADO NÃO SUPORTA MUITAS CPU'S SEM SE TORNAREM LENTOS E CAROS.
+  
+   -> PARA SISTEMAS COM MAIS DE 100 CPU'S, SURGIU A IDEIA DOS MULTIPROCESSADORES NUMA ( NON - UNIFORM MEMORY ACESS )
+
+   -> EM UMA NUMA, TODAS AS CPU'S COMPARTILHAM UM ÚNICO ESPAÇO DE ENDEREÇAMENTO ( COMO SE FOSSE UMA ÚNICA MEMÓRIA ). MAS O ACESSO À MEMÓRIA LOCAL ( PRÓPRIO NÓ ) É MAIS RÁPIDO DO QUE O ACESSO À MEMÓRIA REMOTA ( OUTRO NÓ )
+
+   -> OU SEJA, O SISTEMA CONTINUA FUNCIONANDO COMO SE FOSSE UMA, MAS COM DESEMPENHO DESIGUAL DEPENDENDO DE ONDE A MEMÓRIA ESTÁ. 
+
+** TIPOS DE MULTIPROCESSADORES NUMA
+
+  -> NC - NUMA ( NON - CACHE NUMA ) 
+   + SEM COERÊNCIA DE CACHE, AS CACHES DE CADA CPU NÃO SE ATUALIZAM ENTRE SI.
+ 
+  -> CC - NUMA ( CACHE - COHERENT NUMA )
+   + AS CACHES SÃO SINCRONIZADAS AUTOMATICAMENTE, MANTENDO OS DADOS COERENTES.
+
+** RESUMO GERAL - MULTIPROCESSADORES
+
+  -> UMA ( UNIFORM MEMORY ACESS )
+   + TODAS AS CPU'S COMPARTILHAM UM ÚNICO ESPAÇO DE MEMÓRIA COM TEMPO DE ACESSO IGUAL PARA TODOS OS MÓDULOS, ONDE QUALQUER PROCESSADOR ACESSA QUALQUER PARTE DA MEMÓRIA COM A MESMA VELOCIDADE.
+   + É SIMPLES PROGRAMAR E FUNCIONAR BEM COM POUCAS CPU'S
+
+  -> NUMA ( NON UNIFORM MEMORY ACESS )
+   + CADA CPU ( GRUPO DE CPU'S / NÓS ) TEM SUA PRÓPRIA MEMÓRIA LOCAL, TAMBÉM PODENDO SER ACESSADA MEMÓRIAS DE OUTROS NÓS.
+   + O ACESSO À MEMÓRIA LOCAL É MAIS RÁPIDO DO QUE O ACESSO À MEMÓRIA REMOTA.
+   + PERMITE ESCALAR CENTENAS DE PROCESSADORES, COM MELHOR DESEMPENHO EM GRANDES SISTEMAS
+   + PODE USAR MECANISMOS DE CACHE COERENTE PARA MANTER A CONSISTÊNCIA DOS DADOS ENTRE OS NÓS. 
+
+** CARACTERÍSTICAS
+
+  -> TEMPO DE ACESSO À MEMÓRIA
+  -> ESABILIDADE
+  -> COMPLEXIDADE
+  -> DESEMPENHO EM GRANDES SISTEMAS
+  -> EXEMPLO DE USO
+
+** CARACTERÍSTICAS - UMA 
+
+  -> IGUAL PARA TODOS OS PROCESSADORES
+  -> LIMITADA ( ATÉ ALGUMAS DEZENAS DE CPU )
+  -> SIMPLES
+  -> DIMINUI COM MUITAS CPU'S ( CONGESTÃO DE BARRAMENTO )
+  -> PEQUENOS SERVIDORES E DESKTOPS MULTIPROCESSADOS
+
+** CARACTERÍSTICA - NUMA
+ 
+  -> VARIA CONFORME OS PROCESSADORES
+  -> ALTA ( CENTENAS DE CPU'S )
+  -> MAIS COMPLEXA ( CONTROLE DE COERÊNCIA )
+  -> MANTÉM BOM DESEMPENHO COM MAIS CPU'S
+  -> SUPERCOMPUTADORES E GRANDES SERVIDORES
+ 
+  -> CONTROLE DE COERÊNCIA
+   + 
+
+** SISTEMA OPERACIONAL PARA MULTIPROCESSADORES 
+
+** CADA CPU TEM SEU PRÓPRIO SISTEMA OPERACIONAL
+
+  -> NO MODELO MAIS BÁSICO DE MULTIPROCESSADORES, CADA CPU TEM SUA PRÓRPIA MEMÓRIA E SUA PRÓPRIA CÓPIA DO SISTEMA OPERACIONAL, FUNCIONANDO QUASE COMO COMPUTADORES SEPARADOS
+
+  -> " Elas podem compartilhar o código do sistema operacional e os dispositivos I/O ( como discos ), mas não compartilham processos nem memórias de forma dinâmica. Isso gera problemas como: " 
+
+  + UMA CPU FICAR SOBRECARREGADA ENQUANTO OUTRA ESTÁ OCIOSA
+  + FALTA DE MEMÓRIA EM UMA CPU ENQUANTO OUTRA TEM MEMÓRIA SOBRANDO
+  + INCONSISTÊNCIA NOS DADOS SE CACHES DE DISCOS FOREM USADOS SEPARADAMENTE.  
+
+** MULTIPROCESSADORES " MESTRE - ESCRAVO "
+
+  -- " No modelo Mestre-Escravo, apenas uma CPU ( a mestra ) mantém o Sistema Operacional, todas as outras CPU'S ( as escravas ) executam processos de usuário e enviam as chamadas de sistema para a CPU mestre. Este modelo resolve problemas do modelo anterior, como : "
+
+  -- MELHOR BALANCEAMENTO DE CARGA ENTRE CPU'S 
+  -- MEMÓRIA E CACHE COMPARTILHADAS, EVITANDO INCONSISTÊNCIAS
+
+** MULTIPROCESSADORES - MULTIPROCESSADORES SIMÉTRICOS 
+
+  -- " No modelo SMP ( SYMMETRIC MULTIPROCESSOR ) todos as CPU'S compartilham uma única cópia do sistema operacional e qualquer CPU pode executar o Kernel. Assim, não existe CPU mestre, e o trabalho e a memória são balanceados dinamicamente. O SMP é o modelo usado nos multiprocessadores modernos, pois oferece alto desempenho e uso eficiente de recursos, mas exige cuidadosa sincronização e controle de concorrência. "
+
+  -- VANTAGENS
+   + ELIMINA O GARGALO DO MODELO MESTRE-ESCRAVO
+   + PERMITE MELHOR USO DAS CPU'S E MEMÓRIA
+
+  -- DESVANTAGENS 
+   + VÁRIAS CPU'S PODEM TENTAR ACESSAR AS MESMAS TABELAS AO MESMO TEMPO, CAUSANDO CONFLITOS
+   + PARA EVITAR ISSO, USA-SE MUTEXES ( TRAVAMENTO USADO PARA EVITAR QUE DUAS OU MAIS CPU'S ( THREADS ACESSAM AO MESMO TEMPO UM MESMO RECURSO ) , QUE GARANTEM QUE SÓ UMA CPU ACESSA CERTAS PARTES CRÍTICAS DO SISTEMA DE CADA VEZ
+   + COM O TEMPO, O SISTEMA É DIVIDIDO EM VÁRIAS REGIÕES CRÍTICAS INDEPENDENTES, CADA UMA COM SEU PRÓPRIO MUTEX, PERMITINDO MAIS PARELISMO
+
+** CARACTERÍSTICAS
+
+ -- TIPO 
+  -> LINUX HPC
+  -> UNIX CORPORATIVO
+  -> ESPECIALIZADOS HPC
+  -> WINDOWS SERVER
+  -> EXPERIMENTAIS
+
+ -- EXEMPLOS DE S.O
+  -> CRAY LINUX | TOSS | RHEL HPC
+  -> AIX | HP-UX | SOLARIS | IRIX
+  -> CNK ( BLUE GENE ) | SLURM + LINUX
+  -> SERVER 2022 | HPC SERVER
+  -> BARRELFISH | POPCORN LINUX
+
+ -- ESCALA TÍPICA
+  -> 1000+ CPU'S
+  -> 64 - 1024 CPU'S
+  -> 10.000+ CPU'S
+  -> 4 - 256 CPU'S 
+  -> 1000+ CPU'S ( TESTE ) 
+
+ -- AMBIENTE
+  -> SUPERCOMPUTADORES
+  -> SERVIDORES E MAINFRAMES
+  -> HPC PURO
+  -> DATACENTERS CORPORATIVOS
+  -> PESQUISA ACADÊMICA
+
+  -- " Em sistema multiprocessadores, a sincronização enter CPU'S é essencial especialmente ao acessar regiões críticas compartilhadas. Em máquinas uniprocessadoras, é possível desabilitar interrupções para garantir exclusão mútua, mas essa estratégia não funciona em multiprocessadores, pois outras CPU'S continuam executando. "
+
+  -- EXCLUSÃO MÚTUA
+   + apenas um processo ou uma CPU por vez, possa acessar uma parte crítica do sistema, como uma variável ou recurso compartilhado. 
+
+** MULTIPROCESSADORES - EXCLUSÃO MÚTUA COM TSL
+
+  -- " A base de um protocolo de mutex eficaz é uma instrução atômica, como o TSL ( TEST AND SET LOCK ) que inspeciona e altera uma variável em uma única operação indivisível. Porém, em multiprocessadores, o TSL precisa travar o barramento para garantir nenhuma outra CPU interfira durante sua execução. Isso exige suporte específico de hardware. "
+
+  -- TRAVAMENTO TSL
+   + trava o barramento, tornando inviável o acesso de outra CPU
+
+  -- " ANTES DA CPU GRAVAR O DADO NA MEMÓRIA, ELA PRIMEIRO LÊ ONDE O DADO VAI SER LOCALIZADO NA MEMÓRIA, CASO TIVER LIVRE " 
+
+** MULTIPROCESSADORES - ESCALONAMENTO DE MULTIPROCESSADORES
+
+ -- " Antigamente, só existiam processos com um único thread, então o escalonamento era simples. Hoje, com múltiplos threads, o sistema precisa decidir qual thread executar e, em multiprocessadores, também em qual CPU, o que adiciona uma nova dimensão ao problema. " 
+
+ -- " Se os threads forem de usuário, o Sistema Operacional não sabe que eles existem, então o escalonamento é feito por processo, como antigamente. Já com threads de núcleo, o sistema reconhece cada thread e pode decidir qual deles executar, sem se preocupar com o processo a que pertence. "
+
+ -- " EM ALGUNS SISTEMAS, ELES SÃO INDEPENDENTES, COMO EM SERVIDORS ONDE VÁRIOS USUÁRIOS EXECUTAM PROGRAMAS SEPARADOS. "
+
+ -- " EM OUTROS, ELES TRABALHAM EM CONJUNTO, COMOM EM PROGRAMAS QUE COMPILAM VÁRIOS ARQUIVOS AO MESMO TEMPO. " 
+
+** SUPERCOMPUTADORES - FRONTIER ( OAK RIDGE HPE CRAY AMD )
+
+  -- É COMPOSTO POR 74 TORRES HPE CRAY EX, QUE ABRIGAM 9,408 NÓS. CADA NÓ É COMPOSTO POR UMA CPU AMD EPYC DE 3º GERAÇÃO E 4 ACELERADORES GRÁFICOS AMD INSTINCT M1250X. O FRONTIER TEM 602.112 NÚCLEOS DE PROCESSAMENTO.
+
+** SUPERCOMPUTADORES - IBM | NVIDIA
+
+  -- " O SISTEMA TEM DOIS PROCESSADORES POWER9 E 4 GPU'S NVIDIA V100 EM CADA UM DOS SEUS 4.320 NÓS. CADA NÓ POSSUI 256GB DE RAM, 44 NÚCLEOS IBM POWER9 ESPELHADOS POR 2 SOQUETES FÍSICOS E 4 GPU'S NVIDIA TESLA V100, CADA UMA FORNECENDO 16GB DE VRAM. ISSO DÁ AO SISTEMA COMPLETO : 8.948 CPU'S, 17.896 GPU'S, 1,14PB DE RAM E 256TB DE VRAM. "  
+
+
+
+

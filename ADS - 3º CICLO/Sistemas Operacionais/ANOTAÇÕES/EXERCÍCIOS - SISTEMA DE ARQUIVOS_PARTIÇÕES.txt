@@ -1,0 +1,127 @@
+EXERCÍCIOS - SISTEMA DE ARQUIVOS
+
+
+------------------------------------------------
+
+** " [ 1 ] - O QUE É UM SISTEMA DE ARQUIVOS? " 
+
+  -- Um sistema de arquivos é a estrutura e o conjunto de rotinas que o sistema operacional usa para organizar, armazenar, localizar e acessar os arquivos em um dispositivo de armazenamento ( disco SSD | pendrive e etc ). Podendo definir como as nomenclaturas de arquivos são armazenadas, como os blocos de dados são alocados no disco, quais são os metadados ( tamanho, permissões, datas ) são mantidos e como diretórios e links funcionam.
+
+** " [ 2 ] - QUAL É A FUNÇÃO PRINCIPAL DO SISTEMA DE ARQUIVOS? "
+
+  -- A função principal é traduzir o nome legível de um arquivo ( texto | ASCII | UNICODE ) para os dados de localização física no disco. O processo fornece os metadados e os endereços de bloco necessários para que o SO consiga abrir, ler, escrever e gerenciar o arquivo. Também gerencia atributos como permissões, tamanho de arquivos, datas e mantém as estruturas de diretório. 
+
+** " [ 3 ] - CITE TRÊS EXEMPLOS DE SISTEMAS DE ARQUIVOS E ONDE SÃO UTILIZADO " 
+
+  -- NTFS
+   + NTFS ( New Technology File System ) é um sistema de arquivos da Microsoft que serve como padrão para o Windows, oferecendo recursos como permissões de segurança, criptografia, compactação, jornalização para maior confiabilidade e suporte a arquivos e volumes grandes. 
+   + O Windows gerencia NTFS e consegue acessar outros sistemas de arquivos em partições diferentes.
+
+  -- FAT32 | FAT16
+
+   _ Utilizado em mídias removíveis ( pendrives | cartões SD ) e em sistemas legados, além de ser mencionado em partições antigas que o sistema pode acessar.
+   
+   - FAT32 
+    + suporta arquivos de 4GB
+    + suporta partições de até 2TB
+    + amplamente compatível com S.O e outros dispositivos
+    + utiliza clusters menores que o FAT16, apresentando eficiência no espaço do disco
+
+   - FAT16
+    + suporta arquivos de 2GB
+    + suporta partições de até 2GB
+    + é um sistema de arquivo antigo, usado em dispositivos ultrapassados
+    + utiliza clusters maiores que o FAT32, apresentando maior ineficiência de espaço em unidade de armazenamento  
+
+  -- ext4 ( ext3 | ext2 )
+    
+    + comumente usado em distribuições como sistema de arquivos de partição principal, o arquivo anexa conceitos de LFS e outros sistemas.
+    + LFS ( LOG STRUCTURED FILE SYSTEM ) 
+
+    - ext2
+     + primeiro sistema de arquivos usado no Linux
+     + suporta volumes de arquivos consideráveis
+     + não possui suporte a journaling, apresentando a perda de dados e corrupção em caso de falhas ou desligamentos inesperados
+
+    - ext3
+     + adição ao suporte journaling
+     + permite uma recuperação mais rápida e confiável após falhas, registrando as transações antes de serem aplicadas ao sistema
+     + mantém a estrutura do ext2, limitando o desempenho e a escalabilidade em comparação com sistemas de arquivos modernos
+
+    - ext4
+     + suporte aos sistemas maiores que as versões anteriores
+     + usa extents, alocação atrasada e multíbloco para melhorar a velocidade de leitura | escrita e reduzir a fragmentação
+     + o journaling é aprimorado e a estrutura do sistema de arquivos é robusta
+     + suporte ilimitado de subdiretórios
+     + compatibilidade com versões anteriores
+
+** " [ 4 ] - O QUE É UM INODE E QUAL A SUA FUNÇÃO? " 
+
+  -- Um inode ( I-node ) é uma estrutura de metadados usado em sistemas tipo UNIX para representar um arquivo. O inode contém informações do arquivo ( permissões | dono | tamanhos | timestamps | ponteiros / endereços ) para os blocos de dados ou informações necessárias para localizar esses blocos. Ao abrir um arquivo, o sistema consulta o inode ( ou número do inode ) para saber onde ler os dados no disco.
+
+** " [ 5 ] - QUAL A DIFERENÇA ENTRE ALOCAÇÃO CONTÍGUA E ALOCAÇÃO ENCADEADA DE ARQUIVOS ? "
+
+  -- ALOCAÇÃO CONTÍGUA
+   + os blocos de arquivos são armazenados em posições fisicamente adjacentes no disco
+   + vantagens : acesso sequencial rápido e cálculo direto do endereço do arquivo
+   + desvantagens : fragmentação externa e dificuldade para expandir arquivos sem realocar
+
+  -- ALOCAÇÃO ENCADEADA
+   + o arquivo é armazenado em blocos que podem estar espalhados, cada bloco contém um ponteiro para o próximo bloco ( ou sistema mantém uma tabela com encadeação )
+   + vantagens : facilidade para crescer sem realocar grandes regiões
+   + desvantagens : acessos sequenciais | aleatórios podem ser mais lentos devido a leitura de ponteiros e maior overhead
+
+** [ 6 ] - O QUE É FRAGMENTAÇÃO E POR QUE ISTO OCORRE? "
+
+  -- Fragmentação é a dispersão dos blocos de um mesmo arquivo ( ou diferentes arquivos ) pelo disco, em vez de ficarem contíguos
+
+  -- OCORRE
+   + Devido sua criação, deleções e expansões de arquivos ao longo do tempo, o espaço livre fica dividido em " buracos " ( fragmentos ", dificultando localizar blocos contíguos grandes, esquemas de alocação que não mantêm blocos adjacentes também provocam fragmentação;
+
+  -- CONSEQUÊNCIA
+   + Queda de desempenho em leitura sequenciais ( seeks ) e maior ovehead na reorganização do arquivo
+
+** " [ 7 ] - COMO O WINDOWS E O LINUX DIFEREM NO GERENCIAMENTO DE ARQUIVOS "
+
+  -- IDENTIFICAÇÃO
+   
+   - WINDOWS
+    + usa letras de unidade ( C | D | E ) para distinguir os sistemas de arquivos / partições, cada letra aponta para um volume com seu próprio sistema de arquivos
+
+   - LINUX
+    + usa um único espaço de nomes montados ( árvore de diretório ), partições / sistema de arquivos são montados em pontos dentro da árvores ( /home , /mnt , /usb )
+
+  -- SISTEMAS DE ARQUIVOS
+   
+   - WINDOWS
+    + NTFS ( com VSS para snapshots )
+    + FAT variantes para mídia removível
+
+   - LINUX
+    + ext4 / ext3 / ext2 
+
+  -- RECURSOS DE BACKUP E SNAPSHOTS
+  
+   - WINDOWS
+    + incluir serviços como Volume Shadow Copy Service para criar cópias consistentes ( snapshots ) coordenadas por aplicativos / backup 
+
+   - LINUX
+    + oferece mecanismos diversos ( LVM snapshots, btrfs snapshorts, ferramentas de backup e dump ), dependendo do sistema de arquivos e do gerenciador de volumes
+
+  -- PERMISSÕES E SEGURANÇA
+   
+    - WINDOWS
+     + ACL granulares ( NTFS permissions ) e integração com Active Directory em ambientes corporativos
+
+    - LINUX
+     + modelo de permissões ( rx para dono | grupo | outros ), atributos estendidos e mecanismos como SELinux para controle adicional
+
+   -- ACESSO A MÚLTIPLOS TIPOS DE FS
+    
+     - WINDOWS
+      + atribui letras de unidades por volume, não integra diferentes FS em uma única árvore de diretório
+
+     - LINUX
+      + integra diferentes FS montados em pontos da mesma árvore, permitindo uma única visão do namespace do sistema 
+
+ 

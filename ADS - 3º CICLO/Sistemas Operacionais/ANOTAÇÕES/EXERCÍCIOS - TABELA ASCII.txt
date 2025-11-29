@@ -1,0 +1,51 @@
+EXERCÍCIOS - TABELA ASCII
+
+---------------------------------------------------
+
+
+** " [ 1 ] - DEFINA O QUE É TABELA ASCII "
+
+  -- A tabela ASCII ( American Standard Code for Interchange ) é um padrão de codificação que mapeia caracteres para valores números inteiros. Em sua composição, possui 8 bits ( 1 Byte ) e 128 códigos ( 0 - 127 ).
+
+** " [ 2 ] - APRESENTE O NÚMERO DECIMAL REFERENTE AOS CARATERES: " A ", " 7 ", " Ç " "
+
+   -- " A " 
+    ++ decimal : 65
+
+   -- " 7 "
+    ++ decimal : 55
+
+   -- " Ç "
+    ++ decimal : 199 
+
+** " [ 3 ] - DEFINA JOURNALING "
+
+  -- Journaling
+   ++ é uma técnica que registra ( em um " diário " ou jornal ) as operações de escrita pendentes antes de aplicá-las ao sistema de arquivos principal. Isso permite recuperar o sistema de arquivos de forma consistente após quedas de energia / queda de sistema. 
+
+** " [ 4 ] - DEFINA METADADOS " 
+
+  -- Metadados
+   ++ são " dados sobre dados ", informações que descreve propriedade de um recursos ( arquivo, banco de dados, registro imagem ). ( ex : nome do arquivo, tamanho, data de criação / modificação, entre outros recursos )
+ 
+** " [ 5 ] - DEFINA GRAFO ACÍCLICO "
+
+  -- Grafo Acíclico
+   ++ é um grafo sem ciclos possui uma vértice e arestas diferentes, geralmente, é usado em escalonamento de tarefas, representações de dependências, controle de versão e algoritmo de ordenação topológica
+
+** " [ 6 ] - QUAIS SÃO AS VANTAGENS DA ALOCAÇÃO CONTÍGUA " 
+
+  -- ALOCAÇÃO CONTÍGUA
+   ++ armazena os blocos de um arquivo em posições adjacentes no disco 
+
+   + leitura / escrita
+    ++ como os blocos estão lado a lado, cabeçote / sick apresenta um bom desempenho para acessos sequenciais.
+
+   + simples de implementar
+    ++ acesso direto por cálculo ( endereço inicial + deslocamento ) sem necessidade de tabelas complexas
+
+   + baixa fragmentação lógica interna
+    ++ dentro do arquivo os blocos já estão contíguos
+
+   + bom uso de cache
+    ++ prefetch de blocos adjacentes é eficaz porque são úteis em sequência

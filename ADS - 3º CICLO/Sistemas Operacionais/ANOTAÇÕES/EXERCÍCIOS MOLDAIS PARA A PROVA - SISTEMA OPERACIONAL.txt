@@ -1,0 +1,23 @@
+CONTEÚDO - P1
+
+** " [ 1 ] - DEFINA O QUE É S.O  "
+
+  -- 
+
+** " [ 2 ] - TRATANDO SOBRE CPU, O QUE É MULTIPROCESSAMENTO ? " 
+
+ -- 
+
+** " [ 3 ] - EXPLIQUE O QUE É PROCESSO " 
+
+ --  
+
+** " [ 4 ] - "
+
+** " [ 5 ] - QUAL É O ALGORTIMO DE ESCALONAMENTO REPRESENTADO NA IMAGEM ? "
+
+ -- 
+
+** " [ 6 ] - REFENTE AO ESCALONAMENTO, QUAIS SÃO AS ÁREAS REFENTES? "
+
+  -- 

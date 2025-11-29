@@ -1,0 +1,286 @@
+SISTEMAS OPERACIONAIS - GERENCIAMENTO DE MEMÓRIA
+
+------------------------------------------------------
+
+** GERENCIAMENTO DE MEMÓRIA
+
+ -- O gerenciamento de memória ( ou Gestão de Memória ) é uma função crucial dos sistemas operacionais ( S.O ) e constitui uma das principais responsabilidade do núcleo ( kernel ) do sistema. 
+
+ -- A memória é um dos recursos computacionais mais importantes, pois é o local onde são armazenados dados e informações no computador.
+
+ -- O gerenciamento é fundamental e complexo, sendo essencial para garantir a eficiência das aplicações que rodam no computador, visto que a tendência das aplicações é consumir cada vez mais esse recurso.
+
+ -- " O OBJETIVO PRINCIPAL DO GERENCIAMENTO DE MEMÓRIA É PERMITIR QUE VÁRIOS PROCESSOS SEJAM EXECUTADOS AO MESMO TEMPO, MANTENDO UM BOM DESEMPENHO DO SISTEMA "
+
+** GERENCIAMENTO DE MEMÓRIA - FUNÇÕES / RESPONSABILIDADES
+
+  -- [ 1 ] - CONTROLE DE USO E ALOCAÇÃO
+    + gerenciar quais partes da memória estão em uso e quais estão disponíveis, o gerenciador aloca a memória quando os processos precisam e libera após o término deles
+
+  -- [ 2 ] - GERENCIAMENTO HIERÁRQUICO
+    + controlar a hierarquia de memória, que combina diferentes tipos de memória, como memória cache ( rápida | volátil | alto custo ), memória principal ( RAM - volátil | médio custo ) e memória secundária ( disco - não volátil | baixo custo | alto armazenamento )
+    + o gerenciador garante que essas memórias estejam interligadas para o bom funcionamento do SO 
+
+   -- [ 3 ] - PROTEÇÃO E INTEGRIDADE
+    + o sistema operacional deve proteger as áreas de memórias utilizadas pelos processos, impedindo que um programa tente acessá-la indevidamente
+    + na multiprogramação, o gerenciamento de memória deve resolver os problemas de relocação e proteção
+
+   -- [ 4 ] - TROCA DE PROCESSOS ( SWAPPING )
+    + controlar a troca de processos entre a memória principal e o disco quando a memória principal não é suficiente para manter todos os processos em execução.
+
+** GERENCIAMENTO DE MEMÓRIA - S.O
+
+   -- DEMONSTRAÇÃO
+
+     ++ SISTEMA OPERACIONAL NA PARTE INFERIOR DA RAM ( A )
+       usado em alguns mainframes e minicomputadores antigos
+
+     ++ SISTEMA OPERACIONAL EM ROM NO TOPO DA MEMÓRIA ( B )
+       encontrado em alguns portáteis e sistemas embarcados
+
+     ++ PARTE DO SISTEMA EM ROM NO TOPO DA MEMÓRIA E O RESTANTE EM RAM ABAIXO ( C )
+       modelo usado nos primeiros PC'S que executam MS-DOS
+
+  -- " Os modelos ( A && C ) tinham uma grande desvantagem: se o programa do usuário apresentasse erro e sobrescrevesse trechos do sistema operacional, o computador poderia falhar completamente. Nessas arquiteturas, apenas um processo podia ser executado por vez, o fluxo típico era simples: "
+
+   ++ o usuário digitava
+   ++ o sistema operacional carregava o programa solicitado do disco para a memória e o executava
+   ++ ao terminar, o sistema exiba novamente o prompt de comando, pronto para receber outro programa, sobrescrevendo o anterior na memória
+
+  -- " Uma forma limitada de paralelismo em sistemas em abstração de memória era o uso de threas, como todos os threads de um processo compartilham a mesma área de memória, esse modelo funcionava. No entanto, seu uso era bastante restrito, já que, em geral, os usuários desejavam executar programas independentes ao mesmo tempo. Além disso, sistemas tão primitivos a ponto de não oferecerem abstração de memória dificilmente ofereciam suporte a threads "
+
+** GERENCIAMENTO DE MEMÓRIA - MODELOS DE MEMÓRIA 
+
+  -- " Mesmo sem uma abstração de memória, é possível executar múltiplos programas, a forma mais simples de fazer isso é através do swapping ( troca de processos ): O SISTEMA OPERACIONAL SALVA TODO O CONTEÚDO DA MEMÓRIA EM UM ARQUIVO NO DISCO, CARREGANDO O PRÓXIMO PROGRAMA E EXECUTANDO-O. Como apenas um programa fica na memória de cada vez, não há risco de conflito. Porém, com o avanço do hardware, tornou-se possível rodar mais de um programa ao mesmo tempo sem precisar de swapping "
+
+   -- " Segundo a IBM 360, o projeto utilizou a chamada " REALOCAÇÃO ESTÁTICA ". Nela, o carregador ajustava os endereços durante o carregamento. Esse método funcionava, mas tinha desvantagens: DEIXAVA O CARREGAMENTO MAIS LENTO, E EXIGIA QUE OS PROGRAMAS INDICASSEM CLARAMENTE O QUE ERA ENDEREÇO REAL E O QUE ERA APENAS UM NÚMERO. Esse tipo de endereçamento físico direto não é mais usado em computadores modernos, mas ainda é comum em sistemas embarcados e cartões inteligentes, onde os programas já vêm prontos e não podem ser alterados pelo usuário. É o caso de rádios, micro-ondas e máquinas de lavar. "
+
+
+** GERENCIAMENTO DE MEMÓRIA - ESPAÇOS DE ENDEREÇAMENTO
+
+  -- " Permitir que os programas acessem diretamente a memória física traz muitos problemas "
+
+  -- PRIMEIRO
+   + qualquer programa poderia sobrescrever partes críticas do sistema operacional, causando falhas graves, mesmo que só um aplicativo estivesse rodando
+
+  -- SEGUNDO
+   + esse modelo dificulta rodar vários programas ao mesmo tempo, algo comum em computadores pessoais, onde abrimos diferentes aplicativos ( editor de texto | navegadores | email ) e alternamos entre elas 
+
+  -- " Para que isso seja possível, dois problemas precisam ser resolvidos " 
+
+  -- PROTEÇÃO
+   + evitar que um programa interfira em outro
+  
+  -- REALOCAÇÃO 
+   + permitir que cada programa use endereços independentes
+
+  -- " O IBM 360 usava uma solução inicial de proteção: cada bloco de memória recebia uma CHAVE DE PROTEÇÃO, e apenas processos com a chave correta podia acessá-lo. Isso resolvia parte do problema, mas não a realocação, que era feita de forma lenta e complicada. A solução mais eficiente foi criar uma NOVA ABSTRAÇÃO DA MEMÓRIA ( ESPAÇO DE ENDEREÇAMENTO ) : ASSIM COMO O CONCEITO DE PROCESSO CRIA UMA " CPU VIRTUAL " PARA CADA PROGRAMA, O ESPAÇO DE ENDEREÇAMENTO CRIA UMA " MEMÓRIA VIRTUAL " | " CADA PROCESSO PASSA A TER SEU PRÓPRIO CONJUNTO DE ENDEREÇOS, INDEPENDENTE DOS OUTROS " | " EM ALGUNS CASOS, PROCESSO PODEM COMPARTILHAR PARTE DESSE ESPAÇO, MAS SÓ QUANDO ISSO É NECESSÁRIO "
+
+  -- " UM ESPAÇO DE ENDERAÇAMENTO É O CONJUNTO DE ENDEREÇOS QUE PODEM SER USADOS " 
+
+  -- " O desafio está em fazer com que cada programa enxergue seu próprio espaço de endereçamento, mesmo que os endereços se repitam entre processos. Uma solução simples, foi o uso de REGISTRADORES BASE E LIMITE: " o REGISTRADOR BASE GUARDA O ENDEREÇO INICIAL DO PROGRAMA NA MEMÓRIA " | " o REGISTRADOR LIMITE GUARDA A QUANTIDADE DE MEMÓRIA ALOCADA PARA ESTE PROCESSO " | " SEMPRE QUE O PROCESSO ACESSA A MEMÓRIA, O HARDWARE ADICIONA AUTOMATICAMENTE O VALOR DO REGISTRADOR BASE AO ENDEREÇO SOLICITADO E CONFERE SE RESULTADO NÃO ULTRAPASSA O LIMITE " ."
+
+  -- " A CPU deve verificar cada processo que esta em execução, caso algum deles tende ser executado fora dos limites base e limite a CPU deve acusar um erro, lembrando que o valor base e limite são determinados pelo S.O no momento de execução. "
+
+  -- " Esse método garante que cada processo tenha sua própria área de memória, protegida contra invasão de outros. No entanto, tem desvantagens: " É NECESSÁRIO FAZER UMA ADIÇÃO E UMA COMPARAÇÃO A CADA ACESSO DE MEMÓRIA, O QUE PODE SER LENTO SEM CÍRCULOS ESPECIAIS " | " ALGUMAS IMPLEMENTAÇÕES, COMO A DO INTEL 8080, NEM TINHAM REGISTRADOR LIMITE, OFERECENDO MENOS PROTEÇÃO ". Mesmo com limitações, esse modelo foi um passo importante na evolução do gerenciamento de memória. 
+
+** GERENCIAMENTO DE MEMÓRIA - TROCA DE PROCESSOS ( SWAPPING ) 
+
+  -- " Em sistemas como Windows, macOs ou Linux, logo após a inicialização já existem dezenas de processos ativos ( entre 50 e 100 ou mais ). Muitos deles são criados automaticamente, como serviços que verificam atualizações, monitoram conexões de rede ou checam e-mails. Mesmo esses processos simples podem ocupar alguns megabytes de memória. Já aplicações maiores, como o Photoshop, podem precisar de centenas de megabytes apenas para iniciar, chegando a usar vários gigabytes durante o processamentos. Manter todos os processos carregados na memória ao mesmo tempo, portanto, exigiria uma quantidade enorme de RAM, o que geralmente não é variável. "
+
+  -- [ 1 ] - SWAPPING ( TROCA DE PROCESSOS )
+
+   + O PROCESSO É CARREGADO INTEIRO NA MEMÓRIA, EXECUTANDO POR UM TEMPO E DEPOIS DEVOLVIDO AO DISCO. ASSIM, PROCESSO QUE ESTÃO INATIVOS PERMANECEM ARMAZENADOS NO DISCO, LIBERANDO ESPAÇO NA MEMÓRIA. QUANDO PRECISAM RODAR NOVAMENTE, SÃO RECARREGADOS, POSSÍVELMENTE EM OUTRO LUGAR DA MEMÓRIA. 
+
+   + " Se isso acontecer, os endereços do programa precisam ser realocados, tarefa feita pelo hardware ( como com registradores base e limite ). Quando várias trocas deixam espaços " quebrados " na memória, pode-se realizar a COMPACTAÇÃO DE MEMÓRIA, que junta todos os processos para liberar um espaço maior contínuo. "
+
+  -- [ 2 ] - MEMÓRIA VIRTUAL
+
+   +  PERMITE QUE OS PROGRAMAS SEJAM EXECUTADOS MESMO QUE APENAS PARTE DELES SEJA CARREGADA NA MEMÓRIA.
+
+  -- " Se o processo tiver tamanho fixo, a alocação é simples : o sistema dá exatamente o espaço necessário "
+
+  -- " Mas se o processo puder crescer ( como quando variáveis são alocadas dinamicamente em linguagens de programação ), surge o problema "
+
+  -- " SE HOUVER ESPAÇO LIVRE LOGO APÓS ELE, O PROCESSO PODE EXPANDIR "
+  
+  -- " SE NÃO HOUVER, PODE SER NECESSÁRIO MOVÊ-LO PARA OUTRA ÁREA COM ESPAÇO SUFICIENTE, OU ATÉ TROCAR OUTROS PROCESSOS DE LUGAR "
+ 
+  -- " SE NÃO HOUVER ESPAÇO DISPONÍVEL NA MEMÓRIA OU NO DISCO DE TROCA, O PROCESSO DEVE SER SUSPENSO ( ATÉ SER ENCERRADO ) "
+
+  -- " Uma solução é RESERVAR O ESPAÇO EXTRA quando um processo é criado ou movido, prevendo que ele crescerá. Isso reduz, a necessidade de trocas futuras. Porém, ao enviar um processo para o disco, só a memória efetivamente usada deve ser transferida, para evitar desperdício "
+
+  -- SISTEMAS COMPLEXOS -> SEGMENTO DE DADOS
+   
+   + UM SEGMENTO DE DADOS, QUE CRESCE PARA CIMA, É TAMBÉM CHAMADO DE " HEAP ", AUMENTNADO A MEMÓRIA DISPONÍVEL PARA UM PROCESSO, SENDO " PARA CIMA " UM TERMO COMUM PARA INIDICAR O CRESCIMENTO DE ENDEREÇOS DE MEMÓRIA MAIS BAIXOS PARA MAIS ALTOS. 
+  
+   + " Uma PILHA, que cresce para baixo "
+
+   + " A " STACK ( PILHA ) " é um segmento de memória fundamental na execução de um programa, funcionando como uma estrutura de dados de tipo LIFO ( LAST IN - FIRST OUT ). é usada para alocação de memória de forma automática e temporária, e seu comportamento de crescimento " para baixo ". "
+
+   + O CRESCIMENTO PARA BAIXO, EM DIREÇÃO A ENDEREÇOS DE MEMÓRIA MAIS BAIXOS, É UMA ESCOLHA DE DESIGN EM MUITOS SISTEMAS OPERACIONAIS E ARQUITETURAS DE PROCESSADORES 
+
+** GERENCIAMENTO DE MEMÓRIA - MEMÓRIA LIVRE
+
+  -- " Quando a memória é alocada dinamicamente, o sistema operacional precisa controlá-la, existindo duas formas principais de fazer isso: MAPAS DE BITS e LISTAS ENCADEADAS "
+
+  -- [ 1 ] - GERENCIAMENTO COM MAPAS DE BITS
+
+    -- " A memória é dividida em pequenas unidades ( podem ter desde alguns bytes ou até kilobyte )
+
+    -- UNIDADES PRESENTES EM UM BIT NO MAPA
+     + 0 -> espaço livre
+     + 1 -> espaço ocupado
+
+    -- TAMANHO DA UNIDADE ALOCADA
+
+     + PEQUENA
+       -> o mapa de bits será grande, mas o desperdício de memória é mínimo
+
+     + GRANDE
+       -> o mapa será pequeno, mas pode haver desperdício quando o processo não ocupa múltiplos exatos da unidade
+
+
+     -- FUNCIONALIDADE
+      + Para carregar um processo que precisa de K UNIDADES SEGUIDAS, o sistema precisa procurar no mapa uma SEQUÊNCIA DE KBITS LIVRES, o que pode resultar em lentidão
+
+  -- [ 2 ] - GERENCIAMENTO COM LISTAS ENCADEADAS
+  
+    -- A MEMÓRIA É ORGANIZADA COMO UMA LISTA DE SEGMENTOS ( OCUPADOS OU LIVRES )
+
+    -- CADA ENTRADA INDICA : TIPO ( LIVRE OU OCUPADO ) | ENDEREÇO INICIAL | TAMANHO | PONTEIRO PARA O PRÓXIMO SEGMENTO
+
+    -- QUANDO UM PROCESSO TERMINA, O ESPAÇO OCUPADO PODE VIRAR LIVRE E ATÉ SER FUNDIDO COM VIZINHOS, REDUZINDO A FRAGMENTAÇÃO
+
+    -- É COMUM USAR LISTAS DUPLICAMENTE ENCADEADAS, QUE FACILITAM ENCONTRAR O SEGMENTO ANTERIOR E JUNTAR ESPAÇOS VIZINHOS
+
+  -- [ 3 ] - ALGORITMOS DE ALOCAÇÃO EM LISTAS
+
+    -- FIRST FIT ( PRIMEIRO ENCAIXE ) 
+      ++ ENCONTRA O PRIMEIRO ESPAÇO LIVRE GRANDE O SUFICIENTE E O DIVIDE
+      ++ É RÁPIDO E EFICIENTE NA MEDIDA 
+
+    -- NEXT FIT ( PRÓXIMO ENCAIXE )
+      ++ É SEMELHANTE AO F.F, MAS COMEÇA A BUSCA ONDE PAROU DA ÚLTIMA VEZ
+      ++ UM POUCO MENOS EFICIENTE QUE O FIRST FIT
+
+    -- BEST FIT ( MELHOR ENCAIXE )
+      ++ PROCURA TODA A LISTA E ESCOLHE O MENOR ESPAÇO LIVRE QUE CAIBA NO PROCESSO
+      ++ GERA MAIS FRAGMENTAÇÃO, POIS TENDE A DEIXAR PEDAÇOS MUITOS PEQUENOS
+
+    -- QUICK FIT 
+      ++ MANTÉM LISTAS SEPARADAS POR TAMANHOS COMUNS ( ex : blocos de 4KB | 8KB | 12KB )
+      ++ MUITO RÁPIDO PARA ENCONTRAR ESPAÇO, MAS DIFICULTA A FUSÃO DE BLOCOS LIVRES, CAUSANDO A FRAGMENTAÇÃO
+
+    -- RESUMO GERAL
+  
+     -> MAPA DE BITS
+      + simples, porém, lento para encontrar blocos contíguos
+
+     -> LISTA ENCADEADA 
+      + flexíveis, permitindo algoritmos como First Fit | Best Fit e etc 
+
+** GERENCIAMENTO DE MEMÓRIA - MEMÓRIA VIRTUAL
+
+  -- " Os registradores base e limite ajudam a criar espaços de endereçamento, mas há outro problema : O BLOATWARE ( PROGRAMAS QUE CONSOMEM MEMÓRIA EM EXCESSO ). Apesar do aumento da capacidade das memórias, os softwraes cresceram ainda mais rápido. Na década de 1980, o sistemas com apenas 4MB de RAM atendiam dezenas de usuários simultaneamente, enquanto hoje o Windows 11 exige no mínimo de 4GB e, na prática, muitos consideram 8GB ou 16GB ideal para o bom desempenho. "
+
+  -- " Com isso, sugriram duas problemáticas : EXECUTAR PROGRAMAS MAIORES DO QUE A MEMÓRIA DISPONÍVEL | SUPORTAR VÁRIOS PROGRAMAS AO MESMO TEMPO, MESMO QUE JUNTOS, EXEDAM O TAMANHO TOTAL DA MEMÓRIA FÍSICA. Uma alternativa seria fazer uma troca constante de processos entre memória e disco, mas isso causa lentidão. Um disco comum ( SATA ) transfere alguns MB por segundo, o que significa que carregar ou salvar um programa de 1GB pdoe levar vários segundos. "
+
+  -- " Nos anos 1960, a solução encontrada foi dividir os programas em módulos menores, chamados de sobreposições ( OVERLAYS ). Quando o programa era iniciado, apenas o gerenciador de sobreposições era carregado. A questão ocorria de tal maneira: "
+
+  -- O PROGRAMA ERA DIVIDO EM PARTES MENORES, CHAMADAS DE MÓDULOS OU SOBREPOSIÇÕES
+  -- QUANDO O PROGRAMA COMEÇAVA A RODAR, APENAS O GERENCIADOS DE SOBREPOSIÇÕES ERA CARREGADO NA MEMÓRIA
+  -- ESSE GERENCIADOR TRAZIA PARA A MEMÓRIA SOMENTE O MÓDULO NECESSÁRIO NAQUELE MOMENTO
+  -- QUANDO O PROGRAMA PRECISAVA EXECUTAR OUTRA PARTE, O GERENCIADOR DESCARTAVA A SOBREPOSIÇÃO ATUAL E CARREGAVA OUTRA ( sobreposição 1 | sobreposição 2 ...  ) A PARTIR DO DISCO.
+
+  -- EM RESUMO, O SISTEMA TROCAVA DINAMICAMENTE PARTES DOS PROGRAMAS NA MEMÓRIA, PERMITINDO QUE APLICAÇÕES GRANDE FUNCIONASSEM EM MÁQUINAS COM POUCA RAM
+
+  -- " Embora o sistema operacional fizesse a parte mecânica de carregar e remover as sobreposições, o programador precisava dividi-las manualmente, o que era um trabalho cansativo, demorado e propenso a erros. Por isso, logo surgiu a ideia de automatizar o processo. Em 1961, foi apresentada a solução chamada de: MEMÓRIA VIRTUAL. "
+
+  -- CADA PROGRAMA TEM SEU PRÓPRIO ESPAÇO DE ENDEREÇAMENTO, DIVIDIDO EM BLOCOS CHAMADOS PÁGINAS
+  -- CADA PÁGINA CONTÉM UMA SEQUÊNCIA CONTÍNUA DE ENDEREÇOS
+  -- AS PÁGINAS SÃO MAPEADAS NA MEMÓRIA FÍSICA, MAS NEM TODAS PRECISAM ESTAR NA MEMÓRIA AO MESMO TEMPO
+  -- QUANDO O PROGRAMA TENTA ACESSAR UMA PÁGINA QUE JÁ ESTÁ NA MEMÓRIA, O HARDWARE FAZ O ACESSO DIRETAMENTE.
+  -- QUANDO O PROGRAMA TENTA ACESSAR UMA PÁGINA QUE NÃO ESTÁ CARREGADA, O SISTEMA OPERACIONAL É AVISADO, BUSCA A PÁGINA NO DISCO E REPETE A INSTRUÇÃO QUE FALHOU
+
+  -- A MEMÓRIA VIRTUAL É UMA EVOLUÇÃO DA IDEIA DOS REGISTRADORES BASE E LIMITE. EM VEZ DE PERMITIR APENAS A REALOCAÇÃO DE PARTES ESPECÍFICAS, ELA PERMITE MAPEAR TODO O ESPAÇO DE ENDEREÇAMENTO EM PEQUENAS UNIDADES ( PÁGINAS ), TORNANDO O SISTEMA MUTIO MAIS FLEXÍVEL.
+
+  -- " Essa técnica funciona especialmente bem em sistemas multiprogramados, nos quais vários programas compartilham a memória. Enquanto um programa espera que uma parte sua seja carregada do disco, a CPU pode ser usada por outro processo, garantindo maior eficiência e desempenho "
+
+** ESPAÇO DE ENDEREÇAMENTO x ESPAÇO DE ENDEREÇAMENTO FÍSICO
+
+  -- " Um endereço gerado pela CPU é chamado de endereço lógico, enquanto o endereço utilizado pela unidade de memória, aquele que é efetivamente carregado no registrador de endereços, é conhecido como ENDEREÇO FÍSICO. "
+
+  -- O ESPAÇO DE ENDEREÇAMENTO LÓGICO É O CONJUNTO DE TODOS OS ENDEREÇOS LÓGICOS GERADOS POR UM PROGRAMA, ENQUANTO O ESPAÇO DE ENDEREÇAMENTO FÍSICO É O CONJUNTO DOS ENDEREÇOS REAIS CORRESPONDENTES NA MEMÓRIA. 
+
+  -- A CONVERSÃO DOS ENDEREÇOS VIRTUAIS EM ENDEREÇOS FÍSICOS É FEITA DURANTE A EXECUÇÃO POR UM COMPONENTE DE HARWDARE CHAMADO: UNIDADE DE GERENCIAMENTO DE MEMÓRIA ( MMU - MEMORY MANAGENT UNIT ) INTEGRADO DIRETAMENTE NA CPU.
+
+   ++ CPU
+    -> processador
+
+   ++ MMU
+    -> é a unidade dentro da CPU que traduz endereços virtuais em endereços físicos e gerencia o uso da memória
+
+   ++ TLB ( BUFFER LOOKASIDE DE TRADUÇÃO ) 
+    -> é uma pequena memória cache dentro da MMU que armazena traduções recentes para acelerar o acesso à memória
+
+** GERENCIAMENTO DE MEMÓRIA - PAGINAÇÃO
+
+  -- A MAIORIA DOS SISTEMAS QUE USAMM MEMÓRIA VIRTUAL ADOTA UMA TÉCNICA CHAMADA PAGINAÇÃO
+
+  -- " Todo programa, ao ser executado, faz referência a endereços de memória. Esses endereços usados pelo programa são chamados de endereços virtuais, e o CONJUNTO DELES FORMA O ESPAÇO DE ENDEREÇAMENTO VIRTUAL " 
+
+  -- " Em computadores sem memória virtual, esses endereços são enviados diretamente ao barramento de memória, acessando o endereço físico correspondente "
+
+  -- " Nos sistemas com memória virtual, o endereço virtual não vai direto para a memória, ele é enviado antes para uma unidade especial chamadas MMU ( MEMORY MANAGEMENT UNIT ) - UNIDADE DE GERENCIAMENTO DE MEMÓRIA "
+
+  -- A MMU TEM A FUNÇÃO DE TRADUZIR CADA ENDEREÇAMENTO VIRTUAL EM UM ENDEREÇO FÍSICO 
+
+  -- " Deste modo, a MMU mapeia dinamicamente o endereços virtuais para os endereços físicos, conforme a tabela de páginas definida pelo sistema " 
+
+  -- OBJETIVO
+
+   -- EVITAR O DESPERDÍCIO DE MEMÓRIA - DAS PARTIÇÕES FIXAS : REDUZINDO A QUANTIDADE DE FRAGMENTAÇÕES INTERNAS
+  
+   -- EVITAR O DESPERDÍCIO DE MEMÓRIA - DAS PARTIÇÕES VARIÁVEIS : MAXIMIZANDO O USO DE ESPAÇOS DE MEMÓRIA
+ 
+   -- EVITAR O DESPERDÍCIO DE MEMÓRIA - USANDO MMU PARA DEFINIR O TAMANHO DAS PÁGINAS QUE SERÃO REALOCADAS E UTILIZADAS
+
+   -- PERMITINDO QUE PROCESSOS UTILIZEM ÁREAS NÃO CONTÍGUAS DE MEMÓRIA, OU SEJA, ÁREAS DISPERSAS EM DISCO QUE NÃO ESTÃO ALOCADAS   
+
+** GERENCIAMENTO DE MEMÓRIA - SEGMENTAÇÃO
+
+  -- A VISÃO QUE O USUÁRIO TEM DA MEMÓRIA NÃO CORREESPONDE À MEMÓRIA FÍSICA REAL
+
+  -- " Isso é igualmente verdadeiro para a visão que o programador tem da memória. Na verdade, lidar com a memória em termos de suas propriedade físicas é inconveniente tanto para o sistema operacional quanto para o programador. "
+
+  -- " Mas se o hardware pudesse fornecer um mecanismo de memória que mapeasse a visão do programador para memória física real? O sistema teria mais liberdade para gerenciar a Memória enquanto o programador teria um ambiente de programação mais natural. A segmentação fornece esse mecanismo. "
+
+  -- SEGMENTAÇÃO É UM PROCESSO VIRTUAL QUE CRIA ESPAÇOS DE ENDEREÇO DE VÁRIOS TAMANHOS EM UM SISTEMA COMPUTACIONAL, CHAMADOS DE SEGMENTO
+
+  -- " Cada segmento é um espaço de endereço virtual diferente que corresponde diretamente aos objetos do processo. Cada segmentação tem um nome e um tamanho. Os endereços especificam tanto o nome do segmento quanto o deslocamento dentro do segmento. " 
+
+** GERENCIAMENTO DE MEMÓRIA - TABELA DE PÁGINAS
+
+  -- " Em uma implementação simples, o processo de converter endereços virtuais em endereços físicos funciona da seguinte maneira: o endereço virtual é dividido em duas partes, o número da página virtual ( bit mais significativos ) e o deslocamento ( bits menos significativos ). "
+
+  -- " O número da página virtual é usado como índice na tabela de páginas, onde se encontra a entrada correspondente a essa página. Essa entrada indica o número do quadro físico ( caso a página esteja carregada na memória ). "
+
+  -- " Em seguida, o número do quadro é combinado com o deslocamento, substituindo o número da página virtual, formando assim o endereço físico que será enviado à memória. " 
+
+  -- Cada endereço virtual ( aquele que o programa usa ) é dividido em duas partes:
+   
+    ++ NÚMERO DA PÁGINA VIRTUAL
+     -> diz qual página queremos acessar
+
+    ++ DESLOCAMENTO
+     -> diz onde exatamente dentro dessa página está a informação
+
+   -- ESTA TABELA GUARDA A CORRESPONDÊNCIA ENTRE : PÁGINAS VIRTUAIS ( O QUE O PROGRAMA VÊ )
+
+   -- ESTA TABELA GUARDA A CORRESPONDÊNCIA ENTRE : QUADRO FÍSICOS ( OS LOCAIS REAIS NA MEMÓRIA RAM ) 
+
+
+
+
+

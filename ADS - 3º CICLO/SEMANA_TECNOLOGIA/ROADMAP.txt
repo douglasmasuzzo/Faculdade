@@ -1,0 +1,73 @@
+ROADMAP - Bruno Barulli
+
+--------------------------------------------
+
+** INTRODUÇÃO
+  
+  - UM ROADMAP É UM PLANO ESTRUTURADO QUE ORGANIZA A ORDEM DE APRENDIZAGEM DO CONHECIMENTO
+
+** MÚLTIPLAS ÁREAS DENTRO DO T.I
+
+  - INFRAESTRUTURA & REDES
+   + gerenciamento de servidores, cloud computing e conectividade
+   
+  - CIÊNCIA DE DADOS
+   + análise, machine learning e business intelligence
+
+  - SEGURANÇA DA INFORMAÇÃO
+   + proteção de dados, pentesting e compilance
+
+  - DESENVOLVIMENTO
+   + criação de aplicações, sistemas, bancos de dados e soluções digitais
+
+  - INTERNT DA COISA - IOT
+   + automação de equipamentos eletrônicos integrados a mesma rede e internet
+
+** DESENVOLVIMENTO SOFTWARE
+  
+  - DESENVOLVEDOR FRONTEND
+   + interface e experiência do usuário, design responsivo e interatividade
+
+  - DESENVOLVEDOR BACKEND
+   + lógica de negócio, banco de dados, API'S e arquitetura de servidores
+
+  - DESENVOLVEDOR MOBILE
+   + aplicativos nativos e multiplataforma para iOS e Android
+
+  - DevOps
+   + integração contínua, entrega contínua, infraestrutura como código
+
+  - ANALISTA DE QUALIDADE
+   + testes automatizados, garantia de qualidade e performance
+
+** CARREIRA EM Y
+
+  - " A " carreira em Y " é um modelo de progressão profissional que oferece duas trilhas igualmente valorizadas para o desenvolvimento de talentos no mercado de trabalho, especialmente relevante no setor tech. "
+
+  - TRILHA TÉCNICA ( ESPECIALISTA )
+   + Para profissionais que desejam aprofundar seus conhecimentos em uma área específica, tornando-se referências técnicas: FOCO EM ARQUITETURA DE SISTEMAS, NOVAS TECNOLOCIAS E INOVAÇÃO | DESENVOLVIMENTO DE SOLUÇÕES COMPLEXAS E DE ALTO IMPACTO ( arquiteto de software, engenheiro de dados, sênior, especialista em Cybersecurity ).
+
+  - TRILHA GERENCIAL ( LÍDER )
+   + Para profissionais com habilidades de gestão que preferem liderar equipes e projetos, sem a necessidade de abandonar a base técnica: GESTÃO DE PESSOAS, ACOMPANHAMENTO DE PROJETOS E DEFINIÇÃO DE ESTRATÉGIAS | MENTORIAS E DESENVOLVIMENTO DE NOVOS TALENTOS ( engineering manager, tech lead, gerente de produto )
+
+** ROADMAP COMUM 
+  
+  - " Independe da área de especialização, existem fundamentos essenciais que todo desenvolvedor profissional precisa dominar. " 
+
+  - LÓGICA DE PROGRAMAÇÃO
+   + Algoritmos, estruturas de dados e resolução de problemas computacionais
+
+  - CONTROLE DE VERSÃO
+   + Git, GitHub, Workflows colaborativos e boas práticas de versionamento
+
+  - FUNDAMENTOS DE REDES
+   + PROTOCOLOS HTTP / HTTPS, API'S RESTful e comunicação cliente-servidor
+ 
+  - BANCO DE DADOS
+   + SQL e NoSQL, modelagem, queries e otimização de consultas
+
+  - TESTE AUTOMATIZADOS
+   + UNIT TESTING, Integration Testing e práticas de TDD 
+
+  - SEGURANÇA BÁSICA
+   + Autenticação, autorização, criptografia e prevenção de vulnerabilidade 
