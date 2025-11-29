@@ -1,0 +1,39 @@
+MÉTODOS - ESTRUTURA DE DADOS
+
+-----------------------------------------
+
+** MÉTODO
+
+  -- " É uma sub-rotina que é executada por um objeto ao receber uma mensagem, é definido como uma função que contém um bloco de código que executa uma tarefa específica. " 
+
+  -- " Os métodos têm o papel de determinar o comportamento dos objetos de uma classe e são análogos a funções ou procedimentos utilizados no paradigma da programação estruturada. Em linguagens de C++, a estrutura de um programa é caracterizado como uma coleção que se comunicam através de chamadas de seus métodos "
+
+** ESTRUTURA DE MÉTODOS 
+
+   -- TIPO DE MÉTODO
+   + O tipo de dado que o método irá retornar ( definindo pelo tipo da variável ) 
+
+  -- NOME DO MÉTODO
+   + O nome dado à uma sub-rotina.
+
+  -- PARÂMETROS
+   + Dados que servem como entrada para a ação de um método, servindo acesso às variáveis locais da função que recebem os valores passados quando a função é chamada.
+
+  -- RETORNO
+   + O comando de " return " é usado para retornar a ação, ou seja, a saída / resposta do método. Em casos onde o tipo do método é " void ", o retorno não é utilizado.
+
+** DECLARAÇÃO E EXECUÇÃO
+
+  -- DECLARAÇÃO
+   + A declaração informa ao compilador sobre a função, especificando seus parâmetros e o tipo de retorno.
+
+  -- DEFINIÇÃO
+   + A definição contém o código real da função.
+
+** RECURSIVIDADE E MECANISMO
+
+  -- " Um tipo de método ou função é a recursividade, que é a definição de uma sub-rotina que tem a capacidade de invocar a si mesma "
+
+  -- " A grande vantagem de recursão é permitir que um programa finito defina, analise ou produza um estoque potencialmente infinito de dados. A recursividade é a chave para o desenvolvimento de muitos algoritmos importantes e um elemento fundamental do paradigma de programação dinâmica "
+
+  -- " Quando uma função ( ou método ) é invocada, o computador ( na maioria das arquiteturas baseadas em pilhas ) ou a implementação da linguagem registra as várias instâncias da função. Para isso, é comumente usada uma pilha de chamada. É importante notar que toda função recursiva pode ser transformada em uma função iterativa usando uma pilha. " 

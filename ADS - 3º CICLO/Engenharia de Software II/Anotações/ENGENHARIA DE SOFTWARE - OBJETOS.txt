@@ -1,0 +1,33 @@
+ENGENHARIA DE SOFTWARE - OBJETOS
+
+-------------------------------------------
+
+** PROJETO 
+
+  -- PLATAFORMA DIGITAL DE E-COMMERCE E COLECIONÁVEIS DA PANINI
+
+** DESCRIÇÃO
+
+  -- " Para colecionadores, distribuidores e parceiros comerciais, que necessitam acompanhar lançamentos, promoções e status de coleções em tempo real, o Sistema Panini Connect é uma plataforma digital integrada, que oferece acesso centralizado a produtos, campanhas e suporte ao cliente, ao contrário de soluções fragmentadas e manuais, nosso produto unifica processos, melhora a experiência do usuário e fornece
+informações estratégicas para decisões rápidas. "
+
+** COLABORADORES
+
+  -- Douglas Masuzzo
+  -- Kayk Eduardo
+  -- Martha Valério
+  -- Gabriel Krieger 
+  -- David do Carmo
+
+** OBJETOS
+
+  -- Cliente
+  -- Administrador
+  -- Produto
+  -- Pedido
+  -- Item_Pedido
+  -- Nota_Fiscal
+  -- Catalogo
+  -- Notificacao
+  -- Histórico
+  -- Vendas

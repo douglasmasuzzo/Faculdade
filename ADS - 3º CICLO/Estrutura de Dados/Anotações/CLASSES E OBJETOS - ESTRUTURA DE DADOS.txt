@@ -1,0 +1,42 @@
+CLASSES E OBJETOS - ESTRUTURA DE DADOS
+
+---------------------------------------------------
+
+** POO - PROGRAMAÇÃO ORIENTADA À OBJETOS
+
+  -- " É um paradigma de programação que representa uma nova maneira de pensar os problemas utilizando conceitos do Mundo Real Um sistema orientado a objetos é definido como uma coleção de objetos que interagem entre si. "
+
+  -- " A linguagem C++ é um exemplo de linguagem orientada a objetos, e a estrutura de um programa em C++ é caracterizada como uma coleção de objetos que se comunicam através de chamadas de seus métodos. O conceito tem sido associado à abstração de conceitos e ao uso de Tipos Abstratos de Dados ( TAD ), sendo relevante em áreas como a programação científica.
+
+** CLASSES
+
+  -- " Uma classe serve como o molde ( forma ) para modelar a criação de objetos, responsável por definir componentes que o objeto terá. "
+
+  -- ATRIBUTOS
+    + Representam a estrutura ou estado do objeto
+  
+  -- MÉTODOS
+    + Representam o comportamento ou ações que o objeto pode realizar
+
+  -- OBJETOS
+    + Um objeto é uma representação concreta ( instância ) de uma classe, representando entidades que são interativas entre si. Um objeto, dentro de um programa, " encapsula " todo o seu estado e comportamento "
+
+** ESTRUTURA DE UM MÉTODO
+
+  -- TIPO DE MÉTODO
+   + O tipo de dado que o método irá retornar ( definindo pelo tipo da variável ) 
+
+  -- NOME DO MÉTODO
+   + O nome dado à uma sub-rotina.
+
+  -- PARÂMETROS
+   + Dados que servem como entrada para a ação de um método, servindo acesso às variáveis locais da função que recebem os valores passados quando a função é chamada.
+
+  -- RETORNO
+   + O comando de " return " é usado para retornar a ação, ou seja, a saída / resposta do método. Em casos onde o tipo do método é " void ", o retorno não é utilizado.
+
+  -- ENCAPSULAMENTO
+   + Neste princípio, os dados e as operações são agrupadas, e a implementação desses dados e operações é escondida e protegida dos usuários, encapsulando o estado e o comportamento do objeto.
+
+  -- HERANÇA
+   + O uso da POO oferece vantagens, mas também apresenta desvantagens em comparação com outros paradigmas, como o estruturado. 

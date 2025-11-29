@@ -1,0 +1,66 @@
+-
+ SCRUMSTUDY - PROCESSOS DO SCRUM
+
+ " HOW DO YOU EGT THE WORK DONE ? " 
+
+ Referente aos módulos anteriores, compreendemos os princípios e os aspectos do Scrum, junto com o orientação de manuseio do material de suporte ( GUIDE BOOK ). Como mencionado anteriormente, todo o projeto em desenvolvimento possui um BACKLOG DO PRODUTO de requisitos priorizados, do qual é de grande responsabilidade que esta priorização seja realizada pelo DONO DO PRODUTO ( ONWER PRODUCT ).
+ Primeiro, precisamos compreender qual é a definição geral deste tópico. A definição presente aborda como as atividades e o fluxo específico de um projeto SCRUM. No total, existe dezenove processos que são agrupados em cinco etapas.
+ Essas cinco etapas detalham a descrição de cada processo que inclue: ENTRADAS ( input ) | SAÍDA ( output ) | FERRAMENTAS ( tools ). E em cada processos, algumas entredas | saídas | ferramentas são necessárias, enquanto outras podem ser opcionais. A inclusão destes recursos varia conforme a particulariedade do projeto | organização | indústria, as presenças destes recursos são consideradas o sucesso da implementação, independentemente da organização.
+ Navegando aos demais conceitos presentes neste tema, possuímos algumas etapas que levam a conclusão final do conjunto de fundamentos da melhoria SCRUM: INCIALIZAÇÃO | PLANEJAMENTO E ESTIMATIVA DO PROJETO | IMPLEMENTAÇÃO | REVISÃO E RETROSPECTIVA
+
+    - INICIALIZAÇÃO ( processos ) 
+     
+      -- CRIAR UMA VISÃO DO PROJETO
+        + primeiro processo
+        + o caso de negócio do projeto é revisado para criar uma " DECLARAÇÃO DE VISÃO DO PROJETO " 
+        + PRODUCT OWNER é identificado nesse processo
+
+      -- IDENTIFICAR O SCRUM MASTER E OS STAKEHOLDERS 
+        + segundo processo
+        + SCRUM MASTER e STAKEHOLDERS são identificados com base em uma seleção específica de critérios
+        
+      -- FORMAR A EQUIPE SCRUM
+        + terceiro processo
+        + a EQUIPE SCRUM é definida
+        + normalmente, o DONO DO PROJETO é reponsável por selecionar os membros que compõem aquele time, com a colaboração do SCRUM MASTER
+
+      -- DESENVOLVER ÉPICOS
+        + quarto processo
+        + a " DECLARAÇÃO DA VISÃO DO PROCESSO " serve como base para o desenvolvimento que são formados pela EXPERIÊNCIA DO USUÁRIO não refinados
+        + podem ser realizadas em GRUPO DE USUÁRIOS para o desenvolvimento do projeto
+
+      -- CRIAR O BACKLOG PRIORIZADO DO PRODUTO
+        + quinto processo
+        + o DESENVOLVIMENTO são refinados e processados para CRIAR UM BACKLOG PRIORIZADO DO PRODUTO para o projeto 
+        + os PONTOS DE CRITÉRIOS são definidos e estabelecidos nesta etapa
+
+      -- CONDUÇÃO DO PLANEJAMENTO REVISADO
+        + sexto processo
+        + o SCRUM CORE ( equipe central do SCRUM ) analisa as experiências do usuário no backlog priorizado do produto para desenvolver um CRONOGRAMA DE PLANEJAMENTO, um cronograma de implementação por etapas que pode ser compartilhado com os stakeholders
+
+    - PLANEJAMENTO E ESTIMATIVA DE PROJETO ( processos )
+
+      -- CRIAR HISTÓRIAS DE USUÁRIOS
+        + primeiro processo
+        + as HISTÓRIAS DE USUÁRIO e seus CRITÉRIOS DE ACEITAÇÃO são relacionados e criados
+        + geralmente, são descritas pelo DONO DO PRODUTO ( product owner )
+        + são projetadas para assegurar que os requisitos estejam claramente descritos
+        + exercícios de escrita de história de usuários envolvem os membros da equipe scrum, na criação das histórias de usuários
+        + essas histórias são incorporadas ao BACKLOG PRIORIZADO DO PRODUTO 
+
+      -- ESTIMAR E CONFIRMAR AS HISTÓRIAS DE USUÁRIOS ( recursos )
+        + ENTRADAS OBRIGATÓRIAS: EQUIPE CENTRAL DO SCRUM | HISTÓRIA DO USUÁRIO
+          ( vários métodos de estimativa podem ser utilizados para estimar histórias do usuário )
+
+        + FERRAMENTAS: MÉTODOS DE ESTIMATIVA | BANDA LARGA DE DELPHI | PLANNING POKER
+         ++ BANDA LARGA DE DELPHI ( WIDEBAND DELPHI é uma técnica que estima a quantidade de trabalho que está envolvido e quanto tempo vai demorar até a conclusão final )
+         ++ PLANNIG POKER ( é uma derivada da técnica de Banda Larga de Delphi, que estima o consenso geral entre os tamanhos relativos de Histórias de Usuário e o esforço necessário para criá-los  )
+         ++ FIST OF FIVE ( é um simples mecanismos que utiliza como prática de estimativa, como técnica geral da formação de consnso coletivo, são recomendados votar em situações utilizando os dedos ) Caso se o membro levantar 1 dedo, ele discorda de toda conclusão definida. Se for 2 dedos, discorda da conclusão mas planeja discutir algo que cause menor impacto; se for 3 dedos, indica que o membro não tem segurança e quer acompanhar todo o processo de desenvolvimento do projeto. Se for 4 dedos, concorda com os termos implicados e gostaria de fornecer mais informações sobre assuntos menores; e se caso for 5 dedos, existe total concordância entre os tópicos debatidos.
+         ++ AFFINITY ESTIMATION ( é uma técnica para estimar um grande número de histórias de usuário, utilizando notas ou cartas numéricas, priorizando entre o menor nível até o maior nível ) 
+
+        + SAÍDAS OBRIGATÓRIAS
+         ++ HISTÓRIA DE USUÁRIOS ESTIMADAS: Depois que as histórias de usuário são estimadas pela EQUIPE SCRUM usando várias técnicas de estimativa discutidas nesta ação, são consideradas como HISTÓRIAS DE USUÁRIO ESTIMADAS.
+         ++ COMPROMETER HISTÓRIAS DE USUÁRIOS: as entradas obrigatórias desse processo são EQUIPE CENTRAL DO SCRUM | HSITÓRIAS DE USUÁRIOS ESTIMADAS | DURAÇÃO DO SPRINT 
+         ++ FERRAMENTAS: REUNIÃO DE PLANEJAMENTO DO SPRINT | TÉCNICAS DE COMUNICAÇÃO | TÉCNICAS DE COMUNICAÇÃO
+          ( A REUNIÃO DE PLANEJAMENTO DO SPRINT é utilizada pela equipe scrum no processo de COMPRMETER HISTÓRIAS DE USUÁRIO para planejar o que deve ser feito no Sprint ) 
+          ( O scrum promove a comunicação precisa e eficaz, através da colocação da equipe scrum, favorecendo interações informais e presenciais )

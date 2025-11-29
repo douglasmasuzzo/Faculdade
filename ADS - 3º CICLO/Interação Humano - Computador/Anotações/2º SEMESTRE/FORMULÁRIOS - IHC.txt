@@ -1,0 +1,45 @@
+FORMULÁRIOS - IHC
+
+--------------------------------------------------------
+
+** FORMULÁRIO
+
+  -- " É uma interface de interação com os usuários, seja nos sites ou aplicativos. Eles são usados para cadastro, feedback de clientes, e-commerce, upload de arquivos entre outras aplicações. Se desenvolvidos com devida atenção à usabilidade, os formulários são mais rapidamente preenchidos e têm mais taxa de conclusão."
+
+** REGRAS PARA UX
+
+  -- [ 1 ] - SEMPRE PERGUNTE O MENOS POSSÍVEL
+  
+   + " Pergunte as informações mais relevantes apenas em uma etapa específica. Por exemplo, se você é um prestador de serviços e o número de telefone de um usuário não são muito necessários na etapa atual, não peça isso. Ironicamente, " Menos é mais ". "
+
+   + " Desta forma, você pode diminuir o número de perguntas e como resultado: AUMENTAR O TEMPO DE CONCLUSÃO | DIMINUIR DRASTICAMENTE A CARGA COGNITIVA DO USUÁRIO, DIMINUINDO A QUANTIDADE DE OBJETOS NA TELA. "
+
+  -- [ 2 ] - UTILIZE PRE-FILL | AUTO-DETECT
+
+   + " Na maioria das vezes, você pode detectar o país de um usuário e a cidade por IP ou por geolocalização. Se um usuário chegou ao processo de venda, você definitivamente conhece o e-mail dele. Portanto, preencher este campo automaticamente é importante. Muitos campos pré-preenchidos podem parecer assustadores e criar uma impressão negativa. "
+
+  -- [ 3 ] - USO DO FOCO AUTOMÁTICO
+
+   + " Ativar automaticamente o primeiro campo ( ou o necessário ) no formulário. Desta forma, você dará uma dica para o entrevistado de onde ele deve começar e, como processo de resultado, impulsiona significativamente todo o processo. Além disso, você poupa o usuário de um clique ou toque adicional e outras questões. "
+
+  -- [ 4 ] - USE UM DESIGN DE COLUNA ÚNICA
+
+   + " Usando um design de uma coluna, os olhos se movem pela direção natural, de cima para baixo por uma única linha. No design de múltiplas colunas, os olhos começam a zinguezaguear. Isto aumenta drasticamente o tempo de conclusão e o número de fixações oculares. Esta abordagem não causa perguntas desnecessárias como " ONDE DEVO COMEÇAR? " " QUAL CAMPO É O PRIMEIRO : NA PARTE INFERIRO OU NO LADO DIREITO ? ". " 
+
+  -- [ 5 ] - DIVIDA OS CAMPOS EM GRUPOS SEMÂNTICOS
+
+   + " Se houver muitos campos em seu formulário, tente dividi-los em grupos semânticos adicionando alguns espaços adicionais ou títulos de seção entre eles. Esta abordagem dá ao entrevistado a sensação de responder de forma gradual e excluir tais questionamentos como procrastinar por parecer muito complexo. A divisão em parágrafos funciona da mesma maneira. Em vez da parte sólida do texto, você a lê por partes. A mesma abordagem é usada para um número de conta bancária. "
+
+  -- [ 6 ] - RESTRIÇÕES DE ENTRADA PARA CADA CAMPO
+
+   + " Para diminuir significativamente a quantidade de rejeições erros, dados errados etc. Você deve sempre usar restrições sobre o que pode ser inserido no campo. Como: COMPRIMENTO MÍNIMO E MÁXIMO ( número de caracteres ) | NUMÉRICO, ALFABETICO, ALFANUMÉRICO, TODOS OS SÍMBOLOS, DEPENDÊNCIAS ETC. "
+
+  -- [ 7 ] - USO DE RESTRIÇÕES VISUAIS
+
+   + " Use restrições visuais para não causar um desejo subliminar de digitar mais do que você precisa. Por exemplo, se houver apenas dois caracteres que precisam ser digitados no campo " Estado ", não é necessário torná-lo tão longo quanto o campo " Endereço ". Além disso, a largura diferente dos campos serve como uma boa âncora para os olhos navegarem mais rápido do que em uma coluna com os campos da mesma largura. "
+
+  -- [ 8 ] - MARQUE OS CAMPOS OPCIONAIS QUANDO POSSÍVEL
+
+  -- [ 9 ] - AO SOLICITAR DADOS ESPECÍFICOS EXPLIQUE POR QUE E PARA QUE
+
+   + " As informações que você está solicitando de um usuário são particulares e confidenciais. Assim, para evitar dúvidas e perguntas desnecessárias, explique por que solicita dados específicos, como número de telefone, data de nascimento, peso, nome do cônjuge etc. " 

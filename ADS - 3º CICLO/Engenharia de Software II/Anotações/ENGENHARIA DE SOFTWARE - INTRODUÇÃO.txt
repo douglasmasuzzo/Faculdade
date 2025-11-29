@@ -1,0 +1,130 @@
+Engenharia de Software - INTRODUÇÃO
+
+-- SÍMBOLOGIA --
+
+ * = título
+ - = subtítulos
+ + = parágrafos
+
+-----------------------
+
+-- MATERIAIS MENCIONADOS --
+
+ * SCRUMSTUDY SFC
+  + certificado
+
+ * SBOK
+
+ * RUP 7.5 - IBM
+  + framework de processo de software
+
+ * ABRAMTI
+  + entrevistas
+
+ * OUTSYSTEM
+  - ferramentas de no / low code
+
+ * MENDIX
+  - ferramentas de no / low code
+
+** REFORÇANDO CONCEITOS ANTERIORES - CAMADAS DA ENGENHARIA ** 
+
+ - PROCESSAMENTO
+ - MÉTODOS
+ - FERRAMENTAS
+
+-------------- CURIOSIDADES -----------------
+
+ - ÁREAS GENÉRICAS - PRESMAN 
+  + COMUNICAÇÃO
+  + PLANEJAMENTO
+  + MODELAGEM
+  + CONSTRUÇÃO
+  + TESTE / QUALIDADE
+  + MANUTENIBILIDADE
+   - melhorias / correções 
+
+" não existe ERRO, mas sim DIVERGÊNCIA " 
+" sempre documentar " 
+
+* MODELAGEM DE NEGÓCIOS
+
+  - BPMN - ANALISTA DE NEGÓCIOS
+   + MÉTODO
+   + desenhar processos da empresa
+   + identificar pontos automatizados
+   + requisitos funcionais e não-funcionais
+
+* ENGENHARIA DE REQUISITOS
+
+  - MATERIAL 
+   + IBM ( IRUP )
+
+* PDCA
+
+  - planejar
+  - executar ( DO ) 
+  - verificar ( CHECK ) 
+  - atuar 
+
+------------ SLIDE ------------------
+
+** CONCEITOS DE REQUISITO
+
+  -  copiar slide sobre Requisitos 
+
+** CONCEITOS DE DESIGN 
+  
+  - criar modelagem de negócios / dados / modelos de análise e etc
+
+** CONCEITO DE DESENVOLVIMENTO
+
+** TESTE DE SISTEMA
+
+** IMPLANTAÇÃO 
+
+** MANUTENÇÃO 
+
+** ASPECTO DE MODELAGEM
+
+** A FILOSOFIA DO MODELO DE ANÁLISE
+
+   - DESCRIÇÃO DE SISTEMA
+
+   - MODELO DE ANÁLISE
+
+   - MODELO DE PROJETO 
+
+** REGRAS PRÁTICAS DE ANÁLISE
+
+  - NÓ: dispositivos que vão receber o software
+
+  - DOMÍNIO DE INFORMAÇÃO
+   + banco de dados / estrutura de dados
+
+  - DOMÍNIO FUNCIONAL
+   
+  - DOMÍNIO COMPORTAMENTAL
+
+  * " O PRIMEIRO PROBLLEMA DOS ENGENHEIROS DE SOFTWARES EM QUALQUER SITUAÇÃO É DESCOBRIR QUAL É O VERDADEIRO PROBLEMA " 
+
+** PRINCÍPIOS OPERACIONAIS
+
+   - 1º PRINCÍPIO
+    + o domínio da informação de um problema precisa ser representado e entendido
+
+   - 2º PRINCÍPIO
+    + as funções a serem desenvolvidas pelo software devem ser definidas
+
+   - 3º PRINCÍPIO
+    + o comportamento do software 
+
+   - 4º PRINCÍPIO
+    + os modelos mostram informações, funções e comportamentos devem ser particionados de um modo que revele detalhes em forma de camadas ( hierarquia )
+
+   - 5º PRINCÍPIO
+    + a tarefa de análise deve ir da informação até os detalhes de implementação
+
+ * O MODELO DEVE FOCAR EM REQUISITOS QUE SÃO VISÍVEIS NO PROBLEMA OU DOMÍNIO DO NEGÓCIO. O NÍVEL DE ABSTRAÇÃO DEVE SER RELATIVAMENTE ALTO 
+
+ * CADA ELEMENTO DO MODLELO DE ANÁLISE DEVE CONTRIBUIT PARA UM ENTENDIMENTO GLOBAL DOS REQUISITOS DE SOFTWARE E FORNECER UMA VISÃO DE DOMÍNIO DA INFORMAÇÃO / FUNÇÃO / COMPORTAMENTO DO SISTEMA 

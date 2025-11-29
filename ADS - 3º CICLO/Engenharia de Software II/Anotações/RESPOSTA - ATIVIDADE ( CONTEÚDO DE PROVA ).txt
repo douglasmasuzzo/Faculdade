@@ -1,0 +1,49 @@
+RESPOSTA - ATIVIDADE ( DEADLOCK ) 
+
+  ** [ 1 ] - O QUE É UM PROCESSO E SUA DIFERENÇA EM RELAÇÃO AO PROGRAMA?
+
+   - O processos é a execução desse programa em memória, incluindo os recursos de memória alocada que são gerenciados pela memória RAM, utilizado pela CPU. Um programa é o conjunto de instruções escritas em uma linguagem de programação, que são armazenadas por meio físico.
+
+  ** [ 2 ] -  DESCREVA O QUE COMPÕE O CONTEXTO DE UM PROCESSO E SUA IMPORTÂNCIA DURANTE A TROCA DE PROCESSOS PELA CPU.
+
+   - O contexto é o conhecimento que a CPU deve obter ao continuar a execução de um processo, do qual inclui: Registradores de CPU ( ponteiro de pilha ), Estado atual ( status de execução do processo ), Espaço de Endereçamento ( composto por dados | pilhas | códigos ) e Recursos associados ( arquivos abertos e portas de comunicação ). O nível de importância é definido pelo processo de esquecimento dos pontos de execução gerados pela CPU, impossibilitando continuar com a execução do processo ( operação nomeada como " Troca de Contexto " ).
+
+  ** [ 3 ] - O QUE SÃO THREADS E A VANTAGEM DE UTILIZAR MÚLTIPLAS THREADS DENTRO DE UM PROCESSO? 
+
+   - O thread é um conjunto de instruções que constituem a execução de um processo, partilhando o mesmo espaço de memória e recursos para obter funcionamento em multitarefa. O conjunto de múltiplas tarefas pertmitem que diferentes partes de um mesmo programa sejam executados paralelamente , otimizando a execução e o espaço alocado à CPU.
+
+  ** [ 4 ] - EXPLIQUE POR QUE THREADS SÃO CONSIDERADAS MAIS LEVES DO QUE PROCESSOS E QUAIS SÃO OS RISCOS ENVOLVIDOS NO COMPARTILHAMENTO DE MEMÓRIA ENTRE ELAS
+
+   - Resumidamente, os threads são leves processos que compartilham o mesmo espaço de memória e recursos dentro de um único processo, enquanto cada processo possui seus próprios recursos e espaço de memória isolados. , arquivos e variáveis do processo principal. No entanto, esse compartilhamento de memórias provoca o corrompimento de dados e possíveis falhas críticas, ocasionando o corrompimento de todo processo.
+
+  ** [ 5 ] - QUAL É O PAPEL DO ESCALONADOR DE PROCESSOS DENTRO DE UM SISTEMA OPERACIONAL E POR QUE ELE É NECESSÁRIO ? 
+
+   - O escalonador de processos é um subsistema do S.O responsável por decidir qual o processo será executado pela CPU e por quanto tempo, utilizando o algoritmo de escalonamento para definir o uso de recursos e garantir o desempenho do sistema. Ele gerencia a troca de processos, atribuindo fatias de tempo de CPU a diferentes processos para permitir a concorrência, utilizando estratégias de prioridade e algoritmos de Round-Robin. Sua necessidade surge porque um computador moderno executa múltiplos processos concorrentemente, e sem um gerenciamento eficiente, alguns processos poderiam monopolizar a CPU ou sem permitir acesso.
+
+   ** [ 6 ] - DESCREVA O FUNCIONAMENTO DO ALGORITMO DE ESCALONAMENTO ROUND ROBIN E COMO ELE GARANTE JUSTIÇA ENTRE OS PROCESSOS
+
+   - O algoritmo " ROUND ROBIN " descreve um sistema em que as tarefas ou os serviços são distribuídos de forma circular e cíclica entre participantes ou servidores, garantindo que cada um receba uma parte igual de forma rotativa. O modelo de algoritmo garante justiça entre os processos ao alocar a cada tarefa uma " fatia de tempo " de CPU igualmente distribuída, eliminando a inanição ( espera indefinida ) e assegurando que todos os processo recebam a CPU.
+
+  ** [ 7 ] -  O QUE É COMUNICAÇÃO ENTRE PROCESSOS ( IPC ) E POR QUE ELA É NECESSÁRIA EM SISTEMAS OPERACIONAIS
+
+  - A IPC ( Comunicação de Processamento Interno ) é um conjunto de mecanismos que permite que processos troquem informações e sincronizem suas ações. Ela é necessária pois os processos normalmente independentes e isolados pelo SO. Sem a existência desta comunicação, o programa de edição de texto enviasse arquivos diretamente para a impressora.
+
+  ** [ 8 ] -  CITE E EXPLIQUE DUAS TÉCNICAS UTILIZADAS PARA COMUNICAÇÃO ENTRE PROCESSOS EM SISTEMAS OPERACIONAIS
+
+    - As duas técnicas presentes na comunicação são: MEMÓRIA COMPARTILHADA e PASSAGEM DE MENSAGENS. A memória compartilhada é uma região da memória do computador que pode ser acessada por vários processos ou threads simultâneas, permitindo a comunicação e o compartilhamento de dados de forma eficiente, evitando a necessidade de cópia de informação. A passagem de mensagens é uma técnica que interliga a comunicação entre processos e objetos, onde um programa envia uma mensagem para outro, em vez de invoca diretamente uma função | método. 
+
+   ** [ 9 ] - EXPLIQUE COM SUAS PALAVRAS O QUE É UM DEADLOCK E DÊ EXEMPLOS SIMPLES DE COMO PODE OCORRER
+
+     - O " DEADLOCK " é um bloqueio mútuo / impasse, é uma situação onde os processos ficam paralisados, esperando uma liberação de recursos necessários para a continuação. Ocorre, geralmente, quando os processos ficam presos em um ciclo, retendo recursos, aguardando outros recursos que estão a ser detidos por outros processos. Exemplificando esta situação, o Processo A pega os recursos X e precisa de recursos Y para continuar com a execução. Por outro lado, o Processo B pega os recursos de Y e precisa de recursos X. 
+
+   ** [ 10 ] - LISTE AS QUATRO CONDIÇÕES NECESSÁRIAS PARA QUE UM DEADLOCK OCORRA E EXPLIQUE CADA UMA DELAS
+
+    - Segundo COFFMAN ( 1971 ), as condições que devem ser consideradas para que o " DEADLOCK " ocorra são:
+
+    - EXCLUSÃO MÚTUA: Um recurso não pode ser compartilhado, ou seja, só um processo pode usá-lo por vez. 
+
+    - RETENÇÃO E ESPERA: Um processo que já possui um recurso mantém no enquanto espera por um recursos que outro processo está detendo.
+
+    - NÃO-PREEMPÇÃO: Um recursos só pode ser liberado pelo processos que o detém voluntariamente. 
+
+    - ESPERA CIRCULAR: Um conjunto de processos está esperando em uma cadeia circular, onde cada processo está aguardando um recurso mantido pelo próximo processo na cadeia. 

@@ -1,0 +1,180 @@
+ENGENHARIA DE SOFTWARE - CORREÇÃO ( DIAGRAMA DE CLASSE )
+
+-------------------------------------------------------------------------
+
+** SISTEMA -> ACADÊMIA ( beatriz | joão )
+
+** CLASSE -> CARRINHO
+ 
+ - ATRIBUTO
+  + lista_produtos
+  + numero_pedido
+  + status_pedido
+  + total pedido
+
+ - MÉTODOS
+  + pagamento_pedido()
+  + ver_pedido()
+  + editar_pedido()
+  + cancelar_pedido()
+  + aplicar_desconto_personalizado()
+
+-----------------------------------------
+
+** CLASSE -> LISTA DO PEDIDO
+
+ - ATRIBUTOS
+  + nome produto
+  + cod_produto 
+  + quant_produto
+  + valor produto 
+
+ - FUNÇÕES
+  + adicionar_item()
+  + remover_item()
+  + consultar item()
+
+ + CLASSE ASSOCIATIVA 
+
+--------------------------------------------------
+
+** CLASSE -> PAGAMENTO
+
+  - ATRIBUTOS
+   + tipo_pagamento
+   + nome_cliente
+
+  - FUNÇÕES
+   + emissao_nota_fiscal()
+
+---------------------------------------------
+
+** CLASSE -> DENUNCIA
+ 
+  - ATRIBUTOS
+   + cod_denuncia
+   + descricao_denuncia
+   + registrar ocorrência
+   + dia_ocorrencia_denuncia
+   + mes_ocorrencia_denuncia
+   + ano_ocorrencia_denuncia
+
+  - FUNÇÕES
+   + registrar_denuncia()
+   + descrever_denuncia()
+   + imprimir_denuncia()
+   + cancelar_denuncia()
+
+-----------------------------------------------
+
+** CLASSE -> ALUNO
+  
+  - ATRIBUTO
+   + nome
+   + nascimento
+   + logradouro_cliente
+   + complemento_cliente
+   
+  - FUNÇÕES
+   + CRUD
+
+-----------------------------------------------
+
+** CLASSE -> ASSINATURA
+  
+  - ATRIBUTOS
+   + preco_assinatura
+   + tipo_assinatura
+   + status_plano 
+
+  - FUNÇÕES
+   + cancelar_assinatura()
+   + escolher_assinatura()
+   + verificar_preco_assinatura()
+
+------------------------------------------------
+
+
+** ANOTÇÕES
+
+ -> COMENTÁRIO : RELACIONAMENTO ENTRE AS CLASSES DE PEDIDO E ITEM_PEDIDO
+  + PEDIDO -> ITEM_PEDIDO ( 1...* ||  * ) 
+
+ -> COMENTÁRIO : A CLASSE "CARINHO" TAMBÉM PODE SER INCLUIDA COMO PEDIDO
+
+ -> COMENTÁRIO : EM RELAÇÃO AO PAGAMENTO, A CLASSE DEVE OBTER O CÓDIGO DO PAGAMENTO
+
+ -> COMENTÁRIO : NÃO É ADEQUADO INCLUIR MÉTODOS DE OUTRAS CLASSES EM UMA CLASSE DIFERENTE 
+
+ -> COMENTÁRIO : NÃO DEFINIR UM ATO DE AÇÃO COMO NOMENCLATURA DE UM MÉTODO ( CADASTRAR -> REPRESENTAR AÇÃO DO CRUD ) 
+
+ -> COMENTÁRIO : DEFINIR QUAIS SÃO OS TIPOS DE AÇÕES DE ACORDO COM O OBJETO ( codigo.Aluno | nome.Aluno | historico.Aluno )
+
+ -> COMENTÁRIO : SOBRE O ENDEREÇO DE UM CLIENTE, É IMPORTANTE CONSIDERAR O LOGRADOURO / COMPLEMENTO E OUTRAS QUESTÕES RELACIONADA AO NOSSO SISTEMA ( ENTREGA ) 
+
+ -> CORREÇÃO : TORNAR ALGUNS ATRIBUTOS PÚBLICOS ( # ) NO NOSSO DIAGRAMA
+
+ -> CORREÇÃO : INSERIR A CLASSE DE PAGAMENTO E DEFINIR OS PROCESSOS DE PAGAMENTO 
+
+ -> CORREÇÃO : REVISAR NOMENCLATURAS E REVISAR OS DEMAIS CONCEITOS DO DIAGRAMA DE CLASSE
+
+ -> CORREÇÃO : SE ADICIONAR A CLASSE RELATÓRIO AO NOSSO SISTEMA, A CLASSE NÃO SERÁ "ARMAZENADA" ( SENDO DESENVOLVIDA APENAS NA CODIFICAÇÃO )
+ 
+
+ -> INSTRUÇÕES DE CRIAÇÃO DE UM DIAGRAMA DE CLASSE
+
+  + IDENTIFICAR OBJETOS
+  + CRIAR CLASSES
+  + DEFINIR ATRIBUTOS DIRECIONADOS A CLASSE DESENVOLVIDA
+  + CRIAR MÉTODOS DA CLASSE QUE CONTROLA ESTE OBJETO
+  + ESPECIFICAR AS AÇÕES DESENVOLVIDAS PELO CRUD
+  + SEGUIR UMA NOMENCLATURA DE NOMES DE CLASSES ( segundo a padrão nominativo )
+  + DETERMINAR O TIPO DE ACESSO DESTA CLASSE ( MAJORITARIAMENTE COMO TIPO PÚBLICO )
+  + ESTABELECER OS RELACIONAMENTOS ENTRE AS CLASSES ( MULTIPLICIDADE )
+  + AÇÕES RECOMENDADAS PARA SEREM APLICADAS, CONFORME O SISTEMA
+
+
+ -> ESBOÇO DO DIAGRAMA DE CLASSE ( EM SALA ) 
+ 
+  - PEDIDO
+   + cod_pedido
+   + cod_cliente
+   + valor_total_pedido
+  
+  -- RELACIONAMENTO
+   + PEDIDO -> ITEM_PEDIDO ( 1...* | * ) 
+
+  - ITEM_PEDIDO
+   + cod_item
+   + valor item
+   + quant_produto_item
+
+  - PRODUTO
+   + cod_produto
+   + cod_fornecedor
+   + ds_produto
+   + quant_estoque_produto
+
+  - PAGAMENTO ( RELAÇÕES ( PAGAMENTO -> NOTA_FISCAL ) : 1 || 1 ) 
+   + codigo_pagamento
+   + metodo_pagamento
+   + valor_total_pagamento
+   + status pagamento 
+    + ( caso se o status do pagamento estiver aprovado, as informações serão compartilhadas na NOTA_FISCAL )
+
+  - MÉTODOS
+   + cadastra()
+   + alterar()
+   + constar()
+   + excluir()
+    
+  - NOTA_FISCAL ( RELACIONAMENTO ( NOTA_FISCAL -> ITEM_NOTA ) : 1 || 1...* ) 
+   + codigo_NOTA_FISCAL
+   + codigo_CLIENTE
+
+  - ITEM_NOTA
+
+  
+  - ALUNO ( RELACIONAMENTO ( ALUNO -> ASSINATURA ) : 1..* || 1 ) 
+
+  - ASSINATURA

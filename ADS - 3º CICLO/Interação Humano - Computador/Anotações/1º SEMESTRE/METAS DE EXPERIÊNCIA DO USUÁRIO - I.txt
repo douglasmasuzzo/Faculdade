@@ -1,0 +1,48 @@
+METAS DE EXPERIÊNCIA DO USUÁRIO - IHC
+
+---------------------------------------------
+
+** USABILIDADE
+
+  - FÁCIL DE ENTENDER
+  - FÁCIL DE USAR 
+  - EFICIÊNCIA DE USO
+  - SEGURANÇA DE USO
+  - BOA UTILIDADE
+
+** EXPERIÊNCIA DO USUÁRIO - USABILITY EXPERIENCE
+
+  - EMOCIONALMENTE DE ADEQUADO
+  - COMPENSADOR
+  - INCENTIVO DE CRIATIVIDADE
+  - ESTETICAMENTE APRECIÁVEL
+  - PROVEITOSO
+  - INTERESSANTE
+  - AGRADÁVEL
+  - SATISFAÇÃO
+  - DIVERSÃO
+
+** PRINCÍPIOS DE USABILIDADE E DESIGN 
+
+  - VISIBILIDADE
+   + quanto mais visíveis forem as funções, mais os usuários saberão como proceder.
+
+  - FEEDBACK
+   + se refere ao retorno de informações a respeito de que a ação foi feita e do que foi realizado, permitindo continuar a atividade
+
+  - RESTRIÇÕES
+   + são formas de delimitar o tipo de interação que pode ocorrer em um determinado momento
+
+  - AFFORDANCE
+   + " dar uma pista ", se refere ao atributo de um objeto que permite saber como utilizá-lo 
+
+  - CONSISTÊNCIA
+   + projetar interfaces que tenham operações semelhantes e que utilize elementos semelhantes para a realização de tarefas similares
+
+  - ACESSIBILIDADE
+   + grau que um produto é utilizável e acessível por tantas pessoas quanto possível
+   + foco na deficiência
+
+-----------------------------------------
+
+  - WEC = Análise de Acessibilidade

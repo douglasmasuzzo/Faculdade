@@ -1,0 +1,97 @@
+ENGENHARIA DE SOFWTARE - ( 15 / 08 ) 
+
+------------- ANOTAÇÕES ------------------------------
+
+ - INFORMAÇÃO 
+  -> negócio
+
+ - IMPLEMENTAR DETALHES DE PROGRMAÇÃO
+  -> engenharia de requisitos
+
+ - UML
+  + linguagem de modelagem de programação orientada à objetos
+
+ - OMG
+  + OBJECT MANAGENT GROUP ( documentações ) 
+
+ - REQUISITOS TÉCNICOS
+  + levantamento de requisitos não-funcionais ( ferramentas | tecnologias )
+
+ - DIAGRAMA DE CLASSE
+  + criação de banco de dados
+
+ - EA
+  + especificação de arquitetura
+
+ - EF
+  + especificação funcional
+
+ - ET
+  + especificação técnica
+
+ - DIAGRAMA DE SEQUÊNCIAS
+
+ - DIAGRAMA DE ATIVIDADES
+
+---------------- SLIDE -----------------------------
+
+** PRÁTICAS DE MODELAGEM
+
+  - Criamos modelos para obter um melhor entendimento da ENTIDADE a ser CONSTRUÍDA, possuindo duas modelagens: MODELO DE ANÁLISE e MODELO DE PROJETO.
+
+** ENTRADAS E SAÍDAS DE ANÁLISE DE DOMÍNIO
+
+  - FONTES DE CONHECIMENTO 
+   + literatura técnica
+   + literatura de negócio
+   + aplicações existentes
+   + levantamento de requisitos
+   + conselho de especialistas
+   + requisitos futuros
+
+  - RESULTADOS
+   + modelos de informações / funções / comportamentos 
+   + padrões de reutilização
+   + taxonomia de classes
+
+  - TAXONOMIA
+   + ciência de classificar organismos vivos
+
+  - LEVANTAR E REVISAR REQUISITOS
+   + as características
+   + necessidades dos usuários
+   + entradas e saídas visíveis
+   + restrições e premissas
+   + requisitos técnicos determinados durantes atividades de comunicação com o cliente e o planejamento 
+   
+  - EXPANDIR E REFINAR OS CENÁRIOS ( DIAGRAMA DE CASOS DE USO ) 
+   + definir atores
+   + representar atores e como interagem com o software 
+   + extrair funções e características dos cenários de usuário
+   + revisar os cenários de usuário quando a completude e precisão
+
+  - MODELAR O DOMÍNIO DA INFORMAÇÃO ( DIAGRAMA DE CLASSE ) 
+   + representar todos os principais objetos da informação
+   + definir atributos para cada objeto de informação
+   + representar os relacionamentos entre objetos da informação
+
+  - MODELAR O DOMÍNIO DE FUNÇÃO 
+   + mostrar como funções modificam os objetos de dados
+   + refinar funções para fornecer detalhes de elaboração
+   + escrever uma narrativa de processamento que descreva a função e subfunção
+   + revisar os modelos funcionais ( obrigatório ) 
+
+  - MODELAR O DOMÍNIO DE COMPORTAMENTO 
+   + identificar os eventos externos que causam mudanças comportamentais no sistema
+   + identificar os estados dos objetos que representam cada modo de comportamento
+   + mostrar como um estado faz o sistema se mover de um lado à outro
+   + revisar os modelos comportamentais ( obrigatório ) 
+
+  - ANALISAR E MODELAR A INTERFACE DO USÁRIO
+   + conduzir tarefas de análise
+   + criar protótipos de imagem de tela
+
+  - REVISAR OS MODELOS ( perguntas )
+   + completude
+   + consistência e clareza 
+   + omissõess

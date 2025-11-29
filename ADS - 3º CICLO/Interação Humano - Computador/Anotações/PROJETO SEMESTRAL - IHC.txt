@@ -1,0 +1,27 @@
+PROJETO SEMESTRAL - IHC
+
+----------- CONCEITO - APRSENTAÇÃO ----------------------
+
+** PROTOTIPAÇÃO
+  + protótipo de baixa-fidelidade de um site institucional utilizando a ferramenta PENCIL, com características do produto ou serviço definidos.
+
+
+** DEFINIÇÃO
+  
+  - RAMO DE ATIVIDADES
+  - PORTES
+
+** EXEMPLOS DE PROTÓTIPOS
+
+  - MOCKUPS
+   + delimitar os pixels
+
+** MODELO 
+
+  - SLIDE
+
+
+** DATAS - PROVAS
+
+  - 16 / 09
+  - 30 / 09 

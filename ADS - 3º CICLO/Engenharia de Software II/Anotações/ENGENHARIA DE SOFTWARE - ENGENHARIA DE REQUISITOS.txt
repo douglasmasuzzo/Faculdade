@@ -1,0 +1,114 @@
+ENGENHARIA DE SOFTWARE - ENGENHARIA DE REQUISITOS
+
+---------------- COMENTÁRIOS ------------------------------
+
+** ESCOPO DE PRODUTO
+
+  - INTERAÇÃO -> SPRINT1
+   + fases
+
+  - BPMN
+   +
+
+---------------- CONTEÚDO ----------------------------
+
+** ENGENHARIA DE REQUISITOS
+
+  - REQUISITOS
+  - GERENCIAMENTO DE REQUISITOS 
+  - GERENCIAMENTO EFICIENTE 
+  - HABILIDADES PARA O GERENCIAMENTO
+   + análise de problemas
+   + noções básicas de necessidades
+   + definição de sistema
+
+** ENGENHARIA DE REQUISITOS	
+
+  - finalidade da disciplina de Requisitos é APRENDER | ABSORVER | EXECUTAR
+  - estabelecer e manter concordância com os clientes e outros envolvidos sobre o que o sistema deve fazer
+  - oferecer aos desenvolvedores uma compreensão dos requisitos do sistema
+  - definir fronteiras ( limites ) do sistema 
+  - fornecer uma base para planejamento técnico
+  - fornecer base para estimar custos e o tempo de desenvolvimento 
+  - definir a U.I ( interface do usuário ) para o sistema, de acordo com o desenvolvimento do projeto
+  - para atingir meta, é necessário compreender a definição e o escopo do problema que tentamos resolver com este sistema
+  - os envolvidos são identificados e as solicitações dos envolvidos são recolhidas | analisadas | reunidas.
+
+** REQUISITOS
+
+  - " UMA CONDIÇÃO OU CAPACIDADE DO QUAL O SISTEMA DEVE ESTAR DE ACORDO "
+
+** CLASSIFICAÇÃO DE REQUISITOS
+
+  - REQUISITOS FUNCIONAIS especificam ações que o sistema deve executar, sem desconsiderar restrições físicas
+  - REQUISITOS FUNCIONAIS especificam o comportamento de entrada | processamento | saída de um sistema
+  - REQUISITOS NÃO FUNCIONAIS descrevem apenas atributos do sistema ou atributos do ambiente do sistema
+
+  - REQUISITOS NÃO-FUNCIONAIS
+   + requisitos de conjuntos de recursos
+   + habilidade | segurança
+
+** GERENCIAMENTO DE REQUISITOS 
+
+  - definição formal de gerenciamento de requisitos trata-se de um modelo sistemático para IDENTIFICAR | ORGANIZAR | DOCUMENTAR os requisitos do sistema, estabelecendo e mantendo acordo entre o cliente e equipe do projeto nos requisitos variáveis do sistema
+
+** GERENCIAMENTO EFICIENTE
+
+  - MANTER UMA DECLARAÇÃO CLARA DE REQUISITOS
+  - DEFINIÇÃO CORRETA DOS ATRIBUTOS
+  - DEFINIÇÃO CORRETA DAS FUNÇÕES PROPOSTAS
+
+** DIFICULDADES
+
+  - nem sempre os requisitos são óbvios e podem vir de diferentes fontes
+  - nem sempre é fácil expressar os requisitos em palavras
+  - existem diversos tipos de requisitos em diferentes níveis de detalhe
+  - o número de requisitos poderá impossibilitar a gerência se não for controlado
+  - os requisitos estão relacionados com os outros, além do produto liberado do processo de engenharia de software
+  - os requisitos têm propriedades exclusivas ou valores de propriedade
+  - há várias partes interessadas, o que significa que os requisitos precisam ser gerenciados por grupo de pessoas com diferentes funções
+  - os requisitos são alterados
+
+** HABILIDADES PARA O GERENCIAMENTO
+
+  - ANÁLISE DO PROBLEMA
+  - NOÇÕES BÁSICAIS SOBRE AS NECESSIDADADES DOS ENVOLVIDOS
+  - DEFINIÇÃO DO SISTEMA 
+
+  - ANÁLISE DO PROBLEMA
+   + COMPREENDER os problemas e as necessidades iniciais dos envolvidos
+   + PROPOR soluções de alto nível 
+   + ato de ponderação e análise ao ENCONTRAR o " problema " atrás do problema
+   + RECONHECER os problemas reais e que são envolvidos por DEFINIR o que são: 
+    ++ FRONTEIRAS DE SOLUÇÃO
+    ++ RESTRIÇÕES DE SOLUÇÃO
+
+  - NOÇÕES BÁSICAS -> NECESSIDADES DE ENVOLVIDOS	
+   + várias FONTES ( clientes | parceiros | usuários | especialistas ) 
+   + DETERMINAR quais devem ser as fontes, como obter acesso e qual é a melhor forma de levantar informações
+   + DEVERÁ INCLUIR pessoas com experiência de usuário final e com domínio de negócio
+
+  - LEVANTAMENTO DE INFORMAÇÕES
+   + técnica ( entrevistas )
+   + discussão de idéias
+   + protótipos conceituais
+   + questionários
+   + análise competitiva
+   
+   - resultado -> LISTA DE SOLICITAÇÕES DESCRITAS TEXTUALMENTE E GRAFICAMENTE
+
+** DEFINIÇÃO DO SISTEMA
+
+  - TRADUZIR e ORGANIZAR as necessidades conforme descrições significativas do sistema a ser construído
+
+  - ETAPAS DE DEFINIÇÃO DO SISTEMA
+   + levantamento de decisões sobre o que constitui como um requisito
+   + formato da documentação
+   + o grau de especificidade de requisitos
+   + prioridade entre as categorias solicitadas
+   + esforço estimado ( atribuídas por pessoas diferentes em teste separados ) 
+   + riscos técnicos
+   + riscos gerenciais
+   + escopo inicial 
+
+    

@@ -1,0 +1,49 @@
+IHC - DESIGN PARA ACESSIBILIDADE
+
+------------------------------------------
+
+** DESIGN DE ACESSIBILIDADE
+ 
+ -- " É o design voltado para facilidade com que as pessoas podem usar um site. Se concentra em pessoas com deficiências que impedem sua visão, audição e movimento. Os web-designers devem se esforçar para criar sites inclusivos que sejam fáceis de navegar e fáceis de entender para todos. "
+
+ -- " Sites que se preocupam com DESIGN PARA ACESSIBILIDADE consideram não apenas pessoas com deficiências, mas também o público em geral. Podem evitar potenciais problemas no futuro, ações judiciais e experiência negativa de usuários. "
+
+ -- " Para resolver a preocupação com o Design de sites acessíveis, o World Wide Web Consortium ( W3C ) desenvolveu uma série de padrões de acessibilidade. O documento é conhecido como DIRETRIZES DE ACESSIBILIDADE AO CONTEÚDO DA WEB ( WCAG ) e divide a acessibilidade em quatro princípios principais. "
+
+ -- PRINCÍPIOS
+
+   -- PERCEBÍVEL
+    -> Posso consumir conteúdos do meu site de outras maneiras? ( ex : sem legendas de vídeos )
+
+   -- OPERÁVEL
+    -> O site pode funcionar sem confusão e sem o uso de um mouse ou interações complexas?
+
+   -- COMPREENSÍVEL
+    -> Um usuário pode entender como funciona a interface do usuário do site e suas informações?
+
+   -- ROBUSTO
+    -> Diferentes dispositivos de assistência podem entender o site? ( ex : leitores de tela )
+
+  -- " Cada um desses princípios têm diferentes classificações de sucesso: A ( mínimo ) | AA / AAA ( padronização alto nível ). A seguir, estão algumas mudanças que você pode fazer para melhorar a acessibilidade dos projetos. "
+
+** HIERARQUIA DE TIPOS
+ 
+  -- " Permite que os usuários tenham a oportunidade de analisar informações rapidamente. Devem começar com <h1> e cada estilo de tipo subsequente deve alinhar-se abaixo de <h1>. Além de ser uma boa prática também melhora a experiência para pessoas que têm dificuldade em lembrar ou possui deficiências visuais. "
+
+** APRESENTAÇÃO VISUAL DE TEXTO
+
+  -- " Grande blocos de texto são difíceis de ler, manter o foco e consumo. Blocos de textos com larguras estreitas são mais fáceis de ler para todas as pessoas, especialmente àquelas com dificuldade de leitura ou visão. O WCAG ( DIRETRIZES DE ACESSIBILIDADE PARA O CONTEÚDO WEB ) recomenda manter uma linha de contagem de caracteres de texto abaixo de 80 caracteres. " 
+
+** CONTRASTE DE COR
+
+  -- " O contraste de cores entre a cor primária e a cor de fundo de um texto pode prejudicar a legibilidade de um site. A WCAG informa que o texto de um site deve ter uma taxa de contraste de pelo menos ( 4 : 5 : 1 ) para obter uma classificação AA ( padronização de alto nível ) e uma taxa de contraste de ( 7 : 1 ) para obter uma classificação AAA ( padronização de alto nível ). Existem plug-ins do SKETCH e GOOGLE CHROME ( ex : Color Contrast Analyzer ) que podem testar a taxa de contraste do texto. "
+
+** TEXTO COM IMAGEM
+
+ -- " Evitar criar imagens com o texto. Invés disso, utilize texto ao vivo para posicionar elementos de textos em imagens e usar CSS ( Cascading Style Sheets ) para estilizá-lo. "  
+
+** CONTEÚDO
+
+ -- " Escreva o mais simples possível. Utilize o CopyWriting, o uso das palavras corretas para se comunicar com o público, no intuito de guiá-lo para uma tomada de decisão. Evite utilizar jargões ou palavras incomuns. O WCAG declara explicitamente que você deve buscar escrever em um " nível de ensino médio " ( formal e objetivo ). "
+
+  -- " Acesse: https://www.acessibilidade.gov.pt/acessmonitor/ "

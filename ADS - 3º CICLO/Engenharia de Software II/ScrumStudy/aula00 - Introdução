@@ -1,0 +1,25 @@
+-
+ SCRUMSTUDY - INTRODUÇÃO
+
+ " O QUE É O CAMPO DE CONHECIMENTO DO SCRUM? "
+
+ É a compilação dos métodos recentes, junto as boas práticas empregadas por praticantes e especialistas, fornecendo diretrizes para a impletementação sucedida com o Scrum, sendo o framework popular para Gestão e Desenvolvimento de Projetos Ágeis que inclui os aspectos principais e processuais do modelo Scrum.
+ A metodologia SCRUM é utilizada em portifólios | programas | projetos em diferentes setores da indústria, além de quaisquer entregas e projetos a serem desenvolvidos, independentemente da sua complexidade. De acordo com o guia de conhecimento, o termo " produto " pode ser interpretado ( literalmente ) como um produto, um serviço ou um projeto.
+ A framework pode ser introduzida em diversos projetos, desconsiderando a complexidade e a quantidade de colaboradores presentes, sendo utilizado até mesmo para projeto organizacional de larga escala. 
+ Sob uma perspectiva geral presente sobre o Guia de Conhecimennto da framework SCRUM ( SCRUM BODY OF KNOWLEDGE - SBOK ), o primeiro capítulo apresenta o propósito e o framework do material mencionado e fornece uma introdução aos principais conceitos do SCRUM, contendo o resumo dos principais processos e aspectos, alinhado aos príncipos do SCRUM. O segundo capítulo aborda sobre os 6 principais aspectos do SCRUM, que serviram como base para o surgimento desta framework. Dentro deste capítulo, alguns pontos que entram em debate são: DESENVOLVIMENTO ITERATIVO | CONTROLE EMPÍRICO DE PROCESSOS | AUTO-ORGANIZAÇÃO | COLABORAÇÃO | PRIORIZAÇÃO BASEADA EM VALORES | DURABILIDADE.
+ Entre o terceiro e o sétimo capítulo, eles abordam os cinco aspectos essenciais para o funcionamento da framework, que são definidos por: ORGANIZAÇÃO | JUSTIFICATIVA DE NEGÓCIO |QUALIDADE | MUDANÇA | RISCO.
+ O oitavo e o décimo-segundo capítulo cobre os 19 processos presentes do SCRUM que envolvem o processo de execução de um projeto. Esses processos são determinados conforme a fases iniciais do modelo de processo, classificados em: INICIAR | PLANEJAR | ESTIMAR | IMPLEMENTAR | REVISAR | RELEMBRAR ( retrospectiva e liberação ). As fases detalham as etapas de entradas | saídas associadas a cada processo , tal como as ferramentas que podem ser utilizadas em cada processo. Algumas entradas | saídas são obrigatórias e são representadas por marcações, as outras opções são consideradas opcionais, conforme a especifícação do projeto e dos requisitos organizacionais levantados. 
+ Os capítulos sucessores abordam outros processos necessários para introduzir o modelo SCRUM entre as grandes organizações e seus projetos. Para projetos de larga escala que necessitam de coordenação entre múltiplos tempos, existem mais processos adicionais que são definidos em um capítulo específico " ESCALAR SCRUM EM GRANDES PROJETOS ". Existem também, processos específicos definidos quando o modelo scrum é implementado dentro do ramo organizacional, que são discutidos aprofundamente no capítulo " ESCALAR O SCRUM PARA EMPRESAS ".
+ Contudo, a parte inicial contém uma visão geral do Manifesto Ágil segundo FOWLER e o HIGHSMITH, e a outra parte leva a disucssão de vários métodos ágeis para aqueles que desejam mais informações sobre o Método Ágil, recomenda-se os tópicos:
+
+    - 1.1 
+     + VISÃO DO SCRUM ( overview of scrum )
+    - 1.2 
+     + POR QUE USAR O SCRUM ( why use scrum )
+    - 1.3
+     + PROPÓSITO DO GUIA SBOK ( purpose of SBOK )
+    - 1.4 
+     + SBOK FRAMEWORK ( framework do guia )
+    - 1.5
+     + MÉTODO SCRUM x GERENCIAMENTO TRADICIONAL DE PROJETO ( traditional project manager vs scrum )
+-

@@ -1,0 +1,64 @@
+BUSCA BINÁRIA_ALGORITMO DE ORDENAÇÃO - ESTRUTURA DE DADOS
+
+----------------------------------------------------------
+
+** BUSCA BINÁRIA
+
+  -- " É um algoritmo de busca utilizada em vetores que segue o paradigma de divisão e conquista. Ela é considerada uma solução de busca mais eficiente quando comparada à busca linear. "
+
+** PRÉ-REQUISITO E FUNCIONAMENTO
+
+  -- " A condição essencial para a aplicação da Busca Binária é que o vetor ou a lista de dados esteja ordenado. Caso o vetor não esteja ordenado, é necessário utilizar primeiramente um algoritmo de ordenação para cumprir esse requisito. "
+
+  -- " O algoritmo compara o elemento procurado com o elemento localizado no meio do vetor. Se o valor a ser buscado for menor do que o valor identificado no meio, toda a metade do vetor que se entende do meio até o final é ignorado. E se o valor a ser buscado for maior do que o valor do meio, todos os valores do meio até o início são ignorados. "
+
+** COMPLEXIDADE DA BUSCA BINÁRIA
+
+  -- MELHOR CASO
+   + ocorre quando o item procurado é o elemento central da lista, neste cenário, a busca se comporta como O( 1 ) ( tempo constante ).
+
+  -- PIOR CASO
+   + ocorre quando o item é encontrado na última divisão ou não é encontrado, devido a divisão sucessiva, a complexidade da busca binária O ( log n )
+
+** ALGORITMO DE ORDENAÇÃO
+
+  -- " É um problema que aparece como pré-processamento em muitas aplicações que envolvem o uso de tabelas, sendo um conhecimento básico e fundamental para estudantes de Ciência da Computação. Os algoritmos de ordenação são classificados e avaliados pela sua eficiência em termos de tempo em execução. "
+
+  -- BUBBLE SORT
+   + é um método de ordenação difundido, conhecido pela simplicidade e de fácil entendimento 
+   + uma iteração envolve percorrer a tabelam, trocando de posição dois elementos consecutivos sempre que estiverem fora de ordem, a intenção é mover os elementos maiores em direção ao fim de tabela
+   + sua complexidade de pior caso é O ( n² ), marcando a simplicidade de implementação quando a tabela está quase ordenada
+
+  -- INSERTION SORT
+   + considerado simplista, sem muita complexidade
+   + o método estende a ordenação de uma sub-tabela ordenada ( até o i-ésimo ) ao elemento ( i + 1 )-ésimo, comparando o sucessivamente com o elementos anteriores para encontrar sua posição
+   + a melhor complexidade acontece quando a tabela já está ordenada ( o numero de inversões é zero )
+   + a pior complexidade é do caso O( n² )
+
+  -- SELECTION SORT
+   + é mencionado como tendo a notação assintótica, evoluindo a forma exponencial em comparação com algoritmos linear, sendo considerado menos eficiente
+
+  -- MERGE SORT
+   + o procedimento básico é a intercalação ( merge ) de lista
+   + a ideia é ordenar recursivamente as duas metades da lista e depois intercalá-las quando ambas já estiverem ordenadas 
+   + a complexidade de pior caso é O ( n logN ), sua eficiência depende de implementar cuidadosamente da tabela temporária
+
+  -- QUICK SORT
+   + é um dos métodos mais eficientes conhecidos
+   + o procedimento recursivo funciona escolhendo um elemento chamado pivô
+   + a lista é separada em dois conjuntos disjuntos 
+    ++ s1 -> elementos menores que pivô
+    ++ s2 -> elementos maiores que o pivô
+   + o algoritmo é chamado recursivamente para s1 e s2, e o resultado final é a concatenação de s1, pivô ( sX ) e s2.
+   + pontos decisivos para o bom desempenho são a escolha do pivô e o particionamento da tabela
+   + a pior complexidade de pior caso é O( n logN )
+
+  -- HEAP SORT
+   + utiliza a estrutura de dados heap ( uma lista de prioridades eficiente ) 
+   + o método consiste em duas etapas : construir o heap e, em seguida, remover o elemento de maior prioridade ( a raiz ) sucessivamente e colocá-lo na sua posição definida na tabela ordenada
+   + o procedimento de construção do heap tem complexidade O( n )
+   + o procedimento de remoção e descida ( para reajustar o heap ) tem complexidade O( log n )
+   + como o procedimento de descida é chamado n vezes ( para cada elemento ) a complexidade total
+  
+
+

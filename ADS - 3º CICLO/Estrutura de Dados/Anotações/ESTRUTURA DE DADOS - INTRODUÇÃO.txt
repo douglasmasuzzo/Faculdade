@@ -1,0 +1,38 @@
+ESTRUTURA DE DADOS - INTRODUÇÃO
+
+------------------------
+
+** SIMBOLOBOGIA ** 
+
+ * = título
+ - = subtítulos
+ + = parágrafos
+
+-----------------------
+
+** VISITA TÉCNICA - IBM ** 
+
+ - data = 09/09 
+ - realizar cadastros em serviços da IBM 
+
+------------------------------------
+
+** INFORMAÇÕES **
+
+  -> é a área direcionada ao desenvolvimento BACK 
+  -> uso da Inteligência Artificial em produção do serviço BACK-END 
+    + buscar materiais referentes a tecnologia
+
+----------------------------------------
+
+** AVALIAÇÃO **
+
+   - P1 = prática + manuscrito ( com auxílio )
+   - P2 = prática + manuscrito ( com auxílio )
+   - NT = projeto em grupo
+     + recuperação = conforme os materiais aplicados na P2
+
+-----------------------------------------
+
+
+

@@ -1,0 +1,113 @@
+TEORIA DAS CORES - IHC
+
+--------------------------------
+
+** CONCEITO - TEORIA DAS CORES
+
+ -- " Podemos dividir a teoria das cores em duas partes no que diz respeito ao design de Interface Web: COMPLEMENTAÇÃO | VIBRAÇÃO "
+
+** COMPLEMENTAÇÃO
+
+ -- " As cores complementares não estão em conflito umas com as outras "
+
+ -- " As cores complementares acentuam-se e dão o melhor de si "
+
+ -- " Estas são as cores opostas na roda de cores, por exemplo, o complemento de roxo é verde " 
+
+** RODA DAS CORES
+
+ -- CORES PRIMÁRIAS
+   
+   + VERMELHO
+   + AMARELO
+   + AZUL
+
+ -- CORES SECUNDÁRIAS
+
+   + LARANJA
+   + VERDE
+   + ROXO
+   
+ -- CORES TERCIÁRIAS
+
+   + VERMELHO - LARANJA
+   + AMARELO - LARANJA 
+   + AMARELO - VERDE
+   + AZUL - VERDE
+   + AZUL - ROXO
+   + VERMELHO - ROXO
+
+** VIBRAÇÃO
+
+  - " Cada cor evoca humores específicos: as cores quentes ( vermelho | laranja | amarelo ) tendem a energizar o usuário e torná-lo mais alerta "
+
+  - " Tons frios ( verde | azul | roxo ) tendem a ser mais relaxantes e tranquilas "
+
+  - " Diferentes culturas ao redor do mundo percebem as cores de maneira diferente, as associações emocionais a seguir são mais relevantes para as culturas ocidentais "
+
+** TEORIA DAS CORES - VERMELHO 
+
+  - " Representando paixão e poder, o vermelho é uma cor que atrairá atenção, geralmente usado para avisos importantes ( podendo incitar emoções negativas como raiva e superestimulação ). Para um ambiente descontraído, use-o com moderação ( tom mais claros ) ou evite-os. " 
+
+  - " Exala poder, importância, juventude. " 
+
+** TEORIA DAS CORES - LARANJA
+
+  - " A cor apresenta a versatilidade devido a sua definição. Como cor primária, pode ser envolvente e energizante, como coloração secundária, possui propriedades discretas relacionadas a movimentação e vitalidade. " 
+
+
+  - " Exala simpatia, energia e exclusividade. "
+
+** TEORIA DAS CORES - AMARELO
+
+  - " Um amarelo brilhante é a mais energética das cores, sem a severidade da coloração avermelhada. Tons mediamente amarelados dão uma sensação de conforto enquanto revigorante. Tons mais escurecidos podem dar a impressão de antiguidade e ar de atemporalidade, sabedoria e curiosidade " 
+
+  - " Exala felicidade, entusiasmo, antiguidade ( tons escurecidos ) "
+
+** TEORIA DAS CORES - VERDE
+
+  - " A coloração preenche a lacuna entre cores quentes e frias, embora tende a ser uma cor mais fria. Isso significa que o verde tem os mesmos efeitos relaxantes do azul, mas ainda retém algumas das qualidades energizantes do amarelo "
+
+  - " Exala crescimento, estabilidade, temas financeiros e ambientais "
+
+** TEORIA DAS CORES - AZUL 
+
+  - " Como citado anteriormente, o significado da cor varia muito dependendo da tonalidade. Os tons azulados são relaxantes e seguros, mas os tons mais claros parecerão mais amigáveis, enquanto os mais escuros demonstram mais solidão. Redes sociais aproveitam de tons mais leves e médios, enquanto tons mais escuros apontam força e confiabilidade ( modelos corporativos ) "
+
+  - " Exalam calma, segurança, abertura ( tons claros ) | confiabilidade ( tons escuros ) "
+
+** TEORIA DAS CORES - ROXA
+
+  - " Associada à realeza, sugerem fatura e riqueza em geral, tornando-os uma escolha popular para artigos de moda e de luxo. Tons mais claros são considerados mais românticos, enquanto tons mais escuros tendem transparecer mistério e luxúria "
+
+  - " Exala luxo, romance ( tons claros ) | mistério ( tons escuros ) "
+
+** TEORIA DAS CORES - PRETO
+
+  - " É uma coloração neutra, podendo ter diferentes características variadas, dependendo das colorações de apoio ou dominância sobre as demais cores. Para a maioria dos sites, o preto é usado para criar um sentimento de sofisticação, atemporalidade e maldade "
+
+  - " Exala poder e sofisticação "
+
+** TEORIA DAS CORES - BRANCO
+
+  - " É a cor associada à virtude, pureza e inocência nas culturas ocidentais. Ao chamar menos atenção, a coloração é mais indicada para ressaltar outras cores na página. " 
+
+  - " Exala limpeza, virtude, simplicidade "
+
+** TEORIA DAS CORES - CINZA
+
+  - " Embora possa parecer chocante ou triste, a coloração é uma escolha segura por demonstrar seriedade e tradicionalidade. Quando emparelhado com cores brilhante, a cor consegue ressaltar a existência de outras cores. "
+
+  - " Exala naturalidade, formalidade, melancolia "
+
+** TEORIA DAS CORES - BEGE
+
+  - " O bege é uma cor com múltiplas funções, inicialmente, é uma cor monótona apesar de simbolizar a humanidade, mas consegue assumir características de outras cores, tornando uma ferramenta de design interessante, considerada como uma cor secundária. "
+
+  - " Exala traços de cores circundantes "
+
+** TEORIA DAS CORES - MARFIM 
+
+  - " Em termos de resposta emocional, o Marfim ( creme ) são pequenas variações da coloração branca. É identificado com maior temperatura que o branco, tornando-o mais reconfortante e ainda exalando os mesmos aspectos minimalistas e complementares. "
+
+  - " Exala conforto, elegância, simplicidade "  

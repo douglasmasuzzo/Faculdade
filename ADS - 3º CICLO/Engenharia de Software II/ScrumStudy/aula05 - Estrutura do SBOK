@@ -1,0 +1,51 @@
+-
+ SCRUMSTUDY - ESTRUTURA 
+
+ Neste módulo, o vídeo aborda sobre o framework do guia SBOK. O guia é amplamente dividido em três aspectos principais: PRINCIPIOS | ASPECTOS | PROCESSOS. 
+
+    - PRINCÍPIOS
+     + controle de processo
+     + auto-organização
+     + colaboração
+     + valor priorizado a orientação
+     + time-boxing
+     + desenvolvimento iterativo
+
+    - ASPECTOS
+     + organização
+     + justificativa de negócios
+     + qualidade
+     + mudança 
+     + risco
+
+    - PROCESSOS
+      -- INICIAR
+        + criar visão de projeto
+        + identificar scrum master e stakeholders
+        + formar time de scrum
+        + desenvolvimento
+        + criar um backlog do produto priorizado
+        + conduzir o planejamento de lançamento
+
+      -- PLANEJAR & ESTIMAR
+        + criar histórias de usuários
+        + estimar as histórias de usuário
+        + comprometer as histórias de usuário
+        + comprometer as histórias de usuário
+        + identificar as tarefas
+        + estimar as tarefas
+
+      -- IMPLEMENTAR 
+        + criar o backlog da Sprint
+        + criar entregas
+        + conduzir a reunião diária
+
+      -- REVISÃO & RETROSPECTIVA
+        + perparar o backlog do produto priorizado
+        + demonstrar e validar o sprint
+        + retrospectiva de Sprint
+
+      -- RELEASE
+        + enviar entregas
+        + analisar o retrospecto do projeto
+-

@@ -1,0 +1,20 @@
+USABILIDADE EM DISPOSITIVOS MÓVEIS - IHC
+
+-----------------------------------------------------
+
+** TESTE DE USABILIDADE
+
+ -- Acesse e experimente a página do projeto a partir de um smartphone
+
+ -- Acesse a página para teste de usabilidade
+  + https://search.google.com/test/mobile-friendly 
+
+** TESTE DE VELOCIDADE 
+
+ -- Acesse a página para testar a velocidade da versão mobile
+  + https://developers.google.com//speed/pagespeed/insights/
+
+** DEMAIS TESTES
+
+ -- Acesse esta página para experimentar em diferentes dispositivos
+  + https://mobiletest.me/

@@ -1,0 +1,24 @@
+EXERCÍCIOS MOLDAIS PARA A PROVA - SISTEMA OPERACIONAIS
+
+
+** [ 1 ] - EXPLIQUE AS VANTAGENS DE USAR THREADS AO INVÉS DE PROCESSOS
+
+  -- " A thread é um conjunto de instruções que formam a execução de um processo, partilhando do mesmo espaço de memória e recursos para apresentar o funcionamento em multitarefa. As características destacam as diferenças existentes entre ambas as técnicas: ele é executado de acordo o compartilhamento com outras threads do mesmo processo, pode compartilhar diversas variáveis na memória e apresenta um desempenho mais leve e fluído em relação ao PROCESSO ( baseado em uso de memória, comunicação e a criação). Entretanto, em termos de independência, a threads apresenta inferioridade ao depender fortemente de uma execução conjunta, onde o funcionamento é afetado pela identificação de falhas individuais sob o sistema em geral.  "
+
+
+** [ 2 ] - QUAIS SÃO OS PROBLEMAS COMUNS QUE PODEM OCORRER AO USAR MÚLTIPLAS THREADS ? " 
+
+  -- " O modelo multithread permite que um processo tenha várias threas executando em paralelo ou concorrência, aumentando a eficiência e a responsividade. Outras características que podem ser destacadas nessa etapa: o modelo apresenta um melhor desempenho em sistemas com múltiplos núcleos, a otimização de consumo de recursos em comparação à vários processos, responsividade direcionada à interfaces gráficas e aplicações interativas, e o compartilhamento de dados simplificado.
+
+** [ 3 ] - QUAL É A DIFERENÇA ENTRE UM PROCESSO E UM PROGRAMA? "
+
+  -- " O processo é a execução de um programa em memória, incluindo os demais recursos de memória alocada que são gerenciados pela memória RAM, utilizado pela CPU. Um programa é o conjunto de instruções escritas em uma linguagem de programação, que são armazenadas por um meio físico. " 
+
+** [ 4 ] - QUAIS SÃO OS ESTADOS DE UM PROCESSO EM UM SISTEMA OPERACIONAL? "
+
+  -- Os estados de Processos define os status referente aquela etapa do sistema, destacando a funcionalidade e sua execução de acordo com os níveis de identificação: Novo ( NEW ), Pronto ( READY ), Executando ( RUNNING ), Bloqueado ( WAITING ), Finalizado ( TERMINATED ) e Troca de Contexto ( CONTEXT SWITCH ).
+ O estado Novo " NEW " informa que o processo foi criado, mas não está disponível para execução. O Pronto " READY " informa que o processo está em espera para ser escalonado e executado na CPU. Os modelos Executando ( RUNNING ) e Bloqueado ( WAITING ) são voltados para o processo de " saída " de um sistema, do qual é destacado a execução usando o processador e é abordado pela funcionalidade de um determinado recurso ou evento. O estado Finalizado ( TERMINATED ), informa ao sistema que a etapa " RUNNING " foi concluída; e o último estado, Troca de Contexto ( CONTEXT SWITCH ) destaca a alteração de processos realizada pela CPU, onde o sistema salva o estado de processo atual e carrega o próximo estado à ser executado. "
+
+** [ 5 ] - EXPLIQUE A DIFERENÇA ENTRE OS ALGORITMOS DE ESCALONAMENTO FIFO E ROUND ROBIN "
+
+  -- O algoritmo " ROUND ROBIN " descreve um sistema em que as tarefas ou serviços são distribuídos de forma circular e cíclica ( uniforme ) entre os participantes ou servidores, garantindo que cada um receba uma parte igual de forma rotativa. O algoritmo " FIRST IN - FIRST OUT " descreve o processo de leitura de processos conforme a ordem de envio / chegada.

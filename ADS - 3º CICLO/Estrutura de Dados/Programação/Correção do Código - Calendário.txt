@@ -1,0 +1,84 @@
+Correção do Código - Calendário
+
+#include <iostream>
+using namespace std;
+
+class Calendario {
+private:
+    int ano;
+    int mes;
+
+public:
+
+    Calendario(int a, int m) {
+        ano = a;
+        mes = m;
+    }
+
+    
+    bool Bissexto() {
+        return ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0));
+    }
+
+    
+    int DiaDaSemana(int dia) {
+        int anoAux = ano;
+        int f = anoAux + dia + 3 * (mes - 1) - 1;
+
+        if (mes < 3)
+            anoAux--;
+        else
+            f -= int(0.4 * mes + 2.3);
+
+        f += int(anoAux / 4) - int((anoAux / 100 + 1) * 0.75);
+        f %= 7;
+
+        return f + 1;
+    }
+
+    void ImprimeCalendario() {
+        cout << "DOM\tSEG\tTER\tQUA\tQUI\tSEX\tSAB\n\n";
+
+        short TamanhoDoMes[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+        if (Bissexto())
+            TamanhoDoMes[1] = 29;
+
+        int diaSemana = DiaDaSemana(1); 
+
+        for (int j = 1; j < diaSemana; j++)
+            cout << "\t";
+
+        
+        for (int dia = 1; dia <= TamanhoDoMes[mes - 1]; dia++) {
+            if (dia < 10)
+                cout << "0" << dia << "\t";
+            else
+                cout << dia << "\t";
+                
+                // trecho corrigido
+            if ((diaSemana % 7) == 0)
+                cout << "\n";
+            
+            diaSemana++; 
+        }
+
+        cout << "\n";
+    }
+};
+
+
+int main() {
+    int ano, mes;
+
+    cout << "Digite o ano: ";
+    cin >> ano;
+
+    cout << "Digite o mês (1 a 12): ";
+    cin >> mes;
+
+    Calendario cal(ano, mes);
+    cal.ImprimeCalendario();
+
+    return 0;
+}

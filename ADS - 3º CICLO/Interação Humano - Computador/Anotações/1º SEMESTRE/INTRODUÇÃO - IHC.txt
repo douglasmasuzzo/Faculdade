@@ -1,0 +1,134 @@
+INTRODUÇÃO - IHC
+
+--------------------------------
+ 
+  - INTERAÇÃO
+   + quantos produtos interativos existem em nossa vida cotidiana?
+   + quais desses produtos são fáceis e agradáveis de utilizar?
+   + quais desses produtos já causaram incômodo ao utilizar?
+   + o que pode ser feito a respeito?
+ 
+** DESIGNS RUINS
+  
+  + " controles de elevador e etiquetas na linha abaixo parecem a mesma coisa, facilitando ao apertar o botão errado "
+
+** O QUE HÁ DE ERRADO COM A MÁQUINA?
+
+  - PRECISA APERTAR QUALQUER BOTÃO
+  - FALTAM DIVERSÕES PADRÕES
+  - POUCA USABILIDADE
+
+** BOM DESIGN
+
+  - EXEMPLO
+   + secretária eletrônica
+   + baseada em objetos utilizados
+   + fácil | intuitiva | agradável
+   + requer ações de um passo para realizações de tarefas principais
+
+** BOM DESIGN
+
+   + Muitos produtos que requerem a interação do usuário para realização de suas tarefas
+   + Muitas vezes é um produto funcional do ponto de vista da Engenharia, mas sacrifica o usuário
+
+** CONCEITO
+
+  - INTERAÇÃO HUMANO-COMPUTADOR
+   + área relacionada ao design, avaliação e implementação de sistemas computacionais interativos para utilização de humanos e com o estudo dos fenômenos ao redor deles.
+
+  - DESIGN DE INTERAÇÃO
+   + é o design de produtos interativo que fornece suporte às atividades cotidianas das pessoas seja no lar ou no trabalho
+
+   + criar experiências que melhorem e estendam a maneira como as pessoas trabalham, se comunicam e interagem
+
+   + projeto de espaços para comunicação e interação humana
+
+** OBJETOS
+
+  - DESIGN DE INTERAÇÃO
+   + trazer USABILIDADE para dentro do processo de design
+
+  - Desenvolver produtos interativos que sejam fáceis, agradáveis de utilizar e eficazes na perspectiva do usuário
+
+** TERMOS FREQUENTES
+
+  - DESIGN DE INTERFACE DO USUÁRIO
+  - SOFTWARE DESIGN
+  - DESIGN DO PRODUTO
+  - WEB DESIGN 
+  - DESIGN DA EXPERIÊNCIA ( UX )
+  - DESIGN DE INTERAÇÃO
+
+   + - DESENVOLVER PRODUTOS INTERATIVOS QUE SEJAM FÁCEIS, AGRADÁVEIS E EFICAZES NA PERSPECTIVA DO USUÁRIO 
+   + termo que cobre os aspectos fundamentais de todas disciplinas, campos e abordagens direcionadas ao design de sistemas baseados em computadores para pessoas
+
+** IHC & DESIGN DE INTERAÇÃO
+
+  - DISCIPLINAS ACADÊMICAS
+  - ERGONOMIA
+  - PSICOLOGIA | CIÊNCIA COGNITIVA
+  - INFORMATICA
+  - ENGENHARIA
+  - CIÊNCIA DA COMPUTAÇÃO | ENGENHARIA DE SOFTWARE
+  - CIÊNCIA SOCIAL
+  - FATORES HUMANOS
+  - ENGENHARIA COGNITIVA
+  - INTERAÇÃO HUMANO - COMPUTADOR 
+  - ERGONOMIA COGNITIVA
+  - SUPORTE COMPUTACIONAL DE TRABALHO COOPERATIVO
+  - SISTEMA DE INFORMAÇÃO
+  - INDUSTRIA DE FILMAGEM
+  - DESIGN INDUSTRIAL
+  - DESIGN ARTÍSTICO
+  - DESIGN DE PRODUÇÃO
+  - DESIGN GRÁFICO
+  
+
+
+
+** BOM DESIGN
+
+** USABILIDADE
+
+** CONCEITOS
+
+  - 
+
+** DESIGN DE INTERAÇÃO
+
+  - " DESENVOLVER PRODUTOS INTERATIVOS QUE SEJAM FÁCEIS, AGRADÁVEIS E EFICAZES NA PERSPECTIVA DO USUÁRIO " 
+
+** TERMOS FREQUENTES
+
+** GRÁFICO -- DESIGN DE INTERAÇÃO
+
+** DESIGN DE INTERAÇÃO EM NEGÓCIOS
+
+  - NIELSEN NORMAN GROUP
+   + ajuda empresas a entrarem na era dos consumidores com produtos focados em usuários 
+
+  - COOPER
+   + pesquisa de produtos focados no design
+
+  - SWIM
+   + oferece uma variedade de serviços de design
+
+  - IDEO
+   + cria produtos | serviços | ambientes para empresas que valorizam novos caminhos e seus clientes
+
+** PROFISSÕES 
+
+  - DESIGNERS DE INTERAÇÃO
+   + pessoas envolvidas no design de todos os aspectos de interação de um produto
+
+  - ENGENHEIRO DE USABILIDADE
+   + pessoa com o foco na avaliação dos produtos, utilizando os métodos e princípios da usabilidade
+
+  - WEB DESIGNERS
+   + pessoas que criam e desenvolvem a parte visual dos websites
+
+  - ARQUITETO DE INFORMAÇÕES
+   + pessoas que contribuem com ideias relacionadas ao planejamento e a estrutura de produtos interativos
+
+  - DESIGNERS DE EXPERIÊNCIA DO USUÁRIO ( UX )
+   + pessoas que fazem tudo já citado mas que também realizam estudos de campo a fim de melhorar o design dos produtos 

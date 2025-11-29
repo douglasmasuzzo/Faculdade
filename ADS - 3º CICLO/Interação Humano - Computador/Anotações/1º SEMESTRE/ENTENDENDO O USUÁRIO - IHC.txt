@@ -1,0 +1,78 @@
+ENTENDENDO O USUÁRIO - IHC
+
+------------------------------------
+
+** ENTENDENDO O USUÁRIO - RESUMO
+
+  - O QUE É COGNIÇÃO?
+  - EM QUE OS USUÁRIOS SÃO BONS E RUINS?
+  - COMO A COGNIÇÃO FOI APLICADA AO DESIGN DE INTERAÇÃO
+  - MODELOS MENTAIS 
+
+** COGNIÇÃO
+
+  - ATO OU PROCESSO DE AQUISIÇÃO DO CONHECIMENTO, ATRAVÉS DA
+   + atenção
+   + percepção
+   + memória
+   + aprendizado
+   + leitura
+
+  - ATENÇÃO
+   + selecionando coisas para se concentrar um dado momento
+   + permite concentrar informações relevantes para ação do momento
+   + envolve sentidos de áudio | visual
+   + as informações na interface devem ser estruturadas para capturar a atenção dos usuários: janela | cor | vídeo | som | luzes  
+
+  - Cientistas descobriram que as duas telas anteriores produziram resultados diferentes:
+
+   + 1º tela
+    ++ leva uma média de 5,5s para pesquisar
+   + 2º tela
+    ++ leva 3,2s para pesquisar
+
+   - " POR QUE, UMA VEZ AMBOS OS MONITORES TÊM A MESMA QUANTIDADE DE INFORMAÇÃO? "
+    + na 1º tela, a informação é agrupada, tornando difícil a busca
+    + na 2º tela, os caracteres são agrupados em categorias verticais de informações, tornando mais fácil 
+
+   - TORNAR A INFORMAÇÃO SALIENTE QUANDO PRECISA
+   - USA TÉCNICAS QUE FAÇAM AS COISAS SE DESTACAREM COMO COR | ORDENAÇÃO | ESPAÇAMENTO | SUBLINHADO | SEQUENCIADO | ANIMAÇÃO
+   - EVITE TRATAR A INTERFACE COM MUTIA INFORMAÇÃO
+   - OS MECANISMOS DE PESQUISA E PREENCHIMENTO DE FORMULÁRIOS QUE POSSUEM INTERFACES SIMPLES E LIMPAS SÃO MAIS FÁCIEIS DE USAR
+
+** PERCEPÇÃO
+
+   - Como a informação é adquirida do mundo e transformada em experiências?
+   - A implicação óbvio é a concepção de representações que são prontamente percebíveis
+   - Os textos devem ser legíveis e ícones devem ser de fácil leitura 
+
+** PERCEPÇÃO - DICAS
+
+   - ÍCONES DEVEM PERMITIR AOS USUÁRIOS DISTINGUIR PRONTAMENTE O SEU SIGNIFICADO
+   - BORDAS E ESPAÇAMENTO SÃO FORMAS VISUAIS EFICAZES DE AGRUPAMENTO DE INFORMAÇÕES
+   - OS SONS DEVEM SER AUDÍVEIS E DISTINGUÍVEIS
+   - A SAÍDA DE VOZ DEVE PERMITIR QUE OS USUÁRIOS DISTINGUEM ENTRE O CONJUNTO DE PALAVRAS FALADAS
+   - O TEXTO DEVE SER LEGÍVEIS E DISTINGUÍVEIS DO FUNDO
+
+** MEMÓRIA
+
+   - A CODIFICAÇÃO É O PRIMEIRO ESTÁGIO DE MEMÓRIA, A CODIFICAÇÃO DETERMINA QUAL INFORMAÇÃO É ATENDIDA NO AMBIENTE E COMO É INTERPRETADA
+   - APRESENTE APENAS 7 OPÇÕES DE MENU
+   - EXIBA APENAS 7 ÍCONES EM BARRAS DE FERRAMENTAS
+   - NÃO TENHA MAIS QUE 7 ITENS EM UMA LISTA
+   - COLOQUE APENAS 7 ITENS EM UM MENU SUSPENSO
+   - COLOQUE APENAS 7 GUIAS NO TOPO DE UMA PÁGINA DO SITE
+
+** APRENDIZADO
+
+   - COMO APRENDER A USAR UM APLICATIVO BASEADO EM UM COMPUTADOR
+   - USAR UM APLICATIVO BASEADO EM COMPUTADOR OU VÍDEO DO YT PARA ENTENDER 
+   - PESSOAS APRESENTAM DIFICULDADES EM APRENDER SEGUINDO INSTRUÇÕES
+   - USUÁRIOS PREFEREM APRENDER EXECUTANDO
+
+** LER x OUVIR x FALAR
+
+   - A FACILIDADE COM QUE AS PESSOAS PODEM LER | OUVIR | FALAR DIFEREM
+   - MUITOS PREFEREM OUVIR DO QUE FALAR
+   - A LEITURA PODE SER MAIS RÁPIDA DO QUE FALAR OU OUVIR
+   - OUVIR REQUER MENOS ESFORÇO COGNITIVO DO QUE LER OU FALAR

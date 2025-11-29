@@ -1,0 +1,89 @@
+- 
+ SCRUMSTUDY - ASPECTOS 
+
+ " WHY ARE THESE ASPECTS ? "
+
+ Anteriormente, entendemos os princípios que constitue o processo SCRUM detalhadamente, e este conteúdo prossegue com a expansão de fundamentos, princípios e aspectos, que devem ser destacados e gerenciados durante o projeto. Durante a leitura do material de suporte, os aspectos que serão desenvolvidos são mencionados através de capítulos que possuem sua própria explicação:
+
+    - ORGANIZAÇÃO
+    - JUSTIFICATIVA DE NEGÓCIOS
+    - QUALIDADE
+    - MUDANÇA 
+    - RISCO 
+
+ Desconsiderando os fundamentos principais de lado, precisamos entender o impacto que os papéis definidos e as responsabilidades causam em um projeto SCRUM. A importância de compreender os aspectos referentes a organização garantem o sucesso na implementação de funções e ordens durante o desenvolvimento do projeto. Geralmente, os papéis são dividos entre duas categorias: 
+
+    - PAPEIS CENTRAIS
+     + são papéis obrigatoriamente necessários para o desenvolvimento do produto | serviço
+     + exigem comprometimento total dos envolvidos
+     + responsáveis pelo sucesso de cada iteração, do prodjeto final 
+     + são designados através de um " DONO DO PRODUTO " | " SCRUM MASTER " | " EQUIPE SCRUM "
+
+        -- DONO DO PRODUTO
+          + é responsável por alcançar maior valor de negócio para o projeto
+          + responsável pela coordernaçao de necessidades e manutenção da justificativa de negócio do projeto
+          + em suma, representa a voz e os interesses do cliente
+
+        -- SCRUM MASTER
+          + é o componente que busca facilitar a criação de um ambiente propente à realização do projeto
+          + o seu material de suporte ensina os conceitos, facilita o entendimento e orienta práticas do modelo SCRUM
+          + busca solucionar necessidades informadas pela equipe
+          + assegura o direcionamento de cada etapa de desenvolvimento
+
+    - PAPEIS NÃO-ESSENCIAIS 
+     + são papéis opcionais que podem incluídos conforme o interesse e necessidade do projeto, sem exigir formalidade 
+     + devem ser considerados presentes em qualquer projeto, sem obter mérito pelo sucesso final
+     
+
+        -- STAKEHOLDERS
+          + é um termo coletivo que inclui: CLIENTES | USUÁRIOS | PATROCINADORES 
+          + geralmente, interagem com a equipe responsável por um projeto
+          + impactam constantemente em todo o desenvolvimento de projeto 
+          + usufruem de bonefícios obtidos por produções de serviço etc
+
+        -- MATERIAL DE SUPORTE ( SCRUM GUIDANCE BODY ) 
+          + é um recurso opcional, consiste no conjunto de documentos de especialitas | grupos 
+          + relacionados na definição de objetivos, qualidade, regulamentações, segurança etc  
+          + orienta a execução do projeto através de atores ( PAPÉIS ESSENCIAIS )
+          
+        -- FORNECEDORES
+          + incluem indivíduos ou organizações externas que fornecem envolvimento com as competências essenciais da organização ( ou não )
+          
+    - JUSTIFICATIVA DE NEGÓCIO
+     + é importante que a organização realize uma avaliação adequada de negócio antes de iniciar o projeto 
+     + ajuda na tomada de decisão a entender a necessidade do negócio para uma mudança, justificando o seguimento de etapas e sua viabilidade  
+     + é baseada no conceito de ENTREGA DIRIGIDA A VALOR
+     + é caracterizado pela incerteza de resultados de qualquer projeto, sem garantia de sucesso conforme a complexidade ou tamanho
+     + assim, a tecnologia tenta entregar resultados mais rápido, oferecendo uma oportunidade de reinvestimento e comprovação de valores aos stakeholders
+     + permite adaptabilidade de objetos que sejam alterados caso ocorra modificações na justificativa de negócio
+     + embora que o dono tenha sua importância e seja responsável pela definição de negócio dentro do projeto, outros colaboradores também podem contribuir para esta função 
+
+    - QUALIDADE
+     + é definido pela capacidade de produtos ( ou entregas ) que correspondem os Critérios de Aceitação e as exigências de valor de negócio informadas pelo cliente
+     + a ferramenta adota uma abordagem de melhoria contínua, onde os colaboradores absorvem os relatos de experiência e engajamento presente de stakeholders para manter constantemente o BACKLOG PRIORIZADO DO PRODUTO atualizado, conforme os requisitos
+     + o BACKLOG PRIORIZADO DO PRODUTO será concluído no encerramento ou término do projeto
+     + quaisquer alterações de requisitos refletem em mudanças no ambiente externo | interno, permitindo uma adaptação até atingir tais requisitos
+     + através de testes repetitivos, o modelo exigem que o trabalho seja feito por adições de incrementos, ao longo de SPRINTS, até a entrega final
+     + as tarefa relacionadas a qualdiade são finalizadas pelo mesmo time, como parte conjunta do sprint, garantindo a qualidade de entregas referenciadas como " PRONTO ".
+     + a melhoria contínua com teste de repetições otimiza o potencial de atingir níveis de qualdiade esperados em projeto SCRUM  
+     + a comunicação entre os componentes da organização garantem que a diferença entre os resultados reais produzidos durante o projeto e a expectativa criada sejam reduzidas
+     + o material de apoio pode fornecer diretrizes sobre a qualidade que podem ser relevantes a todos os projetos da organização 
+
+    - MUDANÇA 
+     + todo o projeto está sujeito a mudanças, é imperativo que os membros da organização compreendam que o processo de desenvolvimento Scrum são projetados para aceitar essas mudanças
+     + as organizações devem maximizar os benefícios decorrentes de mudanças e minimizar os impactos negativos, através de processos de gerenciamento de mudanças
+     
+      -- PRINCÍPIO SCRUM
+        + reconhecer que os stakeholders possam mudar de ideia  
+        + complexo para os stakeholders que definem todos os requisitos durante o projeto
+        + a aceitação de mudanças incorporam o feedback definido por clientes, permitindo a interação com a equipe de desnvolvimento
+        + a modificação de mudança de projetos são aplicáveis independentemente do nível 
+
+    - RISCO 
+     + é definido como um evento incerto ou conjunto de eventos e podem contribuit para o sucesso e fracasso 
+     + os riscos podem impactar positicamente, através de oportunidades, ou negativamente, através de tomada de decisões incorretas
+     + o gerenciamento de riscos deve ser feito de forma proativa, sendo iterativa do início ao fim 
+     + o processamento de gerenciamento de riscos devem ser padronizados:
+     IDENTIFICAÇÃO | AVALIADOS | GARANTIA DE AÇÕES IDENTIFICADAS E AVALIADAS 
+     + devem considerar: a PROBABILIDADE DE OCORRÊNCIA DE CADA RISCO | RISCO DE IMPACTO POTENCIAL ( os riscos de alta probabilidade e impacto devem ser considerados como valor relativamente menor )
+     + em suma, é importante ter a capacidade de compreender a tarefa e o risco que ela apresenta 
