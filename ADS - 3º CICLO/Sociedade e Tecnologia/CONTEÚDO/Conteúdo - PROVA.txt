@@ -1,0 +1,253 @@
+SOCIEDADE E TECNOLOGIA - P1
+
+1. O texto a seguir apresenta distinção entre senso comum e ciência, essenciais para o
+pensar. Leia o texto:
+
+O conhecimento proporcionado pelo senso comum é particular. Ou seja, restringe-se a uma pequena amostra da realidade,
+com base na qual são feitas generalizações muitas vezes apressadas e imprecisas.
+Os dados observados costumam ser selecionados de maneira pouco rigorosa. Em outras palavras, o que vale para um ou para
+um grupo de objetos observados é atribuído a todos os objetos. Já as leis científicas são
+gerais no sentido de que não valem apenas para os casos observados, e sim para todos os
+que a eles se assemelham.
+Afirmações como "o peso de qualquer objeto depende da luz que ele reflete" ou ainda "a água é uma substância composta por hidrogênio e oxigênio" 
+são válidas para todos os corpos, todos os objetos coloridos ou qualquer porção de água, e não apenas para aqueles que foram 
+objeto da experiência. Em outras palavras, as explicações da ciência são sistemáticas e controláveis pela experiência, o que permite chegar a
+conclusões gerais.
+
+ARANHA, Maria L. de Arruda. et. al. Filosofando: introdução à filosofia. São Paulo: Moderna,
+2013.
+
+As informações acerca do senso comum e da ciência acentuam as diferenças de um e
+outro modo de conhecer, apesar das generalizações que fazem. Diante de tais informações,
+é possível afirmar que uma das características do conhecimento dito "Senso comum" ou
+"Popular" é o de ser:
+
+a) rigoroso
+b) Assistemático
+c) Controlável
+d) Verdadeiro
+e) Crítico 
+
+02) O conhecimento científico distingue-se do conhecimento de senso comum sob muitos
+aspectos. Sob a perspectiva científica, é correto afirmar que:
+
+a) A tradição e os costumes são as principais fontes do conhecimento confiável.
+b) A testagem experimental não é um método confiável para obtenção de conhecimento.
+c) Todo conhecimento confiável provém do conhecimento filosófico.
+d) Todo conhecimento é passível de crítica, mesmo aqueles que parecem os mais bem
+estabelecidos em um dado momento.
+e) Em seu interior prevalece a existência de dogmas, isto é, verdades definitivas que não
+podem e não devem ser criticadas.
+
+03) Há, pelo menos, quatro tipos de conhecimento que os seres humanos fazem uso para
+buscar compreender a realidade: o conhecimento empírico, o conhecimento científico, o
+conhecimento filosófico e o conhecimento teológico.
+De posse dessa informação, classifique as ações abaixo como sendo exemplos de uso do
+conhecimento empírico(a) ou conhecimento científico(b):
+
+( ) o uso de chás e remédios caseiros.
+( ) A produção da vacina de prevenção ao vírus H1N1.
+( ) A descoberta da ação das bactérias nos organismos dos animais.
+( ) A crença da força da Lua influencia o crescimento dos cabelos.
+
+Assinale a alternativa que traz a relação correta:
+a) a, b, b, a
+b) a, a, b, b
+c) a, b, b, b
+d) b, a, b, a
+
+4) Em sua investigação sobre a lógica da pesquisa científica, Karl Popper percebe a
+impossibilidade de provarmos a verdade de uma teoria a partir da experimentação empírica.
+Isso porque tal prova implicaria necessariamente no recurso a um argumento falacioso, a
+afirmação do consequente. De forma esquemática, poderíamos resumir da seguinte
+maneira tal argumento: se a teoria A está correta, então o experimento terá o resultado X; o
+experimento teve o resultado X (o esperado); logo, a teoria A é verdadeira. Ora, não
+necessariamente, afinal, uma outra teoria ainda não apresentada também poderia oferecer
+uma boa explicação para este fenômeno. Todavia, pode-se sim provar por modus tollens a
+falsidade de uma teoria, desde que o resultado que se previa para o experimento não seja
+verificado.
+
+Como Popper redefine a ciência a partir dessa constatação?
+a) Popper parte para uma abordagem historicista da ciência, segundo a qual a aceitação
+pela comunidade científica de um paradigma seja a única forma de se estabelecer uma
+ciência dita "normal" para cada momento histórico, a despeito da impossibilidade de se
+provar tal paradigma.
+b) Popper acaba por adotar um tipo de anarquismo epistemológico fortemente relativista
+conhecida por falsificacionismo, pois compreende que, sem acesso à verdade das teorias,
+as proposições científicas são tão válidas quanto qualquer proposição. Com efeito, isso faz
+desse autor referência do pensamento negacionista.
+c) Popper compreende que a ciência não pode ser pensada como conjunto de proposições
+verdadeiras, mas que ela é uma prática que se interessa por proposições falseáveis, isto é,
+que possam ter sua falsidade verificada através de um experimento.
+d) Popper parte para uma crítica da tradição aristotélica que dava às sensações um papel
+informativo importante para a construção do conhecimento e tenta reabilitar uma
+concepção racionalista e intelectualista da ciência. Neste sentido, aproxima-se muito de
+Descartes e Platão.
+
+5. Em Lógica da descoberta científica (1935), Karl Popper afirma que o instrumental da
+ciência não está voltada para a verificação, mas para a falsificação das proposições
+científicas. "Nosso método de pesquisa", dizia ele, "não visa defender nossas antecipações
+para provar que temos razão, mas, ao contrário, visa destruí-las. Usando todas as armas do
+nosso arsenal lógico, matemático e técnico, tentamos provar que nossas antecipações são
+falsas, para apresentar, no lugar delas, novas antecipações não justificadas e injustificáveis,
+'novos preconceitos apressados e prematuros, como escarnecia Bacon"
+(ABBAGNANO, Dicionário de Filosofia, Martins Fontes),
+
+Com isso, Popper NÃO pretendeu:
+a) Desmitificar a ideia de que o conhecimento científico é algo absolutamente certo e
+demonstrável.
+b) Exprimir o conceito da autocorrigibilidade da ciência.
+c) Demonstrar que qualquer asserção científica é sempre provisória.
+d) Ratificar o ideal clássico da ciência em relação a uma episteme precisa e definitiva.
+
+6. Segundo o filósofo da ciência Karl Popper, em Conjecturas e Refutação (apud REALE;
+ANTISERI, 2006, v. 7, p. 156-157), há algo de errado com a psicanálise freudiana e com a
+psicologia adleriana. Embora úteis do ponto de vista explicativo e passíveis de confirmação,
+tais teorias não são isentas de dúvida no tocante suas pretensões de cientificidade
+
+De acordo com Popper, qual problema compromete a cientificidade da psicanálise freudiana
+e da psicologia adleriana?
+a) Tais teorias são falsificáveis em vez de verificáveis.
+b) Tais teorias são inverificáveis em vez de verificáveis.
+c) Tais teorias são falsificáveis em vez de infalsificáveis.
+d) Tais teorias são verificáveis em vez de falsificáveis.
+
+7. Os pensadores do Círculo de Viena pensavam que:
+a) A realidade só pode ser explicada por meio da metafísica.
+b) O empirismo deveria ser rejeitado por ser prejudicial ao desenvolvimento da ciência.
+c) Era preciso retomar o ideal clássico e partir da base empírica para se construir uma teoria
+do conhecimento.
+d) O conhecimento deve partir de uma abstração dos fatos.
+
+8. Leia o seguinte trecho de Moritz Schlick:
+"As proposições factuais são, pois, o fundamento de todo saber, mesmo que elas precisem
+ser abandonadas no momento de transição para afirmações gerais. Estas proposições
+estão no início da ciência. O conhecimento começa com a constatação dos fatos." (p.46)
+SCHLICK, Moritz. O fundamento do conhecimento. São Paulo: Abril Cultural, 1975.
+
+Quais pontos da filosofia do Círculo de Viena podem ser percebidos no trecho acima?
+a) O conhecimento parte de uma observação dos fatos. Aquilo que não pode ser verificado é
+considerado desprovido de sentido.
+b) Proposições factuais não têm necessariamente uma relação com a realidade. Os fatos
+podem existir apenas nos pensamentos e, por isso, não podem ser verificados.
+c) As proposições factuais devem ser abandonadas quando se começa a fazer ciência.
+Aquilo que já é considerado um fato não precisa ser comprovado.
+d) A ciência, por se preocupar em comprovar fatos, tornou-se obsoleta. Assim, é preciso
+banir a necessidade de se estabelecer uma relação entre teoria e realidade para que haja um
+progresso na ciência.
+
+9. Disserte sobre o "lado podre" do senso comum. Como ele surge? Como ele se espalha? Qual sua relação com a fake news?
+
+10. O objetivo do Círculo era desenvolver uma nova filosofia da ciência dentro de um espírito
+rigoroso, por intermédio de uma linguagem lógica, e fundamentar na lógica uma ciência
+empírico- formal da natureza empregando procedimentos lógicos e rigor cientifico.
+Sobre o trecho acima, disserte sobre qual seria o problema de afirmações generalizadoras
+na ciência, tais como o raciocínio que defende que uma proposição deva ser sempre
+corroborada e não falsificada. De que forma isso está presente na Gestão de Empresas?
+
+-----------------------------------------------------------------------------------------
+
+** SOCIEDADE E TECNOLOGIA - P2 
+
+1. A crítica da Razão instrumental foi desenvolvida:
+
+A) Por Karl Marx e defende a importância do pensamento crítico na análise da alienação, das relações sociais marcadas pela desigualdade social e pela dominação.
+B) Por Jürgen Habermas e crítica a dialética presente na relação entre teoria e prática.
+C) Por Max Horkheimer e critica o uso da razão instrumental em contraposição aos
+interesses reais da vida prática e social, contribuindo para a alienação, as formas de poder, e
+as relações de dominação.
+D) Por Zygrmunt Baumann e critica as relações baseadas na ética utilitarista.
+E) Por Michel Foucault e crítica o governo neoliberal e o uso do conhecimento nas relações
+de poder-saber
+
+2. A razão instrumental - que Adorno, Marcuse e Horkheimer também designaram com a expressão razão iluminista - nasce quando
+A) A ideologia cientificista dissimula a origem e a finalidade das pesquisas científicas.
+B) O senso comum faz uso da tecnologia e dos objetos técnicos criados pela ciência.
+C) As ciências humanas criam métodos específicos para o estudo de seus objetos,
+livrando-se das explicações mecânicas de causa e efeito.
+D) As ciências humanas, graças ao marxismo, passam a compreender que as mudanças
+históricas não resultam de ações súbitas, mas de lentos processos sociais, econômicos e
+políticos.
+E) O sujeito do conhecimento toma a decisão de que conhecer é controlar e dominar a
+natureza e os seres humanos.
+
+Leias o texto abaixo e responda as questões de número 3 e 4.
+"No século XIX, entusiasmada com as ciências e as técnicas, bem como a Segunda
+Revolução Industrial, a filosofia afirmava a confiança plena e total no saber científico e na
+tecnologia para dominar e controlar a Natureza, a sociedade e os indivíduos. [...] No entanto,
+no século XX, a filosofia passou a desconfiar do otimismo científico-tecnológico do século anterior em virtude de vários acontecimento".
+
+3. Uma marca da desconfiança da filosofia para com o otimismo cientificista foi o
+aparecimento da noção de razão instrumental, formulada pelos teóricos da Escola de
+Frankfurt. Sobre razão instrumental é possível afirmar:
+A) Refere-se aos instrumentos usados pela razão para encontrar as explicações mágicas do
+mundo.
+B) Trata-se do exercício da racionalidade cientifica, que tem por empresa o domínio da
+natureza para fins lucrativos e coloca a técnica e a ciência em função do capital.
+C) Corresponde a maneira através da qual os filósofos Adorno, Horkheimer e Marcuse
+descreveram a racionalidade ocidental como instrumentalização da emoção.
+D) Defende as ideias de progresso técnico e neutralidade científica como elementos que
+resguardam a positividade da ciência.
+E) Os filósofos da Escola de Frankfurt afirmam que a razão instrumental reflete sobre as
+contradições e os conflitos políticos e sociais, fato que fez com que eles ficassem
+conhecidos como os filósofos da Teoria Crítica.
+
+4. Assinale a alternativa que NÃO corresponde aos fundamentos da ciência contemporânea.
+A) Noção de método como conjunto de regras, normas e procedimentos gerais, a fim de
+definir o objeto e para a orientação do pensamento durante a investigação e,
+posteriormente, para a confirmação ou refutação dos resultados encontrados.
+B) As leis científicas definem seus objetos conforme sistemas complexos de relações
+necessárias de causalidade, complementaridade, inclusão e exclusão, objetivando o caráter
+necessário do objeto e o afastamento do contingencial
+C) Distinção entre sujeito e objeto do conhecimento, que permite estabelecer a ideia de subjetividade, isto é, de dependência dos fenômenos em relação ao sujeito que conhece
+e age
+D) A ideia de método pressupõe a adequação do pensamento a certos princípios lógicos
+universalmente válidos, dos quais dependem o conhecimento da verdade e a exclusão do falso
+E) O objeto científico é submetido à análise e à síntese, que descrevem fatos verificados ou
+constroem a própria objetividade como um campo de relações internas necessárias, isto é,
+uma estrutura que pode ser conhecida em seus elementos, propriedades, funções e formas
+de permanência ou de mudança.
+
+5. Há duas formas de razão, segundo o filósofo Max Horkheimer a razão subjetiva e a razão
+objetiva. A razão subjetiva representa a capacidade de inferir, deduzir e classificar que proporciona o funcionamento abstrato do mecanismo de pensamento" (Horkheimer, 1976);
+e, segundo o autor, é a capacidade de estabelecer uma conclusão apenas quando houver
+dados para isso. A razão objetiva é explicada por Horkheimer como a dimensão capaz de
+definir os fins das ações, não se tratando apenas da capacidade mental, pois é expressa
+num mundo objetivo. A razão objetiva não precisa de dados para comprovar sua verdade.
+De acordo com o texto, associe os exemplos da coluna 2 com os respectivos tipos de razão
+da coluna 1.
+( 1 ) Razão Objetiva
+( 2 ) Razão Subjetiva
+( ) O fim da mortalidade infantil.
+( ) As vacinas salvam vidas.
+( ) Dirigir embriagado pode causar acidentes.
+( ) O SMARTPHONE é um gênero de primeira necessidade.
+A associação correta das alternativas é:
+A) 1. 1. 1. 1.
+B) 1. 2. 2. 2.
+C) 1. 1. 2. 2.
+D) 1. 2. 1. 2.
+E) 2. 2. 2. 2.
+
+6. O que é a razão subjetiva para Horkheimer? Sob quais aspectos você poderia relacionar
+essa tecnologia a razão instrumental, no seminário por você ter apresentado?
+
+7. Dê um exemplo de OBJETIVO (RAZÃO OBJETIVA) dessa tecnologia.
+
+8. Leia o fragmento a seguir:
+"[...] 'Por natureza', a juventude está na primeira linha dos que vivem e lutam por Eros contra
+a Morte e contra uma civilização que se esforça por encurtar o atalho para a morte, embora controlando os meios capazes de alongar esse percurso. Mas na sociedade administrativa,
+a necessidade biológica não redunda imediatamente em ação; a organização exige contra
+organização. Hoje a luta pela vida, a luta por Eros, é a luta política."
+Embora haja um forte engajamento político, como o próprio texto demonstra, na obra de Herbert Marcuse (1898 - 1979), os deuses gregos Eros e Thanatos emprestam suas
+personalidades (poderes de representação), enquanto símbolos para nomear os elementos
+humanos da vida e da morte. Está análise, a partir dos textos freudianos, também desvela concepções éticas e estéticas em âmbito individual e coletivo.
+Diante disso, assinale a alternativa correta, quanto ao modo dos dois conceberam ambos os
+conceitos, a saber, morte e vida.
+A) Freud entende que a pulsão de vida, simbolizada por Thanatos, alimenta Eros Excluir
+alternativa
+B) Tanto Freud quanto Marcuse assumem os conceitos morte e vida, sob a acepção de
+impulsos ou instintos humanos. Excluir alternativa
+C) Marcuse, ao contrário de Freud, defende que, apesar da morte ser uma constante, a vida
+é o mais importante. Excluir alternativa
+D) Tanto Marcuse quanto Freud acatam o fato de o destino ser promovido pelos deuses.

@@ -1,0 +1,199 @@
+SOCIEDADE E TECNOLOGIA - INTRODUÇÃO
+
+---------------------------------------------------
+
+** OBJETIVOS DA AULA - SLIDE 
+
+ -- COMPRENDER CARACTERÍSTICAS DO SENSO COMUM E CIENTÍFICO
+ -- IDENTIFICAR DISTINÇÕES FUNDAMENTAIS
+ -- RELACIONAR AUTORES CLÁSSICOS À CRÍTICA
+ -- REFLETIR SOBRE FUNÇÕES SOCIAIS DA CIÊNCIA
+
+** SENSO COMUM
+
+   -- CONHECIMENTO DO COTIDIANO, TRANSMITINDO SOCIALMENTE 
+   -- BASEADO PELA TRADIÇÃO | EXPERIÊNCIA | CRENÇA 
+   -- LIMITE ACRÍTICO, NATURALIZADO PELA REALIDADE
+
+** SENSO CIENTÍFICO
+
+  -- CONHECIMENTO SISTEMÁTICO | METÓDICO | CRÍTICO
+  -- BASEADO EM TOERIAS E EXPERIMENTO
+  -- BUSCA EXPLICAÇÕES UNIVERSAIS
+  -- QUESTIONAMENTO DE SUAS BASES
+
+** COMPARAÇÃO
+
+  -- ORIGEM
+   + experiência cotidiana X pesquisa sistemática
+
+  -- CRITICIDADE
+   + baixa X alta
+  
+  -- MÉTODO
+   + intuitivo X rigoroso
+
+  -- ALCANCE
+   + local | cultural X universal
+
+  -- TRANSFORMAÇÃO SOCIAL
+   + ideologias X críticas
+
+** TEORIA DE BOURDIEU
+
+  -- " A CIÊNCIA NÃO É NEUTRA: CAMPO SOICAL COM DISPUTAS " 
+
+  -- " CIÊNCIA CRIA RUPTURAS EPISTEMOLÓGICAS " 
+
+  -- " USOS SOCIAIS DA CIÊNCIA: MANUTENÇÃO OU TRANSFORMAÇÃO " 
+
+** TEORIA DE KUHN
+
+  -- CIÊNCIA OPERA EM PARADIGMAS
+   
+   - PARADIGMAS
+    + mudança de conceitos / padrões 
+
+  -- SENSO COMUM ACEITA O DADO IMEDIATO
+
+  -- CIÊNCIA INOVA COM CRISES PARADIGMÁTICAS
+
+  -- EXEMPLO
+   + REVOLUÇÃO COPERNICANA
+    ++
+
+** QUESTÕES
+
+  -- A CIÊNCIA PODE SE TORNAR SENSO COMUM?
+   + Hipoteticamente, a ciência pode se incorporar aos padrões do cotidiano.
+
+  -- QUANDO O SENSO COMUM PODE TER VALIDADE?
+   + O senso comum é valido em situações práticas, quando não exige o conhecimento científico.
+
+  -- QUAL O PAPEL SOCIAL DA CIÊNCIA NO BRASIL?
+   + Produzir o conhecimento crítico, capaz de ultrapassar o utilitarismo imediato
+   + Combater desigualdade sociais
+   + Fortalecer a cidadania
+   + Democratização do saber
+
+** EPISTEMOLOGIA CONTEMPORÂNEA
+
+  -- " RAMO DA FILOSOFIA QUE INVESTIGA A VALIDADE, OS MÉTODOS E OS LIMITES DO CONHECIMENTO CIENTÍFICO "
+
+  -- " VAI ALÉM DA LÓGICA E DA METODOLOGIA TRADICIONAL, QUESTIONANDO A CIÊNCIA COMO PRÁTICA SOCIAL "
+
+** PROBLEMÁTICA - NEUTRALIDADE DA CIÊNCIA
+
+ -- " A CIÊNCIA NÃO É NEUTRA, É ATRAVESSADA POR INTERESSES SOCIAIS, POLÍTICOS E EXONÔMICOS "
+
+ -- " BOURDIEU( 2004 ): A CIÊNCIA É UM CAMPO SOCIAL COM DISPUTAS DE PODER "
+
+ -- " LATOUR( 2000 ): A CIÊNCIA É CONSTRUÍDA EM REDES DE ATORES HUMANOS E NÃO HUMANOS "
+
+ -- " ATÉ QUE PONTO O PESQUISADOR PODE SER OBJETIVO? " ( considere apenas a objetividade )
+
+** PROBLEMÁTICA - VERDADE E PARADIGMAS
+
+ -- " KUHN( 1979 ): A CIÊNCIA NÃO EVOLUI LINEARMENTE, MAS POR REVOLUÇÕES CIENTÍFICAS "
+
+ -- " PARADIGMAS DETERMINAM O QUE É CONSIDERADO VERDADE "
+
+ -- " COMO DISTINGUIR CIÊNCIA " NORMAL " DE CIÊNCIA " REVOLUCIONÁRIA " ? "
+
+** PROBLEMA - FALSEABILIDADE E CRÍTICAS
+
+  -- " POPPER( 1963 ): A CIÊNCIA DEVE SER FALSEÁVEL, SEMPRE ABERTA A REFUTAÇÃO "
+
+  -- " MUITAS CIÊNCIAS SOCIAIS NÃO PRODUZEM LEIS UNIVERSAIS "
+
+  -- " FEYERABEND( CONTRA O MÉTODO ), NÃO HÁ MÉTODO ÚNICO, VALE TUDO "
+
+  -- " ATÉ ONDE A AUSÊNCIA DE MÉTODO NÃO COMPROMETE A LEGITIMILIDADE DA CIÊNCIA ? "
+    
+** PROBLEMÁTICA - RACIONALIDADE TÉCNICA
+
+  -- " ADORNO & HORKHEIMER: RISCO DA CIÊNCIA TORNA-SE MONOPOLIZADA, VOLTADA AO MERCADO "
+
+  -- " HABERMAS: NECESSIDADE DE UMA CIÊNCIA DIALÓGICA E EMANCIPADA, ORIENTADA PARA O ENTENDIMENTO E NÃO SÓ PARA O CONTROLE "
+
+  -- " CIÊNCIA COMO MERCADORIA E NÃO COMO BEM PÚBLICO " 
+
+** SIGNIFICADOS
+
+  -- HERMENEUTICA
+   + interpretação de ciência jurídica 
+
+  -- EXEGESE
+   + interpretação de dogmas religiosos
+
+** EXERCÍCIO HERMENEUTICO 
+
+  *** CASO SIMULADO - ESTUPRO
+
+   -- LEI 
+    + " constranger pessoa à prática de conjunção carnal, mediante a ameaça ou violência "
+
+   -- HIPOSUFICIÊNCIA
+    + a fala possui mais força do que a prova
+
+---------------------------------------------------
+
+** ANOTAÇÕES - AULA
+
+  -- " SE A É, B É " ( mundo físico )
+  -- " SE A É, B DEVE SER " ( mundo humano )
+
+  -- SENSO COMUM
+   + conhecimento do cotidiano, transmitindo socialmente
+   + baseado pela tradição | experiência | crença
+   + limite acrítico, naturalizando a realidade
+
+  -- FONTES DO DIREITO
+   + o nascimento do direito
+
+  -- COSTUME
+   + uma prática não descrita que gera estranheza ou diferença, conforme a padronização de um ambiente
+  
+  -- COSTUME JURÍDICO
+   + se você transgredir um costume jurídico, isso resultará em implicação jurídica
+
+  -- LEI
+   + regras de condutas ou normas jurídicas descritas que acarretam em penalidades, caso as implicações jurídicas forem aplicadas
+
+   ++ EXEMPLOS
+    ++ fila
+
+  -- OLHAR DE CENSURA
+   + causado pelo estranhamento e transgressão, sob julgar de tal situação
+
+  -- RESPONSABILIDADE
+   + ato de corresponder com as consequências de tais atos
+
+  -- RESPONSABILIDADE ADMINISTRATIVA
+   + ética 
+
+  -- RESPONSABILIDADE CIVÍL
+   + indenização material 
+ 
+  -- RESPONSABILIDADE PENAL
+   + penalidade jurídica
+
+  -- RESPONSABILIDADE MORAL 
+   + dano moral 
+
+  -- SIMULAÇÃO - SUICÍDIO 
+
+   + " PERANTE A LEI, VOCÊ SERÁ JULGADO, PORÉM, SEM RELEVAR A INTENSÃO DO INDIVÍDUO ( SEM RESPONDER PELO ATO ) . " 
+
+  -- DOSAGEM DE PENA
+   + CASO ATENUANTE
+   + CASO AGRAVANTE
+
+  -- ANOMIA
+   + ausência de lei 
+
+  -- HETERONOMIA
+   + diferente aplicações de normas jurídicas
+
+  -- AUTONOMIA
+   + autosuficiência do saber jurídico

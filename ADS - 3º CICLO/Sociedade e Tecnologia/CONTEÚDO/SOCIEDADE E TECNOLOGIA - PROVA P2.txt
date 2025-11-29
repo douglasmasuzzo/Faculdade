@@ -1,0 +1,25 @@
+SOCIEDADE E TECNOLOGIA - PROVA P2
+
+-------------------------------------------
+
+
+** FAÇA UM BREVE COMENTÁRIO SOBRE AS FORMAS DO CONHECIMENTO, DESTACANDO AS FORMAS DE CONHECIMENTO : RELIGIOSA, FILOSÓFICA, ARTÍSTICA E SENSO COMUM
+
+  -- O ser humano busca compreender o mundo por meio de diferentes formas de conhecimento, cada uma com seus métodos, fundamentos e limites. O conhecimento religioso baseia-se na fé, na revelação e na tradição, fornecendo explicações de sentido e valores transcendentes. 
+Já o conhecimento filosófico procura compreender a realidade por meio da reflexão racional, questionando conceitos, princípios e fundamentos que não podem ser observados diretamente. O conhecimento artístico, por sua vez, nasce da sensibilidade e da criatividade, expressando emoções, interpretações e visões subjetivas da realidade.
+Por fim, o senso comum é formado por saberes práticos e cotidianos, adquiridos pela experiência, transmitidos culturalmente e aplicados às situações do dia a dia. Embora distintos, esses conhecimentos se complementam e revelam a diversidade da compreensão humana.
+
+** COMO O CRITÉRIO DA VERIFICABILIDADE PRETENDEU TORNAR A PRÁTICA CIENTÍFICA NEUTRA?
+
+  -- O critério da verificabilidade, proposto pelo Positivismo Lógico, defendia que apenas enunciados passíveis de verificação empírica deveriam ser considerados científicos.
+A ideia era que a ciência se tornasse neutra, livre de valores e interpretações subjetivas, pois suas afirmações dependeriam exclusivamente de observações controladas e replicáveis. Ao exigir que teorias fossem confirmadas pela experiência sensível, buscava-se eliminar crenças pessoais, tradições ou especulações metafísicas. Embora essa pretensão seja hoje reconhecida como limitada, ela contribuiu para consolidar a importância do método científico e da objetividade.
+
+** " A CIÊNCIA É TODA SOBRE FALSIFICAÇÕES E NÃO SOBRE CONFIRMAÇÕES DE EVIDÊNCIAS "
+
+  -- Karl Popper argumentou que nenhuma teoria científica pode ser definitivamente comprovada, pois novas observações futuras podem contradizê-la. Em vez disso, uma teoria só é verdadeiramente científica se puder ser testada de modo a permitir sua refutação, ou seja, se correr o risco de ser demonstrada falsa. 
+Para Popper, o progresso da ciência ocorre quando teorias anteriores são superadas por outras mais robustas, capazes de resistir a testes mais rigorosos. Isso significa que o avanço científico é um processo contínuo de eliminação de erros, e não de acumulação de confirmações. A consequência lógica dessa visão é que o conhecimento científico é sempre provisório e aberto à revisão.
+
+** DEFINA O QUE É PARADIGMA, SEGUNDO THOMAS KUHN
+
+  -- Para Thomas Kuhn, paradigma é um conjunto de práticas, teorias, valores e métodos aceitos por uma comunidade científica em determinado período histórico. Ele funciona como um “modelo” que orienta o que deve ser estudado, quais problemas são relevantes e quais procedimentos são válidos.
+Durante períodos de “ciência normal”, os cientistas trabalham dentro desse paradigma, resolvendo problemas que ele permite formular. Quando acumulam-se anomalias que o paradigma não consegue explicar, ocorre uma crise, podendo levar a uma revolução científica, na qual um novo paradigma substitui o anterior, reorganizando completamente a maneira de compreender o mundo.
