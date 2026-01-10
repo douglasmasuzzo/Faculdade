@@ -17,3 +17,8 @@ ADS - 3º CICLO/VISITA TÉCNICA - T2S/Representante Viado.jpg
 
 # --- CONFIGURAÇÕES DE FERRAMENTA --- 
 .vscode/
+
+# --- CONFIGURAÇÃO DE FERRAMENTA ---
+*.class 
+bin/
+*.jar
