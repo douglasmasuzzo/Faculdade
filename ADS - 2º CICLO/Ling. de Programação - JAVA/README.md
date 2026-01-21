@@ -64,4 +64,4 @@ A versão original do Fridge representa um marco importante no processo de apren
 e uma aplicação Spring Boot funcional. Sua preservação permite acompanhar a evolução técnica e arquitetural do projeto ao longo do tempo.
 Este repositório deve ser interpretado como um registro acadêmico, não como uma solução final. Segue abaixo para conhecer a versão atual do projeto desenvolvido
 
-[**Curso_JAVA - Projeto GestaoEscolar**](https://github.com/douglasmasuzzo/Curso_JAVA/tree/main/Projeto%20-%20SpringBoot/Projeto_Java/GestaoEscolar) 
+[**Curso_JAVA - Projeto "Sistema de Gestão Escolar"**](https://github.com/douglasmasuzzo/Curso_JAVA/tree/main/Projeto%20-%20SpringBoot/Projeto_Java/GestaoEscolar) 
