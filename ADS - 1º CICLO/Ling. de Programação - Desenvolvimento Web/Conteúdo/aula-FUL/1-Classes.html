@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+    <script>
+        class Artigo{
+            constructor(título, periodíco, páginas){
+                this.tit = título;
+                this.period = periodíco;
+                this.pag = páginas;
+            }
+           
+            TitArtigo(){
+                return "o título do artigo é = " + this.tit
+            }
+        }
+ 
+        let PublicaArt1 = new Artigo("Título do Artigo", "Casa do Artigo", 15);
+            console.log(PublicaArt1);
+                console.log(PublicaArt1.TitArtigo());
+ 
+        let PublicaArt2 = new Artigo("Título do Artigo2", "Casa do Artigo também", 13);
+            console.log(PublicaArt2);
+                console.log(PublicaArt2.TitArtigo());
+    </script>  
+</body>
+</html>

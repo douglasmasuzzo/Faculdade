@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-addEventListner</title>
+</head>
+<body>
+    <div id="EventoAddListener" class="AulaEvento">Aula JS</div>
+        <hr>
+    <button id="myButton">Clique Aqui</button>
+ 
+<script>
+    //São dois exemplos:
+    //1º Exemplo com objeto texto:
+        const texto = document.getElementById('EventoAddListener');
+ 
+    //Esta função tem que ficar antes da chamada do método addEventListener
+        function msg(){
+            alert("Exemplo com EventListener");
+        }
+    
+    // Adicione o escutador
+        texto.addEventListener('click', msg)
+    // Pronto aqui ja funciona
+
+    //2º. Exemplo
+        const button = document.getElementById('myButton');
+
+    // Adicionando um ouvinte para o evento de clique
+        button.addEventListener('click', function() {
+            console.log('Botao clicado!');
+ 
+    });
+</script>
+</body>
+</html>
