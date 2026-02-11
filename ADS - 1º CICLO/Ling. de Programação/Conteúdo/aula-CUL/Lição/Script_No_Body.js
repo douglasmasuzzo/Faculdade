@@ -1,1 +1,0 @@
-console.log("1-Linkando um arquivo de script no BODY.")
