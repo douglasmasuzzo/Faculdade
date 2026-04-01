@@ -1,0 +1,26 @@
+public class Caneta{
+    String modelo;
+    String cor;
+    double ponta;
+    int carga;
+    boolean tampada;
+
+    public void Status(){
+        Sysout("Modelo: " + this.modelo );
+        Sysout("Cor: " + this.cor );
+        Sysout("Ponta: " + this.ponta );
+        Sysout("Carga: " + this.carga );
+        Sysout("Tampada: " + this.tampada );
+    }
+
+    public void Rabiscar(){
+
+    }
+
+    public void Tampar(){
+        this.tampada = true;
+    }
+    public void Destampar(){
+        this.tampada = false;
+    }
+}

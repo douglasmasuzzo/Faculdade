@@ -1,0 +1,28 @@
+package manipulaçãoArquivos;
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.PrintWriter;
+import java.io.IOException;
+
+public class Main{
+    public static void main (String[] args) throws IOException {
+        BufferedReader entrada = null;
+        PrintWriter saida = null;
+
+        try{
+            entrada = new BufferedReader ( new FileReader ( "c:/TEMP/arquivo.txt"));
+            saida = new PrintWriter ("c:/TEMP/arquivo_copia.txt");
+            String linha;
+
+            while ( ( linha = entrada.readLine() != null )){
+                System.out.print(linha);
+            }
+        } finally {
+            if ( entrada != null ) {
+                entrada.close();
+            } else ( saida != null ) {
+                saida.close();
+            }
+        }
+    }
+}

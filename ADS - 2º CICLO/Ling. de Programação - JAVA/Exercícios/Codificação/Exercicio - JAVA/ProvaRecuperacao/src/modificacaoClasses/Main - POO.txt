@@ -1,0 +1,21 @@
+public class Main{
+    public static void main(String[] args){
+        Caneca caneta = new Caneta();
+
+        caneta.modelo = "";
+        caneta.cor = "";
+        caneta.ponta = 1.5;
+        caneta.carga = 1;
+        // caneta.tampar() //
+        caneta.tampada = true;
+        caneta.status();
+
+        Caneta caneta2 = new Caneta();
+
+        caneta2.modelo = "";
+        caneta2.cor = "";
+        caneta2.ponto = 2.0;
+        caneta2.carga = 1;
+        caneta2.destampar();
+    }
+}
