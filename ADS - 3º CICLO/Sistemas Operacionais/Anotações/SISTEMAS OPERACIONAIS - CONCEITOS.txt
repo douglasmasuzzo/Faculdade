@@ -1,0 +1,320 @@
+SISTEMAS OPERACIONAIS - CONCEITOS
+
+----------------------------------
+
+** TAREFAS
+
+  - MONOTAREFA
+   + executa um programa por vez
+   + limitação: não permite multitarefa 
+
+  - MULTITAREFA
+   + permite vários processos ativos
+   + cooperativo ( processo liberado ) e preemptiva ( troca de contexto )
+   + Windows / Linux / mcOS
+
+** USUÁRIOS
+
+  - MONOUSUÁRIO
+   + apenas um usuário pode interagir com o sistema 
+   
+  - MULTIUSUÁRIO
+   + permite que vários usuários acessem recursos simultaneamente
+
+** INTERAÇÃO
+
+  - BATCH ( processamento em lote )
+   + programas executados sem a interação durante a execução
+
+  - INTERATIVO / TIME-SHARING 
+   + compartilha tempo de CPU entre usuários de forma rápida
+
+  - TEMPO REAL
+   + responde eventos dentro de prazos previsíveis
+   + hard real-time ( falhas temporais )
+   + software real-time ( pequenas falhas temporais )
+
+** DISTRIBUIÇÃO 
+
+  - CENTRALIZADOS
+   + todos os recursos e processamentos em um único computador
+
+  - DISTRIBUÍDOS
+   + recursos espelhados em várias máquina interligadas por rede
+
+  - EMBARCADOS
+   + otimizados para hardwares específicos, com pouca memória e baixo consumo de energia
+
+** ARQUITETURA - BITS 
+
+  - TAMANHO DOS REGISTRADORES INTERNOS
+  - LARGURA DO BARRAMENTO DE DADOS
+  - CAPACIDADE DE ENDEREÇAMENTO 
+  - TAMANHO DAS INSTRUÇÕES 
+
+** ARQUITETURA DE 8 BITS
+
+  - PERÍODO
+   + 1970 - 1980
+
+  - CPU's
+   + INTEL 8080, ZILOG Z80, MOS 6502, MOTOROLA 6800
+
+  - CARACTERÍSITCAS TÉCNICAS
+   + registradores de 8 bits ( armazenam valores de 0 - 255 de acordo com a tabela ASCI ) 
+   + endereçamento limitado ( 64kb de memória )
+   + barramento de dados ( 1 byte / sec ) 
+   + instruções simples | processamento sequencial 
+
+  - SISTEMAS OPERACIONAIS
+   + CP/M ( control program for microcomputers ) 
+
+  - LIMITAÇÕES
+   + baixa capacidade de memória
+   + pouca potência de processamento
+
+** ARQUITETURA DE 16 BITS
+
+  - PERÍODO
+   + 1980 - 1990
+
+  - CPU's
+   + INTEL 8086, 8088, 80286, MOTOROLA 68000
+
+  - CARACTERÍSTICAS TÉCNICAS
+   + registradores de 16 bits ( valores até 65.535 )
+   + endereçamento de até 1MB 
+   + barramento de dados de 16 bits
+   + suporte a instruções mais complexas
+
+  - SISTEMAS OPERACIONAIS
+   + MS-DOS 
+   + WINDOWS
+
+  - IMPACTO NOS SO's
+   + introdução de modos multitarefas limitados
+   + suporte inicial a memória estendida e expandida
+
+  - LIMITAÇÕES
+   + espaço de memória ainda pequeno para aplicações modernas
+   + falta de proteção robusta entre processos
+
+** ARQUITETURA DE 32 BITS
+
+  - PERÍODO
+   + 1990 - 2000
+ 
+  - CPU's
+   + INTEL 80386, 80486, PENTIUM
+
+  - CARACTERÍSTICAS TÉCNICAS
+   + registradores de 32 bits 
+   + endereçamento direto de até 4 GB de memória 
+   + barramento de dados de 32 bits
+   + instruções avançadas
+
+  - SISTEMAS OPERACIONAIS
+   + WINDOW 95 / 98 / XP 
+   + LINUX-32 
+
+  - IMPACTO
+   + multitarefa pré-motiva verdadeira
+   + memória virtual eficiente
+   + sistemas de arquivos mais avançados 
+
+  - LIMITAÇÕES
+   + memória física limitada a 4 GB 
+
+** ARQUITETURA DE 64 BITS
+
+  - PERÍODO
+   + 2000 - 2025
+
+  - CPU's
+   + AMD64 ( ATHLON 64 ) | INTEL X86-64 | ARM v8
+
+  - CARACTERÍSTICA TÉCNICA
+   + registradores de 64 bits
+   + endereçamento teórico de até 16 hexabytes ( 2 ^ 64 ) 
+   + barramento de dados de 64 bits
+   + instruções avançadas ( MMX | SSE | AVX )
+
+  - SISTEMA OPERACIONAIS
+   + WINDOWS VISTA 
+
+  - IMPACTO 
+   + suporte a quantidade de memória 
+   + melhor desempenho em cálculos de pontos flutuantes
+   + sistemas mais seguros
+
+  - LIMITAÇÃO 
+   + maior uso de memória para porteiros
+   + compartibilidade limitada com software 32 bits
+
+  - ARM
+   + chips de nano armazenamento 
+
+----------------------------------
+
+** PROCESSOS
+
+ - " Um conceito fundamental em todos os sistemas operacionais é o processo: Um programa em execução. Um processo é um container que armazena todas as informações necessárias para executar um programa "
+
+  + código executável
+  + espaço de memória própria
+  + estado de execução
+  + recursos alocados 
+
+** ESTRATURA INTERNA DE UM PROCESSO
+
+  - COMPONENTES
+   + código ( instruções de programa ) 
+   + dados ( variáveis globais e estáticas ) 
+   + heap ( memória alocada dinamicamente )
+   + stack ( variáveis locais e contexto de chamadas ) 
+
+  - BLOCO DE CONTROLE DE PROCESSO ( PCB ) 
+   + identificador do processo ( PID )
+   + estado atual
+   + porteiros para memórias
+   + informações de CPU 
+   + recursos utilizados
+
+  - IMPORTÂNCIA
+   + é o identificador de um processo que retorne uma execução
+
+** ESTADO E CICLO DE VIDA 
+
+  - NEW
+   + processo criado | aguardando a alocação de recursos
+
+  - READY
+   + pronto para execução
+
+  - RUNNING
+   + em execução na CPU
+
+  - WAITING | BLOCKED 
+   + aguardando evento ou recurso
+
+  - TERMINED 
+   + finalizado
+
+** TRANSIÇÕES DE ESTADOS
+
+  - READY -> RUNNING
+   + escalonador escolhe o processo
+
+  - RUNNING -> WAITING
+   + aguarda o I/O
+
+  - RUNNING -> READY
+   + preempção pelo escalonador
+
+  - WAITING -> READY
+   + evento executado
+
+** CRIAÇÃO DE PROCESSOS
+
+  - inicialização do sistema
+  - execução de uma chamada de sistema de criação de processo por um processo em execução
+  - solicitação de um usuário para criar um novo processo
+  - início de uma tarefa em lote
+
+** PROCESSO FOREGROUND
+
+  - terminal -> entrada
+  - saída -> terminal
+  
+** PROCESSO BACKGROUND
+
+  - arquivo de entrada -> entrada 
+  - saída -> arquivo de saída
+
+** TÉRMINO DE PROCESSOS
+
+  - SAÍDA NORMAL ( VOLUNTÁRIA ) 
+   + a maioria dos processos termina por terem realizado o seu trabalho, ao terminar de traduzir o programa, o compilado executa uma chamada para dizer ao sistema operacional que ele terminou
+
+  - ERRO FATAL ( INVOLUTÁRIO )
+   + a segunda razão para um término seria o descobrimento de um erro fatal, processos interativos com base em  tela geralmente não fecham parâmetros ruins, abrindo uma caixa de diálogo e pedem ao usuário para tentar de novo
+
+  - SAÍDA POR ERRO ( VOLUNTÁRIA )
+   + a terceira razão para o término é um erro causado pelo processo, decorrendo de um erro de programa
+
+  - MORTO POR OUTRO PROCESSO ( INVOLUNTÁRIO ) 
+   + a quarta razão pela qual um processo pode ser finalizado ocorre quando o processo executa uma chamada de sistemas dizendo ao SO para matar outros processos
+
+** THREADS
+
+  - " São múltiplas aplicações de atividades que ocorrem simultaneamente e algumas podem bloquear de tempos em tempos. Ao decompor uma aplicação em múltiplos threads que são executados em paralelo , o modelo de programação torna-se simples " 
+
+** ELEMENTOS
+
+  - CAPACIDADE
+   + capacidade para entidades em paralelo compartilharem um espaço de endereçamento e todos os seus dados entre si, sendo essencial para determinadas aplicações
+
+  - TAMANHO
+   + são mais leves do que processos, sendo mais fáceis para criar e finalizar processos
+
+  - DESEMPENHO
+   + o uso do threads não resulta em um ganho de desempenho quando são limitados pela CPU, mas quando há uma computação substancial e uma I/O substancial, o threads permite que as atividades sobreponham 
+
+** COMANDOS
+
+  - GET-PROCESS
+   + listar todos os processos
+
+  - GET-PROCESS | WHERE-OBJECT { $_WORKINGSET -gt 50MB }
+   + filtragem de processos que usam +50MB de memória
+
+  - GET-PROCESS | SORT-OBJECT CPU -DESCENDING 
+   + ordenar processos pelo consumo de cpu
+
+  - GET-PROCESS -NAME NOTEPAD
+   + localizar processos pelo nome
+
+  - START-PROCESS NOTEPAD
+   + iniciando processos 
+
+-------------------------------------------
+
+** O QUE É UMA MÁQUINA VIRTUAL
+
+  - Uma Máquina Virtual (MV) ou Virtual Machine (VM) é um ambiente de computação virtual, um "computador dentro de um computador", que simula o hardware de uma máquina física. Ela é criada por meio de um software chamado hipervisor (ou VMM - Virtual Machine Monitor).
+
+** COMO FUNCIONA
+
+  - O hipervisor gerencia os recursos de hardware do computador hospedeiro (como CPU, RAM, armazenamento e rede) e os aloca de forma isolada para cada MV. Cada MV executa seu próprio sistema operacional (SO) convidado, que pode ser diferente do SO do hospedeiro.
+
+** CARACTERÍSTICAS 
+
+  - ISOLAMENTO
+   + cada MV é um ambiente totalmente isolado. Falhas ou problemas de segurança em uma MV não afetam as outras que compartilham o mesmo hardware físico.
+
+  - PORTABILIDADE
+   + uma MV é, na prática, um conjunto de arquivos que pode ser facilmente movido de um servidor físico para outro, ou de um ambiente local para a nuvem.
+
+  - OTIMIZAÇÃO
+   + permite que um único servidor físico execute várias MVs, cada uma com seu próprio SO e aplicações, maximizando o uso de hardware e reduzindo custos.
+
+  - FLEXIBILIDADE
+   + permite executar softwares que são compatíveis com um SO diferente do seu, como rodar uma aplicação Windows em um computador Linux, ou vice-versa.
+
+  - COMPARTIBILIDADE
+   + permite executar softwares que são compatíveis com um SO diferente do seu, como rodar uma aplicação Windows em um computador Linux, ou vice-versa.
+
+** PROCESSO DE CRIAÇÃO EM AMBIENTES EM NUVENS
+
+** PROCESSO DE INSTALAÇÃO EM AMBIENTE LOCAL
+
+
+** CRIAR UMA MÁQUINA VIRTUAL 
+
+  
+
+
+
+
+
+

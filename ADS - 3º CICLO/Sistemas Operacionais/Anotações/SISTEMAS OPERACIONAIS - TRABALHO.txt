@@ -1,0 +1,37 @@
+SISTEMAS OPERACIONAIS - TRABALHO
+
+** TÓPICOS
+
+  - INTRODUÇÃO AOS SISTEMAS OPERACIONAIS
+   + Linux | Windows | MACOS
+   + diferença de arquitetura Kemel  
+   + gerenciamento de recursos
+
+  - THREADS
+   + diferenças entre threads de kemel e threads de usuário 
+   + apresentar desempenho e vantagens de cada modelo
+ 
+  - ESCALONAMENTO DE PROCESSOS
+   + impacto dos algoritmos de escalonamento
+   + sistemas interativos e em batch 
+
+  - ALGORÍTMO DE ESCALONAMENTO
+   + apresentar os tipos de algoritmo de escalonamento 
+   + vantagens e desvantagens ( com exemplos ) 
+
+  - COMUNICAÇÃO COM INTERPROCESSOS ( IPC )
+   + uso de múltiplos processos e IPC para estabilidade ( Chrome )
+
+  - SISTEMA DE ARQUIVOS I
+   + journaling e sua importância de recuperação após falhas
+
+  - SISTEMA DE ARQUIVOS II 
+   + FAT32 | NTFS | ext4 
+   + diferenças | vantagens | limitações 
+
+** EXIGÊNCIAS
+
+  - O TRABALHO DEVE POSSUIR ( NO MÍNIMO ) 15 PÁGINAS SEGUINDO A NORMA DA ABNT
+  - DEVERÁ SER ENTREGUE NO TEAMS
+  - O GRUPO FARÁ UMA APRESENTAÇÃO SOBRE SEU TEMA, A APRESENTAÇÃO DEVERÁ TER 30 MINUTOS
+  - DATAS DE ENTREGA : 10 | 17 novembro

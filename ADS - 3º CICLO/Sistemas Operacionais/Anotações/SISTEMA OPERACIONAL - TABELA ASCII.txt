@@ -1,0 +1,195 @@
+SISTEMA OPERACIONAL - TABELA ASCII
+
+-----------------------------------------------
+
+** TABELA ASCII
+ 
+  -- A tabela ASCII ( American Standard Code for Information Interchange ) é um padrão que atribui um número a cada letra, número e símbolo em um computador.
+
+  -- A tabela foi fundamental para o desenvolvimento da computação. Antes dela, cada fabricante de computador tinha sua própria maneira de codificar caracteres, o que gerava problemas de compartibilidade. Um arquivo de texto criado em um computador não podia ser lido corretamente em outro.
+
+  -- Ao criar um padrão universal, a tabela ASCII permitiu que os textos fossem criados, salvos e compartilhados entre diferentes sistemas, o que foi essencial para a evolução de tecnologias como a internet e-mail. 
+
+  -- O " UTF - 8 " é um sistema de codificação que pode representar virtualmente qualquer caractere de mundo, utilizando 1 a 4 bytes. Em uma única vez, encontrará recursos que mostram como o UTF-8 codifica diferente blocos de caracteres do Unicode, que é padrão principal.
+
+  -- A tabela possui um tamanho fixo, representado por 1 byte
+
+   - letra " A "
+    + número decimal : 65
+    + número binário : 01000001
+
+   - número " 5 "
+    + número decimal : 53
+    + número binário : 00110101
+
+ -- O UTF-8 é um sistema flexível, usando números em byte variável para codificar um caractere, dependendo da complexidade dele
+
+   - letra A
+    + codificação : 01000001
+
+   - número 5
+    + codificação : 00110101
+
+** IMPLEMENTANDO DIRETÓRIOS
+
+  -- Antes de ler um arquivo, ele precisa ser aberto. Nesse processo, o sistema operacional usa o caminho informado pelo usuário para localizar a entrada corresponde no diretório armazenado no disco. Essa entrada contém informações necessárias para encontrar os blocos onde o arquivo foi gravado.
+
+  - ENDEREÇO DE ARQUIVO INTEIRO
+   + alocação contígua
+
+  - NÚMERO DO PRIMEIRO BLOCO
+   + em esquemas da lista encadeada
+
+  - NÚMERO DO I-NODE
+
+ -- De forma geral, a principal função do sistema do diretório é traduzir o nome do arquivo ( em ASCII ) para os dados que permitem localizar suas informações no disco. Quando falamos que a principal função do sistema de diretórios é traduzir o nome do arquivo ( em ASCI ) para os dados que permitem localizar suas informações no disco, estamos dizendo sobre: "
+
+ -- NOME DO ARQUIVO
+   + é o que o usuário enxerga, esse nome é só um rótulo legível, armazenado em um formato de caracteres ( ASCII ou UNICODE ), não indicando diretamente onde os dados estão fisicamente no disco
+
+ -- DADOS DE LOCALIZAÇÃO
+   + para que o sistema operacional consiga abrir e manipular esse arquivo, ele precisa descobrir em quais blocos / setores físicos do disco os conteúdos desse arquivo estão gravados
+
+ -- DICAS
+  
+  + você pode abrir o arquivo relatório.docx
+  + o sistema de diretórios procura esse nome em sua estrutura interna ( diretório )
+  + ao encontrá-lo, ele não retorna o conteúdo do arquivo, mas sim os metadados necessários para localizá-lo
+
+   ++ endereços dos blocos de dados no disco
+   ++ tamanho do arquivo
+   ++ permissões de acesso
+   ++ datas de criação | modificação
+
+  + após essa tradução, o sistema consegue localizar e ir ao disco e realmente ler ou gravar os dados do arquivo 
+
+
+ -- NOME DOS ARQUIVOS - S.O
+  
+  - MS-DOS
+   + os nomes devem possuir de 1 - 8 caracteres ( + 3 caracteres de extensão )
+
+  - UNIX VERSÃO 7 
+   + os nomes podem ocupar até 14 caracteres
+
+-- SOLUÇÕES COMUNS 
+
+  - DEFINIR UM LIMITE FIXO
+   + 255 caracteres é simples, mas desperdiça espaço, já que a maioria dos arquivos não tem nomes tão longos
+
+  - PERMITIR ENTRADAS DE DIRETÓRIO
+   + uma parte fixa ( com informações como tamanho de entrada | propriedade | data de criação | permissões e outros atributos )
+   + segunda parte ( pelo nome real do arquivo, que pode ter qualquer tamanho )
+
+** ARQUIVOS COMPARTILHADOS
+
+  -- " Quando várias pessoas trabalham em um projeto, é comum precisarem compartilhar arquivos. Para isso, pode ser conveniente que o mesmo arquivo apareça em diretórios diferentes de usuários distintos. Essa conexão entre diretórios e um mesmo arquivo é chamado de LIGAÇÃO ( LINK ) "
+
+** SISTEMA DE ARQUIVOS ESTRUTURADOS EM DIÁRIO ( LOG ) 
+
+ -- CPU'S
+  + estão cada vez mais rápidas
+
+ -- MEMÓRIA RAM
+  + estão crescendo exponencialmente
+
+ -- DISCO RÍGIDO
+  + ficam maiores e mais baratos, mas não rápidos
+
+ -- " Essa diferença de evolução cria um gargalo de desempenho: o disco se torna o ponto mais lento do sistema. Assim, criou-se o LFS ( LOG STRUCTURED FILE SYSTEM ) "
+
+ -- " Com mais memória e caches maiores, a maioria das leituras já pode ser atendida pela cache, sem precisar acessar o disco. Assim, os acessos ao disco passam a ser em sai memória escrita. "
+
+ -- " O problema é: nos sistemas tradicionais, essas escritas são muito pequenas e frequentes, o que reduz a eficiência do disco para menos de 1%. " 
+
+-- PROCESSO DE LFS
+
+  -- " Em vez de gravar pequenas partes espalhadas no disco, ele junta todos as escritas pendentes na memória "
+
+  -- " Periodicamente, grava um segmento único e contíguo no final de disco, como se fosse uma nova página em um diário " 
+
+  -- " Esse segmento pode conter ( I-notes ), blocos de diretório e blocos de dados misturados "
+
+  -- " No início de cada segmento, há um resumo, indicando o que foi gravado " 
+
+  -- " Em um mesmo computador podem coexistir vários sistemas de arquivos diferentes, mesmo usando o mesmo sistema operacional "
+
+  -- " Por exemplo, o Windows gerencia o NTFS, mas o sistema também pode acessar uma partição antiga FAT16 ou FAT32, além de mídias como pendrives, CD e DVD's, cada um com seu próprio sistema de arquivos. "
+
+  -- " O Windows lida com isso atribuindo uma letra de unidade a cada sistema de arquivos. Quando um programa abre um arquivo, a letra da unidade já indica qual sistema de arquivos deve ser usado. Assim, o sistema não integra aos diferentes sistemas de arquivos em uma estrutura única. " 
+
+** GERENCIAMENTO DE ESPAÇO EM DISCO
+
+-- LISTA ENCADEADA
+
+  + simples, mas pode desperdiçar espaço e gerar uma entrada | saída extra
+
+-- MAPA DE BITS
+
+  + mais compacto e favorece blocos próximos, mas precisa de um mata grande para discos modernos
+
+  -- " Esse dilema mostra a dificuldade dos projetistas de sistema. Estudos ajudam, mas ainda não representam todos os tipos de computadores ( pessoais | corporativos | governamentais ) 
+
+-- COTAS DE DISCO
+
+ + Para evitar que os usuários consumam espaço em excesso no disco, sistemas em multiusuário costumam a usar o mecanismo de cotas. O administrador  define para cada usuário um limite máximo de arquivos e de blocos de disco, e o sistema operacional garante que esses limites não sejam ultrapassados.  
+
+-- COMO FUNCIONA
+
+  -- ABERTTURA DE ARQUIVO
+   + quando um arquivo é aberto, seus atributos ( incluindo o proprietário e os endereços de disco são colocados em um tabela de arquivos abertos na memória
+   + caso o arquivo cresça, o espaço adicional é descontado da cota de um proprietário
+
+  -- TABELA DE COTAS
+   + existe também uma tabela com os registros de cotas de todos os usuários que têm arquivos abertos, mesmo que quem abriu não seja o dono do arquivo
+   + essa tabela é carregada a partir de um arquivo de cotas no disco, e quando todos os arquivos do usuário são fechados, as informações atualizadas voltam a ser gravadas nesse arquivo
+
+** BACKUP DO SISTEMA DE ARQUIVOS
+
+  + A perda de um sistema de arquivos costuma ser muito grave do que a perda de um computador. Um computador pode ser substituído com relativa facilidade, mas os dados armazenados ( documentos | bancos de dados | registros | projetos ) podem ser impossíveis de recuperar. Por isso, a única solução realista e fazer cópias de segurança ( backups ).
+
+  -- POR QUE FAZER BACKUPS?
+   + Muitas pessoas ignoram os backups até perderem dados por falha do disco. Empresas, em geral, realizam backups diários, pois entendem o valor da informação. Por isso, no Windows, arquivos excluídos não são apagados imediatamente, mas movidos para a lixeira, de onde podem ser recuperados. Backups, expandem esse conceito permitindo restaurar arquivos apagados dias ou semanas antes
+
+   - DESASTRES
+    ++ falhas de disco, incêndio, enchente 
+
+   - ERROS HUMANOS
+    ++ arquivos apagados por engano 
+
+ -- O QUE DEVE SER COPIADO
+  + não há necessidade de incluir tudo, arquivos temporários ou programas que podem ser reinstalados, podem ser ignorados
+
+ -- BACKUPS INCREMENTAIS
+  + copiar apenas os arquivos modificados desde o último backup economiza tempo e espaço, mas torna a restauração mais trabalhosa, pois pode exigir a recuperação de várias cópias em sequência
+
+ -- COMPRESSÃO
+  + reduzir o tamanho dos arquivos economiza espaço, mas um dentro da fita de disco pode corromper todo o backup
+
+ -- SISTEMA ATIVO
+  + fazer backup enquanto o sistema está em uso pode gerar inconsistência, para resolver isso, existem técnicas como snaphots, que congelam o estado do sistema para garantir cópias fiéis
+
+ -- SEGURANÇA FÍSICA
+  + backups são inúteis se forem guardados junto ao computador é destruído em um mesmo incêndio, o ideal é armazená-los em outro local seguro
+
+-- TIPOS DE CÓPIA
+
+  -- CÓPIA FÍSICA
+   + copia o disco bloco a bloco, do início ao fim, é rápida e simples, mas não permite excluir pastas específicas, fazer backups incrementais ou restaurar arquivos individuais, podendo copiar blocos defeituosos ou arquivos desnecessários
+
+  -- CÓPIA LÓGICA
+   + copia arquivos e diretórios de forma organizada, permitindo restaurar itens específicos e facilitando backups incrementais, esse método é o mais usado na prática 
+
+  -- " o Volume Shadow Copy Service ( VSCS ) introduzido no Windows Server 2001, facilita a comunicação entre esses componentes para que funcionam melhor em conjunto. O VSS coordena as ações necessárias para criar uma cópia de sombra consistente ( conhecida como SnapShot ou cópia pontual ) dos dados a serem copiados "  
+
+  -- SERVIÇO VSS
+   + integrado ao Windows, garante a comunicação entre os componentes
+
+  -- SOLICITANTE VSS
+   + o software que pede a criação, importação ou exclusão das cópias de sombra ( solicitados pelo aplicativo de backup )
+
+  -- GRAVADOR VSS
+   + garante que os dados estejam consistentes para o backup ( SQL SERVER | EXCHANGE | REGISTRO DO WINDOWS )
+
+  -- PROVEDOR VSS
+   + cria e mantém as cópias de sombra, podendo ser de software ( Windows ) ou de hardware ( SAN ) 

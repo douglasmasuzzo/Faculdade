@@ -1,0 +1,124 @@
+SISTEMA OPERACIONAIS - ARQUIVOS
+
+** IMPASSE ( DEADLOCK )
+
+  - " Os impasses podem acontecer com diferentes computadores. Imagine um escritório com vários computadores conectados em rede. Nessa rede, existem dispositivos compartilhados, com scanners, gravados de BLURAY | DVD, impressoras e unidades de fita, que qualquer usuário pode acessar.
+
+ - " Se esses dispositivos puderem servir como reserva de forma remota ( por exemplo, de um computador na casa do usuário ), pode surgir o mesmo tipo de impasse já explicado. Em situações complexas, o problema pode envolver não apenas dois, mas demais dispositivos e usuários. "
+
+ - " Os impasses também podem acontecer em outras situações. Em um banco de dados, por exemplo, um programa pode precisar bloquear alguns registros enquanto os utiliza, para evitar problemas de acesso ao mesmo tempo. Se o processo A for bloquear o registro R1 e o processo B bloquear o registro R2, e depois cada um tentar acessar o registro que o outro já bloqueou, nenhum dos processos conseguirá prosseguir "
+
+** RECURSOS
+
+  - " Uma classe importante de impasse envolve recursos para os quais alguns processos teve o acessos exclusivo concedido. Esses recursos incluem dispositivos, registros de dados, arquivos e assim por adiante. Para tornar a discussão dos impasses mais geral possível, vamos nos referir aos objetos concedidos como RECURSOS. Um recurso pode ser um dispositivo de hardware ( por exemplo: uma máquina BluRay  ) ou um fragmento de informação ( registro em um Banco de Dados ). Resumidamente, o RECURSO é qualquer coisa que precisa ser adquirida, usada e liberada ao passar do tempo " 
+
+** RECURSOS PREEMPTÍVEIS E NÃO-PREEMPTÍVEIS
+
+  - " Existem dois tipos de recursos: PREEMPTÍVOS e NÃO-PREEMPTÍVOS. O recurso preemptível é aquele que pode ser retirado de um processo sem causar danos ( a memória é um exemplo deste recurso ). O recurso não-preemptível não pode ser tomado de um processo sem prejudicá-lo ( a impressora não pode ser interrompida durante sua execução ). Um recurso NÃO-PREEMPTÍVEL é um recurso que não pode ser tomado de seu proprietário atual sem potencial causa de falha "
+
+  - " A questão se um recurso é PREEMPTÍVEL depende do contexto. Em um pc padrão, a memória é preemptível porque as páginas sempre podem ser enviadas para o disco para depois recuperá-las. No entanto, em um smartphone que não suporte trocas ( SWAPPING ) ou paginação, impasses não podem ser evitados simplesmente trocando uma porção da memória. Em geral, impasses envolvem RECURSOS NÃO-PREEMPTÍVEIS. "
+
+  - A sequência abstrata de eventos necessários para usar um recurso é definido:
+   ++ SOLICITAR O RECURSO
+   ++ USAR O RECURSO
+   ++ LIBERAR O RECURSO 
+
+  - " se o recurso não está disponível quando ele é solicitado, o processo que está solicitando-o É FORÇADO A ESPERAR. Em alguns S.O, o processo é automaticamente bloqueado quando uma solicitação de recurso falha, e despertado quando ela torna-se disponível. Em outro sistema, a solicitação falha com um código de erro, e cabe ao processo que está fazendo a chamada esperar e tentar novamente. "
+
+  - " Um processo cuja a solicitação de recurso foi negada há pouco, normalmente esperará um laço estreito solicitando o recurso, DORMINDO ou EXECUTANDO NOVAMENTE. Embora esse processo não esteja bloqueado, para todos os efeitos  propósitos, é como se estivesse, pois ele não pode realizar nenhum trabalho útil. "
+
+  - FORMA COMO UM PROCESSO SOLICITA O RECURSO
+   + em alguns sistemas, existe uma chamada específica, chamada REQUEST, que permite ao processo pedir diretamente um recurso
+   + em outros sistema, os recursos são tratados como arquivos especiais, onde apenas um processo pode abrir o recurso por vez, usando a chamada comum " OPEN "
+
+** AQUISIÇÃO DE RECURSOS
+
+  - " Para alguns tipos de recursos, como registros em um sistema de banco de dados, cabe aos processos do usuário, em vez do sistema, gerenciar o uso de recursos. Uma maneira de permitir isso é associar um semáforo a cada recurso. Esse semáforos são todos inicializados com 1
+
+  - TRÊS PASSOS LISTADOS
+   + DOWN ( utilização ) 
+   + UP ( liberação ) 
+
+** AQUISIÇÃO DE RECURSOS - SEMÁFOROS 
+
+  t = tarefa invocada da operação ; 
+  s = semáforo contador ; 
+  v = int ;
+
+  procedure down ( t , s ) {}
+	s.counter -= 1 ;
+	if s.counter < 0 then 
+  	  append( t , s.queue ) ;
+	  suspend( t ); 
+	end 
+  end procedure
+
+  -> põe o t no final de s.queue || a tarefa t perde o processador 
+
+  procedure up ( s ) {}
+	s.couter += 1;
+	if s.counter <= 0 then 
+	  u = first ( s.queue ).
+	  awake( u );
+	end 
+  end procedure 
+
+  -> retira a primeira parte do processo || devolve a tarefa u à s.queue
+
+ procedure INIT ( s , v ) {}
+    s.counter -> v ; s.queue -> [ ] ;
+ end procedure
+
+  -> valor inicial do controlador || a fila inicia vazia
+
+  - " Quando se diz que uma operação deve ser EXECUTADA ATOMICAMENTE, significa que ela deve ser indivisível, ou seja, NINGUÉM PODE INTERROMPER-LA NO MEIO. Ao sistema, ela acontece apenas uma vez, mesmo que tenha várias instruções "
+
+  - " Esses passos precisam ser atômicos, pois se dois processos fizerem down ao mesmo tempo, poderia acontecer: os dois decrementarem o controlador antes que ele seja atualizado corretamente ou um processo acha que o existe um recurso disponível, mesmo que não exista.
+ O semáforo é um mecanismo de sincronização muito poderosos, seu uso vai além de controlar a exclusão mútua no acesso a seções críticas. Por exemplo, o contador interno do semáforo funciona como um contador de recursos: 
+
+    - POSITIVO
+     + indica quantas instâncias daquele recursos estão disponíveis
+
+    - NEGATIVO
+     + indica quantas tarefas estão aguardando aquele recurso "
+
+   - " Muitos ambientes de programação, bibliotecas de threads e até núcleos de sistema proveem uma versão simplificada de semáforos, na qual o contador só assume valores possíveis: livre ( 1 ) | ocupado ( 0 ). Esses semáforos são chamados de MUTEXES ( Mutual Exclusion ) ou LOCKS ( travas ) "
+
+
+   - PSEUDOCÓDIGO
+
+     monitor conta {}
+	str numero; flo saldo = 0.0 ; flo limite 
+
+   	void depositar( flo valor ) {}
+	  if ( valor >=0 ) {}
+	    conta = saldo += valor;
+          else
+            error("");
+
+	void retirar( flo saldo ) {}
+	   if ( valor >= 0 ) {}
+	    conta = saldo -= valor;
+	   else
+ 	    error("");
+     end conta 
+
+** MODELAGEM DE IMPASSES 
+
+  - " RICHARD HOLT ( 1972 ) definiu que os processos deveriam possuir representações: CIRCULAR ( processos ) | RETANGULAR ( recursos ) | SETA ( direcionadas conforme o início ao fim ) 
+
+  - " Um CICLO DE GRAFO indica que existe um impasse entre os processos e recursos envolvidos ( considerando apenas os recursos e cada tipo de impasse ) 
+
+** DETECÇÃO DE IMPASSES
+
+  - " Nenhuma abordagem, nenhuma medida preventiva é adotada para prevenir ou evitar impasses. As tarefas executam normalmente suas ações, alocando e liberando recursos conforme suas necessidades. Quando ocorrer um impasse, o sistema deve detectá-lo, determinar quais as tarefas e recursos envolvidos e tomar medidas para desfazê-lo. "
+
+  - " A detecção de impasses pode ser feita através da inspeção do grafo de alocação de recursos que deve ser mantido pelo sistema é atualizado a cada alocação ou liberação de recursos. Um algoritmo de detecção de ciclos no grafo deve ser executado periodicamente para verificar a presença das dependências cíclicas que podem indicar impasse " 
+
+
+   - ELIMINAR TAREFAS
+    + uma ou mais tarefas envolvidas no impasses são eliminadas, liberando seus recursos para que as demais tarefas possam prosseguir. A escolha das tarefas a eliminar deve levar em conta vários fatores, como o tempo de vida de cada uma, quantidade de recursos que cada tarefa detém, o prejuízo para o usuários que dependem dessas tarefas e etc.
+
+   - RETROCEDER TAREFAS
+    + uma ou mais tarefas envolvidas no impasse têm sua execução parcialmente desfeita ( uma técnica chamada rollback ) de forma a fazer o sistema retornar a um estado seguro anterior ao impasse. Para retroceder a execução de uma tarefa, é necessário salvar periodicamente seu estado, de forma a poder recuperar um estado anterior quando necessário. 
+    + além disso, operações envolvendo a rede ou interações com o usuário podem ser muito difíceis ou mesmo impossíveis de retroceder: como desfazer o envio de um pacote de rede, ou a reprodução de um arquivo em aúdio na tela do usuário 

@@ -1,0 +1,11 @@
+MODELO DE PROVA ( ATIVIDADES ) - SISTEMAS OPERACIONAIS
+
+----------------------------------------------------------
+
+** QUEM É RESPONSÁVEL POR GERENCIAR OS ARQUIVOS DE UM COMPUTADOR? **
+
+ - O Sistema Operacional é responsável pelo gerenciamento de arquivos, do qual organiza, armazena, recupera e controla o acesso a dados em dispositivos como HD'S / SSD's e pendrives. São capazes de obter atividades relacionadas a criação e remoção de arquivos, mapear arquivos em memória secundária, e fazer backup de arquivos em mídias de armazenamento estável 
+
+** O QUE SÃO OS METADADOS ** 
+
+ - São informações sobre o próprio arquivo, e não sobre o conteúdo existente. Geralmente, incluem nomes, tipos de arquivos, tamanhos, data de criação / modificação, permissões e localização física. Em sistemas modernos ( como NTFS ), os metadados englobam toda a estrutura de sistema de arquivos, exceto os dados reais

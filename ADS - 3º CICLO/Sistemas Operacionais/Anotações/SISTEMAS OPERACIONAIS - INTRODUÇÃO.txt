@@ -1,0 +1,137 @@
+SISTEMAS OPERACIONAIS - INTRODUÇÃO
+
+-- SÍMBOLOGIA --
+
+ * = título
+ - = subtítulos
+ + = parágrafos
+ S.O = sistema operacional
+
+------------------------
+
+-------- SLIDE -----------
+
+O SISTEMA OPERACIONAL COMO UMA MÁQUINA ESTENIDDA 	
+
+A ARQUITETURA ( conjunto de instruções | organizações de memória | estrutura de barramento ) da maioria dos computadores em nível de linguagem de máquina é primitiva e complicada de programar, especialmente para entrada | saída. Em vez disso, um software chamado DRIVER DE DISCO, lida com hardware e fornece uma interface para ler e escrever blocos de dados, sem explorar os detalhes. Sistemas Operacionais contém muitos drivers para controlar dispositivos de entrada | saída.
+
+Apesar do nível, ainda sim é menor para suportar a maioria dos aplicativos. Por esta razão, os S.O fornecem mais um nível de abstração para se utilizar em arquivos. Usando esta abstração, os programas podem criar, escrever e ler arquivos, sem ter de com os detalhes complexos de como o hardware realmente funciona. 
+
+Uma das principais tarefas dos S.O é esconder o hardware e em vez disso, apresentar programas com abstrações de qualidade: limpas | elegantes | consistentes.
+
+O SISTEMA OPERACIONAL COMO UM GERENCIADOR DE RECURSOS
+
+O conceito de um sistema operacional como fundamentalmente fornecendo abstrações para programas | aplicativos é uma visão TOP-DOWN ( abstração de cima à baixo ). Uma visão alternativa, BOTTOM-UP ( abstração de baixo à cima ) sustenta que o sistema operacional está ali para gerenciar todas as partes de um sistema complexo. 
+
+Computadores modernos consistem de processadores, memórias, temporizadores, discos, dispositivo, apontadores do tipo mouse, interfaces de rede, impressoras e uma ampla gama de outros dispositivos. Na visão " BOTTOM-UP ", a função do SO é fornecer uma alocação ordenada e controlada dos processadores, memórias e dispositivos de entrada | saída entre os vários programas competindo por eles.
+
+Sistemas operacionais modernos permitem que múltiplos programas estejam na memória e sejam executados ao mesmo tempo.
+
+O gerenciamento de recursos incluem a multiplexação ( compartilhamento ) de recursos de duas maneiras diferentes: no TEMPO e ESPAÇO. Quando um recurso é multiplexado no tempo, diferentes programas ou usuários se revezam usando-o.
+
+Por exemplo, com apenas uma CPU e múltiplos programas querendo ser executados nela, o S.O primeiro aloca a CPU para um programa, então, após ele ter sido executado por tempo suficiente, outro programa passa a fazer uso da CPU, então outro, e finalmente o primeiro de novo. Determinar como o recurso é multiplexado no tempo ( quem vai seguir e por quanto tempo ) é a tarefa do sistema operacional. 
+
+O outro tipo é a multiplexação de espaço. Em vez de clientes se revezarem, cada um tem direito a uma parte do recurso. Presumindo que há memória suficiente para manter múltiplos programas, é mais eficiente manter vários programas na memória ao mesmo tempo do que dar a um deles toda ela, especialmente se o programa precisa apenas de uma pequena fração do total.
+
+DIAGRAMA 
+
+   -> aplicação 
+     -> sistema operacional
+	+ drivers
+      -> hardwares
+	+ hardware externo 
+
+
+---------------------------------------
+
+HISTÓRIA DOS SISTEMAS OPERACIONAIS
+
+Tendo em vista que os sistemas estiveram historicamente muito vinculados à arquitetura dos computadores na qual eles são executados, examinaremos sucessivas gerações de computadores para ver como eram seus S.O's.
+O primeiro computador verdadeiramente digital foi projetado pelo matemático CHARLES BABBAGE ( 1792 - 1871  ). Embora o autor tenha gasto maior parte da sua vida e fortuna tentando construir a " máquina analítica ", nunca conseguiu colocá-la para funcionar para valer porque ela era puramente mecânica, e a tecnologia da época não conseguia produzir as rodas, acessórios e engrenagens de alta precisão de que ele precisava.
+
+-------------------------------------------------
+
+A PRIMEIRA GERAÇÃO: VÁLVULAS ( 1945 - 1955 ) 
+
+O período da Segunda Guerra Mundial, que estimulou uma explosão de atividades. O professor JOHN ATANASOFF e seu aluno de graduação CIFFORD BERRY construíram o que hoje em dia é considerado o primeiro computador digital funcional na Universidade de IOWA. O dispositivo usava 300 válvulas.
+
+Em 1944, o Colossus foi construído e programado por um grupo de cientistas ( incluindo ALAN TURING ) em BIETCHLEY PARK , Inglaterra, o " MARK I " foi construído por Howard Aiken, em Harvard, e o ENIAC foi construído por WILLIAM MAUCHLEY e seu aluno de graduação J. PRESPER ECKERT na universidade da Pensilvânia. Alguns eram binários, outros usavam válvulas e ainda outros eram programados, mas todos eram muito primitivos e levaram segundos para realizar mesmo o cálculo mais simples.
+
+O modo usual de operação consistia na reserva pelo programador de um bloco de tempo na ficha de registro na parede, então ele desce até a sala de máquinas, inserir seu painel de programação no computador e passar as horas seguintes torcendo para que nenhuma das 2.000 válvulas queimasse durante a operação. Virtualmente, todos os problemas eram cálculos numéricos e matemáticos diretos e simples, como determinar tabelas de senos | cossenos | logaritmos ou trajetórias de artilharia.
+
+-------------------------------------------------------
+
+A SEGUNDA GERAÇÃO: TRANSITORES E SISTEMAS EM LOTE ( 1955 - 1965 )
+
+A introdução do transistor em meados da década de 1950 mudou o quadro radicalmente. Os computadores tornaram-se confiáveis que podiam ser fabricados e vendidos para clientes dispostos a pagar por eles com a expectativa de que continuaram a funcionar por tempo suficiente para realizar algum trabalho útil. Pela primeira vez, havia uma clara separação entre projetistas, construtores, operadores, programadores e pessoal de manutenção.
+
+Essas máquinas, chamadas de COMPUTADORES DE GRANDE PORTE , ficavam isoladas em salas grandes e climatizadas, especialmente designadas para esse fim, com equipes de operadores profissionais para operá-las. Apenas grandes corporações ou importantes agências do governo ou universidades conseguiam pagar para tê-las.
+
+Para executar uma tarefa, um programador primeiro escrevia o programa no papel ( ou na linguagem de montagem FORTRAN ( Assembly ) ), então perfurava nos cartões. Levando então o maço de cartão até a sala de entradas e o passava a um dos operadores e ia tomar um café até que a saída estivesse pronta. 
+
+Quando o computador terminava qualquer tarefa que ele estivesse executando no momento, um operador ia até a impressora, pegava a sua saída e a levava até a sala de saídas a fim de que o programador pudesse buscá-la mais tarde. Então ele pegava um dos maços de cartões que haviam sido levados da sala de entradas e o colocava para a leitura. Se o compilador FORTRAN fosse necessário, o operador teria de tirá-lo de um porta-arquivos e fazer a leitura. Muito tempo do computador era desperdiçado enquanto os operadores caminhavam em torno da sala de máquinas.
+
+Dado ao alto custo do equipamento, não causa surpresa que as pessoas logo procuraram maneiras de reduzir o tempo desperdiçado. A solução geralmente adotada era o sistema em lote ( BATCH ). A ideia por trás disso era reunir um lote de tarefas na sala de entradas e então passá-lo para uma fita magnética usando um computador pequeno e barato, como um " IMB 1401 ", que era bom em leitura de cartões, cópia de fitas e impressão de saídas, mas ruim em cálculos numéricos.
+
+Descrevendo, precisamente, toda a etapa realizada:
+
+   -> programadores levam cartões para o 1401
+    -> o 1401 lia o lote de tarefas em uma fita
+     -> o operador levava a fita de entrada para o 7094
+      -> o 7094 executava o processamento
+       -> o operador levava a fita de saída para o 1401
+        -> o 1401 imprimia as saídas
+
+------------------------------------------------------------
+
+TERCEIRA GERAÇÃO: CIS e MULTIPROGRAMAÇÃO ( 1965 - 1980 )
+
+A " IBM 360 " foi a primeira linha e importante de computadores a usar circuitos integrados ( CI ) de pequena escala, proporcionando desses modos uma vantagem significativa na relação preço / desempenho sobre às máquinas de segunda geração, que foram construída sobre transistores individuais. Nos dias atuais, eles são muitas vezes usados para gerenciar enormes banco de dados ( para sistemas de reservas ) de companhias áreas, ou como servidores pares websites que têm de processar milhares de requisições por segundo. 
+
+" OS/360 " e similares produzidos por outros fabricantes de computadores na realidade proporcionaram um grau de satisfação relativamente bom para a maioria de seus clientes. Um dos cientistas que havia trabalhado no projeto MULTICS, KEN THOMPSON, descobriu subsequentemente um mini-computador pequeno PDP-7 que ninguém estava usando e decidiu escrever uma versão despojada e para um usuário do MULTICS. Esse trabalho desenvolveu-se no sistema operacional UNIX, que se tornou popular no meio acadêmico, em uso governamental e demais. 
+
+A ampla disponibilidade do código-fonte, várias organizações desenvolveram suas próprias versões ( incompatíveis ), o que levou ao caos. Duas versões importantes foram desenvolvidas: o SYSTEM V ( AT&T ) e o BSD ( Berkeley Software Distribution ). Para tornar possível escrever programas que pudessem ser executados em qualquer sistemas UNIX, o IEEE desenvolveu um padrão para o UNIX, chamado POSIX ( Portable Operating System Interface ), ao qual a maioria das versões do UNIX dá suporte atualmente. 
+
+O POSIX define uma interface minimalista de chamadas de sistema à qual os sistemas UNIX em conformidade devem dar suporte. Na realidade, alguns outros sistemas operacionais também dão suporte junto a interface POSIX. Em 1987, o autor lançou um pequeno clone do UNIX, chamado MINUX, para fins educacionais. O desejo de produzir uma versão gratuita do MINIX, resultou na criação de uma versão patenteada como LINUX.
+
+-----------------------------------------------------------------
+
+QUARTA GERAÇÃO: COMPUTADORES PESSOAIS ( 1980 - presente )
+
+Com o desenvolvimento dos circuitos integrados em larga escala ( LSI ) que são chips contendo milhares de transistores em um centímetro quadrado de silicone. No início da década de 1980, a IBM projetou o IBM PC e saiu à procura de um software para ser executado nele. O pessoal da IBM contratou BILL GATES para licenciar o seu interpretador BASIC, assim, o desenvolvedor procurou por um sistema operacional que fosse adequado aos padrões requisitados pela IBM, até encontrar: o DOS ( DISK OPERATING SYSTEM ).
+
+Gates ofereceu à empresa um pacote do DOS / BASIC, que facilmente foi adquirido pela empresa. A IBM, junto ao Bill Gates, procuraram o desenvolvedor desse SO para realizar modificações, e assim, patenteá-la. O sistema revisado pelo desenvolvedor, TIM PATERSON , foi renomeado como MS-DOS ( MICROSOFT DISK OPERATING SYSTEM ) e se tornou o principal S.O no em dispositivos licenciados pela IBM. 
+
+Quando o sucessor do " IBM PC ", o " IBM PC/AT ", lançado em 1983 com o CPU Intel 80286, o MS DOS estava firmemente estabelecido. O S.O foi amplamente usado no " INTEL - 80286 " e no " INTEL - 80486 ". Embora a versão inicial do MS-DOS fosse primitiva, as versões posteriores incluiam aspectos e recursos atualizados, extraídos diretamente do UNIX.
+
+Os primeiros micro-computadores eram todos baseados na digitação de comandos de teclados por usuários. Isto mudou devido a pesquisa gerada por DOUG ENGELBERT no Instituto de Pesquisa de Stanford na década de 1960, do qual desenvolveu uma interface gráfica nomeada como " GUI " ( INTERFACE GRÁFICA DO USUÁRIO ) que possuía janelas, ícones, menus e mouse. 
+
+Em 1984, APPLE MACINTOSH é lançado com a interface GUI, foi um sucesso por ser " amigavelmente navegável ", modificando a experiência de novos usuários para este novo mundo. Resultando na criação de seu próprio dispositivo: o MAC OS X. Um sistema operacional baseado no UNIX, embora com uma interface distinta.
+
+Quando decidiu produzir um sucessor do SO MS-DOS, a Microsoft foi fortemente influenciada pelo sucesso do MACINTOSH. Produzindo um sistema baseado em GUI ( interface gráfica ) chamado WINDOWS, que era originalmente executado em cima do MS-DOS.
+
+Em 1995, o Windows95 foi lançado incorporando os aspectos de outros sistemas operacionais, usando o MS-DOS subjacente apenas para efetuar sua inicialização e executar outros programas do sistema.
+
+Em 1998, surgiu uma nova versão modificada deste sistema, nomeado como " WINDOWS98 ". Ambos os sistemas desenvolvidos pela Microsoft possuíam uma quantidade da linguagem de montagem de 16 bits da Intel.
+
+Outros sistemas operacionais da Microsoft, como o WINDOWS NT ( New Technology ) era compatível com a versão desenvolvida em 1995, nivelando em determinados aspectos, mas modificado e reescrito ao ponto de se tornar um sistema de 32 bits. A Microsoft esperava que a primeira versão superasse todo os recursos e configurações acrescentadas ao MS-DOS, porém, esta tentativa falha reforçou a superioridade que o sistema original tinha na época. Ao passar dos tempos, especificamente em 2000, a empresa lançou a versão do S.O nomeada como " WINDOWS 2000 ", um sistema que apresentasse as modificações aprimoradas das versões anteriormente apresentadas.
+
+Mesmo com este lançamento, sentiram que a tecnologia desenvolvida ainda não garantia segurança e superioridade comparado aos outros modelos, gerando um novo modelo baseado ao lançamento de 1998, nomeado como " WINDOWS ME " ( Windows Millenium Edition ). Em 2001, patentearam uma nova versão aprimorada do lançamento ocorrido no ano anterior: o WINDOWS XP. Apresentando atualizações que trouxeram longevidade e durabilidade ao longo deste ciclo de lançamento. 
+
+Após o lançamento do Windows 2000, a Microsoft dividiu as funcionalidade de seus serviços, direcionados ao uso pessoal ( de clientes ) e organizacional ( servidores ). Distribuindo as versões posteriores do Windows XP para seus clientes e fornecendo suporte aos modelos corporativos como " Windows Server 2003 | Windows 2007 ".
+
+Em 2007, após todo o período funcional do Windows XP, a empresa apresentou uma nova versão ao mercado tecnológico: WINDOWS VISTA. Esta versão trouxe aprimoramento em interfaces gráficas e disponibilizou outros softwares incluídos dentro do sistema, voltados especialmente aos usuários. Porém, todo o suporte oferecido a sua clientela não garantia que esta versão se tornasse utilizável, recebendo diversas críticas relacionadas a altas expectativas geradas dentro da comunidade.
+
+Após o lançamento de diversas versões, em 2012, lançaram o sucessor do Windows 7: o WINDOWS 8. Esta versão buscava introduzir novas experiências ao inserir funcionalidades de touch screen dentro do sistema, trazendo modernidade e novidade. Porém, esta versão também não agradou parcialmente o público, se tornando uma das versões menos desejadas até os dias atuais.
+
+---------------------------------------------------------------------
+
+QUNITA GERAÇÃO: COMPUTADORES MÓVEIS
+
+Sistema Operacionais: Samsung | Sony | Motorola | Nokia 
+Android - Google
+IOS - Apple
+
+
+
+
