@@ -18,6 +18,11 @@ ADS - 3º CICLO/VISITA TÉCNICA - T2S/Representante.jpg
 
 # --- CONFIGURAÇÕES DE FERRAMENTA --- 
 .vscode/
+.idea/
+target/
+.mvn/
+mvnw
+mvnw.cmd
 
 # --- CONFIGURAÇÃO DE FERRAMENTA ---
 *.class 

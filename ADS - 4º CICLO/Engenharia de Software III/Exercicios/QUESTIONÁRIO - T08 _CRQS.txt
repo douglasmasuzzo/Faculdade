@@ -1,0 +1,22 @@
+QUESTIONÁRIO - T08 : CRQS
+
+1. CQRS (Command and QueryResponsibility Segregation, segregação por responsabilidade de commando de consulta) é uma arquitetura utilizada na camada de armazenamento de dados e consiste em:
+
+2. O mapeamento de objetos pode se tornar complicado no design do sistema. No lado da gravação, o modelo deve implementar validações de segurança. Qual outro fator que influência na performance da camada de persistência dos sistemas:
+
+3. Quando utilizamos CQRS, podemos criar um esquema de dados formatado para consultas únicas, contendo somente os dados para consultas específicas. (view físicas). Aumentando o desempenho, o controle e segurança de acesso aos dados.
+
+4. Para utilização da  arquitetura CQRS, uma boa prática recomendada é que os bancos de dados sejam separados fisicamente. Podemos utilizar diferentes tipos de banco de dados para leitura e gravação. Por exemplo o banco de gravação é do tipo relacional e o de leitura (consulta) um banco de dados de famílias de colunas.
+
+5. Existem desafios técnicos para implantação da arquitetura CQRS, essa arquitetura deve ser analisada de acordo com a necessidade do domínio do aplicativo.  A consistência eventual e atualização do modelo de consulta se faz necessária para que os dados não fiquem obsoletos. Assinale a alternativa correta:
+
+6. A qualidade dos processos pode ser medida através de testes em documentos gerados, em todas as etapas,  e  através dos processos aplicados no projeto. Essa afirmação se refere a:
+
+7. São conhecidos como testes de software, ou testes dinâmicos e podem sofrer um alto nível de automatização, o que possibilita a criação de ambientes complexos de testes, com configuração de diversos cenários da utilização do software(produto).
+
+8. Os processos de revisão aplicados e toda a documentação gerada auxiliam a equipe a tomar decisões mais correta sobre o projeto, o que refletirá em um produto com maior conformidade. Não adianta termos documentação incompleta, ambíguas, , não atualizadas, processos estabelecidos mas não executados.
+
+9. Os defeitos são gerados em todo o processo de engenharia de software, são os resultados de traduções e especificações imperfeitas de requisitos  que provocam a maior parte dos problemas. Segundo pesquisas 56% dos defeitos em projetos de software são oriundos desta área. Assinale a alternativa correta
+
+10. Os custos ligados ao esforço de reparar a falta de qualidade e devem ser  computados no projeto – retrabalho, ações corretivas, atrasos no cronograma, perda de prazos, multas contratuais, perdas financeiras, perdas operacionais, perdas de oportunidades, perda de Market-share, perda de credibilidade no mercado. Estão diretamente ligados à:
+

@@ -1,0 +1,23 @@
+**SISTEMAS OPERACIONAIS II - INTRODUÇÃO ( FÁBIO )**
+
+---------------------------------------------------
+
+## Notas e Conteúdo ##
+
+### _Avaliação_ ###
+ - **( P1 + P2 + NT) / 3 (Nota de Aprovação = 6.0)**
+
+### _1º Bimestre_ ###
+ - Assunto 
+    - Máquina Virtual
+    - AndroidX86
+    - OSX ( Sistema Operacinal Mackintosh )
+    - **Projeto**
+
+### _2º Bimestre_ ###
+ - Assunto
+    - Linux 
+
+### _Projeto Semestral_ ###
+
+--------------------------------

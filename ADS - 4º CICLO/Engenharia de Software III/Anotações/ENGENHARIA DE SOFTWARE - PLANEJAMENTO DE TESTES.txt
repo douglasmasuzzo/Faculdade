@@ -1,0 +1,69 @@
+ENGENHARIA DE SOFTWARE - PLANEJAMENTO DE TESTES
+
+----------------------------------------------
+
+- OBJETIVOS
+ + verificação e validação
+ + estratégia de testes
+ + atividades e artefatos de testes
+ + principais tipos de testes
+ + dimensão de qualidade ( abordagens de testes )
+
+-----------------------------------------------
+
+- CONTEÚDO : ES3 - CONCEITOS DE TESTES
+
+- ESTRATÉGIA DE TESTES
+
+ + plano de testes ( GESTOR: especialista de qualidade de software e testes ) 
+  -> casos de testes - analisar ( matriz de dados ) 
+  -> especificação de caso de uso - negócio ( diagramas comportamentais : diagrama de sequência / atividade )
+  -> abordagem de testes
+  -> tipos de aplicações de testes
+  -> recursos necessários
+   + ferramentas / componentes  
+
+- PLANEJAMENTO DE TESTES
+
+ + projeto de casos de testes
+ + execução de testes
+ + coleta e avaliação de dados
+
+- IMPORTÂNCIA
+ 
+ -> Quem faz?
+  + o planejamento é executado pelo gerente / engenheiros de softwares e especialistas de testes
+  
+ -> Por que é importante?
+  + o teste enfatiza principalmente a avaliação de qualidade do produto 
+  + localizar e documentar defeitos na qualidade de software
+  + avaliar forma geral sobre a qualidade de software
+  + validar suposições de especificações e requisitos em demonstração correta
+  + validar funções de softwares planejados
+  + verificar se os requisitos foram implementados 
+
+- DIAGRAMA : ESTRATÉGIAS DE TESTES ( BOEHM, 1988 ) 
+  
+  + teste de unidade -> código 
+  + teste de integração -> projeto
+  + teste de validação -> software 
+  + teste de sistema -> engenharia de software
+
+- CICLO DE VIDA DE TESTES
+
+- FUNCIONALIDADE : GERENTE DE TESTE
+ + área diagramática: Visão Geral de Atividades
+
+- RESULTADO 
+
+ -> Log de Testes
+  + corresponde conforme a conformidade (CORRETO) e não conformidade (INCORRETO)
+
+- EXEMPLO DE ERRO DE SITUAÇÃO 
+
+ -> você faz o levantamento de requisitos funcionais e não-funcionais 
+ -> os responsáveis analisam e verificam os padrões de formações de documentações ( UML )
+ -> o processo é aprovado e é direcionado ao processo de desenvolvimento
+ -> o repasse continua para a área de qualidade de testes ( QA ), que também valida todo o processo de teste conforme os documentos criados anteriormente
+ -> a homologação é direcionada ao cliente
+ -> e o cliente revoga os processos e etapas de desenvolvimento de inconsistente, considerando os modelos de testes e construção oficializado pela empresa

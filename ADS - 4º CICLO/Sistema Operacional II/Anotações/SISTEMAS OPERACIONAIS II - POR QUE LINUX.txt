@@ -1,0 +1,90 @@
+# AULA01 - POR QUE LINUX? #
+
+-----------------------------------------------
+
+
+## Descrição ##
+
+ - Linux está presente em Servidores, Cloud, Devops, IoT e CyberSegurança
+ - Gratuito e altamente personalizável 
+ - Desenvolvimento de autonomia técnica e entendimento real do S.O
+
+## Perfis de Adoção ##
+ 
+ - Perfil Conservador
+ - Intermediário
+ - Radical / Definido
+ - Reaproveitamento Sustentável
+
+### Perfil Conservador ###
+ - Execução
+  -- Instala Linux dentro do S.O usando VirtualBox
+  -- Executável como um programa
+
+ - Vantagens
+  -- Zero risco ao sistema profissional
+  -- Ideal para teste aula e primeira experiência
+  -- Fácil de deletar e reinstalar
+  -- Permite snapshots
+
+ - Desvantagens
+  -- Menor desempenho
+  -- Dependência do sistema hospedeiro
+  -- Acesso limitado a hardware
+
+### Perfil Intermediário ###
+
+ - Execução
+  -- Linux instalado ao lado do Windows
+  -- Escolha do sistema ao ligar o computador
+ 
+ - Vantagens
+  -- Desempenho nativo
+  -- Experiência real com o sistema
+  -- Mantém o S.O para softwares específicos
+  -- Bom equilíbrio entre risco e aprendizado
+ 
+ - Desvantagens
+  -- Exige cuidado com o particionamento
+  -- Reinicialização para trocar de sistema
+  -- Backup obrigatório 
+
+### Perfil Radical ##
+
+ - Execução
+  -- Remove o sistema anterior
+  -- Linux como sistema principal
+
+ - Vantagens 
+  -- Máximo desempenho e estabilidade
+  -- Total imersão no ecossistema Linux
+  -- Ideal para programação / servidores / estudos avançados
+  -- Redução de custos de Licença 
+
+ - Desvantagens
+  -- Curva de aprendizagem maior
+  -- Alguns softwares proprietários não existem
+  -- Jogos e Drivers específicos podem ser limitados
+
+### Perfil Sustentável ###
+ 
+ - Execução
+  -- Instala uma distribuição leve
+  -- Reaproveitamento de hardware antigo
+
+ - Vantagens
+  -- Bom desempenho em máquinas fracas
+  -- Custo zero
+  -- Ideal para estudos e programação
+  -- Consciência ambiental
+
+ - Desvantagens
+  -- Limitações de hardwares
+  -- 
+
+## Conclusão ##
+
+ - Linux não é complexo
+ - Comece pequeno e evolua conforme o ritmo
+ - Experimentos contínuos
+ - Conhecimento em Linux é diferencial profissional 

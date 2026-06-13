@@ -1,0 +1,152 @@
+REFERÊNCIAS BIBLIOGRÁFICAS - PROJETO
+
+### INTRODUÇÃO ( Parceiros )
+ - Parallels
+  +https://www.parallels.com/br/products/desktop/?utm_medium=cpc&utm_source=google&utm_term=parallels&utm_content=&utm_id=56623836&extensionid=&matchtype=e&device=c&devicemodel=&creative=634272308385&network=g&placement=&x-source=ppc&campaign_name=PDfM-B-PT-Brazil-PS-Consolidated&gad_source=1&gad_campaignid=56623836&gbraid=0AAAAAD-bykBLWAc7K8NF9iuJTFwDfvFYP&gclid=Cj0KCQjwve7NBhC-ARIsALZy9HWMS_VitPTGRWBxbb9xQMBjg2I0Od4HrMFtEvhP5M7-VTUsXdgd9CYaAjyNEALw_wcB
+
+ - Synology
+  + https://www.controle.net/synology?gad_source=1&gad_campaignid=105019683&gbraid=0AAAAAD-lz9m0wLmvONgvJPEhiGGb6AbRk&gclid=Cj0KCQjwve7NBhC-ARIsALZy9HX0g8A-1am9oMin5q3jv4snL9WaDasC8zGaS96pZW6o_3DWE0UBPcMaAhVgEALw_wcB
+
+ + 
+
+### EXEMPLOS REAIS
+ - W+K
+  + https://www.wk.com/about/
+ 
+ - Detsu Global
+  + https://www.dentsu.com/who-we-are
+
+ - Ogilvy
+  + https://www.ogilvy.com/careers
+
+### SISTEMA OPERACIONAL 
+ 
+ - MacOS Tahoe
+  + https://www.apple.com/br/newsroom/2025/06/macos-tahoe-26-makes-the-mac-more-capable-productive-and-intelligent-than-ever/ ( referência )
+
+  + https://en.wikipedia.org/wiki/MacOS_High_Sierra ( imagem ) 
+
+  + https://en.wikipedia.org/wiki/MacOS_Tahoe ( imagem ) 
+
+### ORÇAMENTO
+
+  - MAC MINI M2 ( https://www.apple.com/br/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/ )
+
+  - MAC MINI M5 ( https://www.apple.com/br/shop/buy-mac/mac-mini/chip-m4-cpu-de-10-n%C3%BAcleos-gpu-de-10-n%C3%BAcleos-16-gb-mem%C3%B3ria-256gb-armazenamento ) 
+
+  - MACBOOK AIR M2 ( https://support.apple.com/pt-br/111867 ) 
+
+
+ - HARDWARE ( WINDOWS )
+ 
+ + DESKTOPS 
+  - processador : Intel Core i5-12400F
+  - memória RAM : 8GB(RAM)
+  - memória interno : 256GB(SSD)
+  - preço : HD Mecânico (1TB) = 450.00
+
+ + NOTEBOOKS
+  - processador : Intel Core i5-11400F
+  - memória RAM : 8GB(RAM) 
+  - memória interna : 256(SSD)
+  - preço : HD Mecânico (1TB) = 450.00
+
+ + MONITOR 
+  - modelo : LG 24MS500
+  - polegada : 24px
+  - especificação : 100Hz FHD 
+  - preço : 525.00
+
+ + TECLADO
+  - modelo : Logitech MX Keys S
+  - fabricante : Logitech 
+  - descrição : ergonômico
+  - preço : 670.00
+
+ + MOUSE
+  - modelo : Logitech MX Anywhere 3s
+  - fabricante : Logitech
+  - etiqueta de eficiência : A
+  - preço : 515.00
+
+ + PROJETOR
+  - modelo : Epson PowerLite E24
+  - visor : LCD 0,55px
+  - pixels : 1.024x768 
+  - sistema : Epson 3 LCD ( 3 Chips )
+  - preço : 4.200.00 
+
+ + IMPRESSORA
+  - modelo : HP impressora Plotter DesignJet
+  - memória : 512MB
+  - idiomas : JPEG / URF
+  - qualidade : 2400 x 1200
+  - preço : 3.382.00
+
+
+ - SOFTWARE ( WINDOWS )
+  
+  + MICROSOFT OFFICE
+
+
+ - HARDWARE ( APPLE )
+  
+  + MAC MINI 2025 ( DESKTOP )
+    - processador : Chip M4 ( 10 núcleos ) 
+    - memória RAM : 16GB 
+    - memória interna : 256GB 
+    - ethernet : gigabit ethernet ( largura de banda com velocidade de 1GB )
+    - Final Cut Pro ( licença / pré-instalado ) : 2.000.00 
+    - Logic Pro ( licença / pré-instalada ) : 1.300.00
+
+    - preço original : 7.500.00	
+    - preço final : 10.798,80
+
+    - revendedor / fornecedor : taxa de desconto ( 15% ) = 9.263,98
+    - revendedor / fornecedor : taxa de desconto ( 20% ) = 8.719,04
+
+
+ + MAC MINI M2 ( 2023 ) 
+  - processador : Chip M2 ( 10 núcleos ) 
+  - memória RAM : 8GB 
+  - memória interna : 256GB 
+  - conectividade : 4 USB / ethernet / 2 entradas monitor
+
+  - preço original : 7.500.00 
+  - preço final : 4.500.00 ( aproximadamente )
+
+  - revendedor / fornecdor : taxa de desconto ( 20% ) = 3.600.00 
+  - revendedor / fornecdor : taxa de desconto ( 15% ) = 3.825.00 
+
+   
+  + MACBOOK AIR M2 - 13px ( 2022 ) 
+   - processador : Chip M2 ( 8 núcleos ) 
+   - bateria : 18hrs ( aproximada ) 
+   - memória RAM : 16GB
+   - memória interna : 256GB 
+   - conectividade : MagSafe 3 / fones de ouvido / 2 portas thunderbolt - USB 4 
+
+   - preço original : 13.299.00
+   - preço final : 7.600.00
+
+   - revendedor / fornecedor : taxa de desconto ( 15% ) = 6.375.99
+   - revendedor / fornecedor : taxa de desconto ( 20% ) = 6.000.00
+
+
+  + MACBOOK AIR M3 - 13 ( 2024 )
+   - processador : Chip M3 ( 8 núcleos ) 
+   - bateria : 18hrs ( aproximadamente ) 
+   - memória RAM : 16GB 
+   - memória interna : 256GB
+   - conectividade : MagSafe 3 / fones de ouvido / 2 portas thunderbolt - USB 4 
+
+   - preço original : 12.500.00
+   - preço final : 9.000.00 
+
+   - revendedor / fornecedor : taxa de desconto ( 15% ) = 7.650.00
+   - revendedor / fornecedor : taxa de desconto ( 20% ) = 7.200.00
+
+
+   
+
+ 

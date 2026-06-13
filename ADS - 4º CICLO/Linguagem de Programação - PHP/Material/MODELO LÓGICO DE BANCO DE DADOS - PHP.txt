@@ -1,0 +1,129 @@
+MODELAGEM DE BANCO DE DADOS - PHP
+
+----------------------------------------------------------
+
+==========================================================
+  ENTIDADES E ATRIBUTOS
+==========================================================
+ 
+ - Classificacao : atributos
+   [ entidade-pai – não possui FK de saída ]
+  + id_classificacao ( PK )
+  + nm_tipo_genero_classificacao
+  + ds_faixa_classificacao
+ 
+----------------------------------------------------------
+ 
+ - Tipo_Publicacao : atributos
+   [ entidade-pai – não possui FK de saída ]
+  + id_tipo_publicacao ( PK )
+  + nm_tipo_publicacao ( ex: jornal / revista / conto / poesia )
+ 
+----------------------------------------------------------
+ 
+ - Convidados : atributos
+   [ entidade-pai – não possui FK de saída ]
+  + id_convidados ( PK )
+  + nm_convidados
+  + nm_email_convidados
+  + dt_confirmacao_convidados
+  + ic_bilhete_convidado
+ 
+----------------------------------------------------------
+ 
+ - Autores : atributos
+   [ entidade-filha de Classificacao ]
+  + id_autor ( PK )
+  + id_classificacao ( FK ) --> Classificacao.id_classificacao
+  + nm_autor
+  + nm_email_autor
+  + dt_nascimento_autor
+ 
+----------------------------------------------------------
+ 
+ - Divulgacao : atributos
+   [ entidade-filha de Convidados ]
+  + id_divulgacao ( PK )
+  + id_convidados ( FK ) --> Convidados.id_convidados
+  + nm_local_evento
+  + nm_evento_divulgacao
+  + dt_evento_divulgacao
+  + nm_genero_divulgacao
+  + qt_vagas_divulgacao
+ 
+----------------------------------------------------------
+ 
+ - Publicacao : atributos
+   [ entidade-filha de Divulgacao, Autores e Tipo_Publicacao ]
+  + id_publicacao ( PK )
+  + id_divulgacao  ( FK ) --> Divulgacao.id_divulgacao
+  + id_autor       ( FK ) --> Autores.id_autor
+  + id_tipo_publicacao ( FK ) --> Tipo_Publicacao.id_tipo_publicacao
+  + nm_titulo_publicacao
+  + dt_publicacao
+  + ds_publicacao
+  + qt_paginas
+ 
+==========================================================
+  MAPEAMENTO DE CHAVES ESTRANGEIRAS
+==========================================================
+ 
+  Tabela origem    |  Coluna FK             |  Tabela destino  |  Coluna PK destino
+  -----------------|------------------------|------------------|---------------------
+  Publicacao       |  id_divulgacao         |  Divulgacao      |  id_divulgacao
+  Publicacao       |  id_autor              |  Autores         |  id_autor
+  Publicacao       |  id_tipo_publicacao    |  Tipo_Publicacao |  id_tipo_publicacao
+  Divulgacao       |  id_convidados         |  Convidados      |  id_convidados
+  Autores          |  id_classificacao      |  Classificacao   |  id_classificacao
+ 
+==========================================================
+  RELACIONAMENTOS
+==========================================================
+ 
+  + uma DIVULGACAO pode divulgar várias PUBLICACOES
+  + uma PUBLICACAO pode ser divulgada em vários eventos
+  + um AUTOR pode ter várias PUBLICACOES e uma PUBLICACAO pode ter vários AUTORES
+  + um CONVIDADO pode participar de várias DIVULGACOES e uma DIVULGACAO pode ter vários CONVIDADOS
+  + uma CLASSIFICACAO se aplica em vários TIPOS DE PUBLICACAO
+ 
+==========================================================
+  CARDINALIDADE
+==========================================================
+ 
+  - PUBLICACAO    ( 0, N ) --> ( 1, 1 )  DIVULGACAO
+  - PUBLICACAO    ( 0, N ) --> ( 1, 1 )  TIPO_PUBLICACAO
+  - PUBLICACAO    ( 0, N ) --> ( 1, 1 )  AUTORES
+  - DIVULGACAO    ( 0, N ) --> ( 1, 1 )  CONVIDADOS
+  - AUTORES       ( 0, N ) --> ( 1, 1 )  CLASSIFICACAO
+ 
+==========================================================
+  HIERARQUIA DE DEPENDÊNCIA ENTRE ENTIDADES
+==========================================================
+ 
+  Classificacao
+      └── Autores
+              └── Publicacao ──── Divulgacao ──── Convidados
+                      └── Tipo_Publicacao
+ 
+  Leitura:
+  • Classificacao e Tipo_Publicacao e Convidados são independentes (entidades-pai).
+  • Autores depende de Classificacao.
+  • Divulgacao depende de Convidados.
+  • Publicacao depende de Divulgacao, Autores e Tipo_Publicacao.
+ 
+==========================================================
+  OBSERVAÇÃO SOBRE RELACIONAMENTOS N:N
+==========================================================
+ 
+  Os relacionamentos abaixo, conforme descrição em linguagem natural,
+  são genuinamente muitos-para-muitos (N:N). O modelo atual os representa
+  com FK simples por opção de escopo acadêmico. Caso seja necessária
+  normalização completa, as tabelas associativas indicadas deverão ser criadas:
+ 
+  Relacionamento N:N              |  Tabela associativa sugerida
+  --------------------------------|------------------------------
+  Publicacao  <--> Divulgacao     |  Divulgacao_Publicacao
+  Publicacao  <--> Autores        |  Publicacao_Autor
+  Divulgacao  <--> Convidados     |  Divulgacao_Convidado
+ 
+==========================================================

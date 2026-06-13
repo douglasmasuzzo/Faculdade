@@ -1,0 +1,18 @@
+SISTEMAS OPERACIONAIS II - RELATÓRIO ( VIRTUAL MACHINE )
+
+--------------------------------------------------------
+
+** CRIAÇÃO DA VIRTUAL MACHINE **
+
+ - Acesse o Virtual Box e clique em 'Novo'
+ - Digite o nome "Android_x86"
+ - Selecione o respectivo caminho
+ - Selecione a imagem e a versão do S.O
+ - Clique em 'Finalizar' 
+
+ - Link de referência : https://youtu.be/-quXUy7VTu4?si=PEF0Z8gDRqltTnd-
+
+ 
+
+ 
+

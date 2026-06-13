@@ -1,0 +1,32 @@
+PROCEDIMENTOS METODOLÓGICOS
+A metodologia descreve como a pesquisa será realizada para verificar se a gamificação realmente contribui para a conscientização sobre ataques de engenharia social.
+
+TIPO DE PESQUISA 
+A pesquisa possui natureza aplicada, pois busca resolver um problema real relacionado à conscientização em segurança digital. Também é exploratória e descritiva, já que pretende investigar uma temática ainda pouco estudada no contexto brasileiro e analisar os resultados obtidos com a intervenção gamificada. A abordagem será quali-quantitativa, combinando análise estatística e interpretação das percepções dos participantes.
+
+PARTICIPANTES
+O estudo será realizado com estudantes do curso de Análise e Desenvolvimento de Sistemas da Fatec Praia Grande. A amostra prevista é de aproximadamente 15 a 25 participantes, selecionados de forma voluntária. 
+
+REVISÃO BIBLIOGRÁFICA
+Inicialmente será realizada uma revisão da literatura científica sobre gamificação, cibersegurança e engenharia social. Serão consultadas bases acadêmicas como Google Scholar, IEEE Xplore, ResearchGate e BDBComp. Essa etapa permitirá identificar ferramentas existentes e fundamentar teoricamente a pesquisa.
+
+SELEÇÃO DA FERRAMENTA 
+Após a revisão bibliográfica, será escolhida uma ferramenta gamificada adequada aos objetivos da pesquisa. A prioridade será utilizar soluções voltadas ao ensino de engenharia social e phishing, considerando critérios como aplicabilidade, disponibilidade técnica e capacidade de fornecer feedback ao usuário.
+
+APLICAÇÕES DE PRÉ-TESTE
+Antes da intervenção, os participantes responderão a um questionário para medir o conhecimento prévio sobre phishing, pretexting e baiting. O objetivo é estabelecer uma linha de base para comparação posterior.
+
+Em seguida, os estudantes participarão de uma atividade gamificada com duração prevista entre 60 e 90 minutos. Durante essa etapa, serão utilizados recursos como:
+ - Simulações de ataques
+ - Quizzes interativos 
+ - Sistema de pontuação
+ - Missões com níveis progressivos
+ - Recursos audiovisuais explicativos
+
+APLICAÇÃO DO PÓS-TESTE
+Após a atividade, será aplicado um novo questionário com estrutura equivalente ao pré-teste. Dessa forma, será possível verificar se houve evolução no conhecimento e na conscientização dos participantes. Também será realizada uma avaliação da experiência de aprendizagem por meio de questões em escala Likert.
+
+ANÁLISE DE DADOS
+Os resultados serão analisados de duas formas:
+
+Análise quantitativa: comparação dos resultados do pré-teste e pós-teste por meio de médias, percentuais e testes estatísticos, verificando se houve melhora significativa após a intervenção.

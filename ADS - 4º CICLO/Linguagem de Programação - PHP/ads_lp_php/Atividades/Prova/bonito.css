@@ -1,0 +1,116 @@
+/* Configurações de Base e Layout (Tema Dark/Cinema) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: 0;
+}
+
+h1 {
+    color: #e50914; /* Vermelho Cinema */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #e50914;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+/* Recipiente do Formulário */
+form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 0.9em;
+    color: #b3b3b3;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.filme {
+    margin-bottom: 20px;
+}
+
+/* Estilização dos campos de entrada de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: white;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #e50914;
+    outline: none;
+}
+
+/* Estilo comum para todos os Botões */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+/* Botão de Destaque (Adicionar) */
+button[name="acao"][value="adicionar"] {
+    background-color: #da030d;
+    color: white;
+}
+
+/* Botão Neutro (Encerrar) */
+button[name="negacao"][value="encerrar"] {
+    background-color: #333;
+    color: #ccc;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Cards da lista de filmes favoritos */
+.item-filme {
+    background-color: #2a2a2a;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #e50914; /* Destaque lateral em vermelho */
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.item-filme p {
+    margin: 5px 0;
+}
+
+/* Mensagens de Erro */
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.75em;
+    display: none; /* Escondido por padrão */
+    margin-top: -30px;
+    margin-bottom: 15px;
+    margin-left: 45%;
+}

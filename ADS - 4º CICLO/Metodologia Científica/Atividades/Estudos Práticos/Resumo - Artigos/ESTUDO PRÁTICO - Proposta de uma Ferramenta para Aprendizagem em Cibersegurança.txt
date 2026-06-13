@@ -1,0 +1,5 @@
+ESTUDO PRÁTICO: Proposta de uma Ferramenta para o Apoio ao Processo de Ensino-Aprendizagem de cibersegurança
+
+1. O titulo "Proposta de uma Ferramenta para o Apoio ao Processo de Ensino-Aprendizagem de Cibersegurança" abrange uma proposta direcionada ao suporte pedagógico no campo da cibersegurança. O resumo enfatiza os termos ao descrever um jogo educativo 2D baseado em RPG de mesa com cartas, que simula uma invasão a uma organização e visa promover conceitos introdutórios de cibersegurança para profissionais em processo de formação. Contudo, a correlação entre os elementos mencionados, como palavras-chaves, evidenciam os principais pilares conceituais enraizados no projeto: o domínio temático , o tipo de produto e a base teórica que fundamenta o design pedagógico.
+
+2.  

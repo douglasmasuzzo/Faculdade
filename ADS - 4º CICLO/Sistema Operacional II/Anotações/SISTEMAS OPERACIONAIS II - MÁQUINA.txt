@@ -1,0 +1,34 @@
+SISTEMAS OPERACIONAIS II - MÁQUINA VIRTUAL
+
+--------------------------------------------
+
+## Benefícios da Máquina Virtual ##
+ - facilita o aperfeiçoamento de testes 
+ - auxílio de ensino prático, permitindo a execução de vários sistemas para comparação de equipamentos
+ - simulação de configurações e situações presentes
+ - simulação de alterações e testes, provendo confiabilidade e escalabilidade de aplicações
+ - garantir a portabilidade de aplicações legadas ( execuções de uma máquina virtual simulando o sistema original )
+ - desenvolvimento de novas aplicações em outras plataformas
+ - redução de custos com equipamentos, consolidando o uso de servidores
+ - facilidade de gerenciamento, migração e replicação de aplicações em sistemas operacionais
+ - promove um serviço especializado com segurança e confiabilidade
+
+## PROPRIEDADE DE MONITORES ##
+
+ - essa propriedade garante que um software em execução em um máquina virtual não acesse outro software em execução no monitor ou em outra máquina virtual
+
+ - essa propriedade é utilizada para que erros de software ou kackers possam ser contidos dentro da máquina virtual, sem impacto em outros sistema
+
+ - além do isolamento de dados, a camada de virtualização possibilita a redução de desempenho de um sistema convidado de modo que os recursos consumidores por uma máquina virtual não prejudiquem necessariamente o desempenho de outras máquinas virtuais ( gerência dos recursos ) 
+
+ - eficiência
+ - gerenciabilidade
+ - compatibilidade
+
+## DEFINIÇÕES - IMAGENS ##
+ - a imagem é um arquivo de dados que contém todo o conteúdo em um disco
+
+ - é possível criar uma imagem de um DVD com Windows 10, e no momento da virtualização essa imagem pode ser indicada como se fosse o próprio disco
+
+ - as imagem são úteis para instalação e configuração do sistema em diversas máquinas, para isto basta criar uma imagem do disco principal de uma máquina pronta e depois aplica em outras máquinas semelhantes 
+

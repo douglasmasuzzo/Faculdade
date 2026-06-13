@@ -1,0 +1,63 @@
+SISTEMAS OPERACIONAIS II - PROJETO
+
+--------------------------------------------
+
+## TRABALHO - PROJETO DE SELEÇÃO E IMPLANTAÇÃO DE UM SISTEMA OPERACIONAL ##
+
+ - OBJETIVO
+  - desenvolver partes relacionadas a estrutura de uma empresa
+
+ - TEMA : COMUNICAÇÃO VISUAL
+  - transferir a arquitetura de um sistema Windows -> OSx
+
+-------------------------------------------
+
+## DESCRIÇÃO DO PROJETO ##
+
+ ** Introdução **
+  - Apresentar a empresa 
+   + ( nome | marca | logotipo | descrição )
+  - Desenvolver um slogan | logotipo 
+  - Apresentar a origem | localização | atividades | parceiros ( outros comerciantes ) e principais clientes | cargos e componentes 
+
+  - Apresentação da Empresa ( cliente - Comunicação Visual )
+   + ramo de atividades 
+   + estrutura | arquitetura
+   + planta de rede ( pré/pós - prestação de serviço ) -> ponto relevante
+
+ ** Fundamentos Teóricos **
+
+  - Conceitos
+   + explicar sobre a escolha da reestruturação da arquitetura ( mudança de distribuições ) 
+   + breve histórico
+   + casos reais ( empresas que utilizam deste sistema ) 
+
+ ** Objetivos **
+   - Descrição do problema / solução
+   - Segurança ( backups / antivírus )
+   - Contrato e Pacotes de Manutenção
+
+ ** Recursos Humanos **
+   - Descrição do pessoal envolvido ( componentes e cargos ) 
+
+ ** Recursos Materiais **
+   - Materiais utilizados durante o projeto
+
+ ** Recursos Financeiros **
+   - Orçamento geral ( peças e prestação de serviço )
+
+ ** Cronograma **
+   - Inserir as atividades, planejamento e estimativas relacionada ao projeto
+
+ ** Conclusão **
+   - Descrever todo processo desenvolvido
+  
+## OBSERVAÇÕES ##
+ - Apresentar como um estudo de caso ( apresentar como um storytellyng ) 
+ - Criar empresas e todos os papéis necessários para ilustrar a apresentação
+
+## DATAS ##
+  - 1º semana : 23 / 03 ( 1 mês )
+
+ 
+

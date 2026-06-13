@@ -1,0 +1,96 @@
+QUESTIONÁRIO - TP09 : PLANEJAMENTO DE TESTES
+
+1. Qualidade de software é um processo sistemático que focaliza todas as etapas e artefatos produzidos com o objetivo de garantir a conformidade de processos e produtos, prevenindo ou eliminando defeitos. Neste contexto podemos afirmar que:
+
+A excelência técnica na produção de documentos e aplicação de processos empíricos, influência diretamente na qualidade do software que será desenvolvido;
+A questão da qualidade é tratada somente no processo de levantamento dos requisitos funcionais, através da definição clara dos critérios de qualidade que o software deverá atender;
+A qualidade de software deve ser somente o objetivo da área de construção (programação) do software, e não das outras áreas da engenharia de software;
+Nenhuma das alternativas;
+
+2. A excelência técnica na produção de documentos e aplicação de processos empíricos (processos ágeis por exemplo),são boas práticas na engenharia de software. Assinale a alternativa incorreta:
+
+A qualidade dos processos pode ser medida através de testes em documentos gerados, em todas as etapas,  e através dos processos aplicados no projeto;
+A qualidade dos processos aplicados é de responsabilidade de toda a equipe envolvido no projeto;
+A qualidade dos processos aplicados depende da estimativa de prazo e estimativa de custo do projeto, por isso não deve ser considerada como prioridade;
+Nenhuma das alternativas;
+
+3. Os ambientes de teste em sistemas distribuídos são complexos, a utilização de diversas ferramentas para diferentes objetivos de testes, contribuem para o aumento da cobertura de teste de um produto. Assinale a alternativa correta
+
+A qualidade do produto pode ser garantida através de sistemáticas aplicações de ferramentas de testes nos vários estágios do desenvolvimento da aplicação, somente utilizando ferramentas podemos garantir a qualidade dos documentos gerados;
+As ferramentas (software de suporte ao teste), são utilizadas quando os tipos de testes não podem ser executados manualmente, contribuem para a qualidade em objetivos de testes específicos, evitando assim o excesso de trabalho manual e aumentando a confiabilidade e segurança dos testes e diminuindo custos;
+Os testes de software visam garantir a qualidade do processo de levantamento de requisitos, e são realizados de acordo com a especificação de usabilidade;
+Nenhuma das alternativas;
+
+4. O objetivo dos testes é “provar que algo não funciona”, mas, se o produto não funciona podemos concluir que a maior responsabilidade é da área de construção (programação).
+
+True || False 
+
+5. Aplicar um processo planejado na área de qualidade de software,  em todo o ciclo de desenvolvimento de software, permite que os defeitos sejam descobertos antecipadamente, o que fará com que as não conformidades caiam, tornando o processo menos caótico e estável. Sobre os custos da aplicação do  processo podemos afirmar que:
+
+O custo da qualidade do software,  estão relacionados com todo o investimento necessário para que o produto atinja o resultado esperado e a qualidade desejada. São eles: os custos dos recursos da equipe, e os custos das aquisições das ferramentas;
+Os custos da não conformidade, consistem no esforço de reparar a falta de qualidade, são eles: retrabalho, ações corretivas, atrasos no cronograma, perda de prazos, multas contratuais, perdas financeiras, perdas operacionais, perdas de oportunidades, perda de market-share, perda de credibilidade no mercado;
+Não existem perdas e custos expressivos na aplicação do processo de qualidade de software, por esse motivo todas as empresas aplicam corretamente a engenharia de qualidade em seus processos e seus produtos na área da engenharia de software;
+Nenhuma das alternativas;
+
+6. O planejamento não diz respeito a decisões futuras, mas às implicações futuras de decisões presentes” PeterDrucker – Sobre o planejamento da área de qualidade de software podemos afirmar:
+
+O processo de qualidade fornece um roteiro que descreve a estratégia, a abordagem dos testes, a definição dos recursos de pessoas, hardware e ferramentas, os passos a serem conduzidos, como os testes serão executados e como serão monitorados, medidos e controlados;
+O envolvimento das diversas áreas (negócio, requisitos, arquitetura, segurança, implementação, testes, ambiente(infra estrutura), gestão de projetos) para o planejamento dos testes que serão aplicados, não se faz necessário em um projeto;
+O ciclo de vida do teste faz parte do ciclo de vida do software; eles devem ser iniciados ao mesmo tempo, por essa razão o ideal é que os desenvolvedores sejam os responsáveis pelo planejamento da área de qualidade de software
+Nenhuma das alternativas;
+
+7. No processo de qualidade de software temos um conjunto de testes de validação dos requisitos funcionais e não funcionais. Neste contexto podemos afirmar, que a validação:
+
+Se refere ao conjunto de atividades de testes, que garantem que o produto construído corresponde aos requisitos do cliente, requisitos técnicos, requisitos de qualidade e requisitos de disponibilidade do produto; 
+Se refere ao conjunto de atividades de testes, que garantem que o produto construído corresponde aos requisitos de negócio do cliente, e que o sistema atende as regras, diretrizes e procedimentos do negócio; 
+Se refere ao conjunto de atividades de teste. que garante que o software implementa corretamente uma função especifica, garante a execução estabelecida nos requisitos não funcionais e funciona corretamente;
+Nenhuma das alternativas;
+
+8. As três camadas da engenharia de software são: Processos, métodos e ferramentas.  Devemos estabelecer processos para testar, aprender métodos e técnicas de teste e utilizar ferramentas adequadas para os diversos objetivos de teste. Os artefatos básicos produzidos para uma área de qualidade de software são:
+
+Plano de teste, casos de testes, logs de teste, scripts de testes, sumário da avaliação dos testes , solicitação de mudanças (correções e melhorias);
+Plano de teste, caso de teste e script de testes automatizados;
+Caso de teste, solicitação de mudanças e sumário de avaliações;
+Nenhuma das alternativas;
+
+9. Um Caso de teste é um conjunto de entradas de teste, condições de execução e resultados esperados desenvolvidos para um objetivo específico. O principal papel responsável por construir casos de testes é:
+
+Gerente de testes;
+Testador;
+Analista de testes;
+Desenvolvedor;
+Nenhuma das alternativas.
+
+10. Sobre o artefato “Casos de testes” . Assinale a alternativa incorreta:
+
+
+Os casos de testes não necessitam ter a especificação dos estados de objetos e sim somente da regra de negócios. Devem percorrer somente os fluxos alternativos dos casos de uso especificados;
+Os casos de testes são construídos de acordo com os objetivos específicos de cenários e há a necessidade de identificação dos dados que serão utilizados para cada caso de teste, bem como condições do estado dos objetos a serem controlados, suas premissas e restrições;
+Os casos de teste para o teste funcional são derivados dos casos de uso, necessário desenvolver casos de teste para cada cenário de caso de uso. Os cenários de caso de uso são identificados pela descrição dos caminhos que percorrer o fluxo básico e os fluxos alternativos, do início ao fim do caso de uso;
+Nenhuma das alternativas;
+
+11. A aplicação de processos de qualidade de software dependerá de vários fatores: seu domínio do aplicativo, seu orçamento, as políticas de sua empresa, sua tolerância a riscos e sua equipe. Depende de quanto a organização avalia a importância da  qualidade e tolera riscos em seu ambiente.
+
+True || False
+
+12. O artefato Plano de teste tem como objetivo
+
+É  comunicar o propósito das atividades de teste, identificar  as estratégias a serem usadas para implementar e executar os testes, além de identificar os recursos necessários;
+Apresentar uma visão geral abrangente da arquitetura do sistema e utiliza uma série de visões arquiteturais diferentes para ilustrar os diversos aspectos do sistema;
+Descrever  a condição lógica que o caso de teste avalia.  Incluindo  o resultado esperado;
+Nenhuma das alternativas;
+
+13. O artefato Plano de teste é de responsabilidade de qual papel na engenharia de software
+
+Analista de sistemas;
+Testador;
+Gerente de testes;
+Projetista dos testes;
+Nenhuma das alternativas;
+
+14. Alguns cenários de testes  são retidos e acumulados em um conjunto de testes, e são  usados para realizar  testes  em builds posteriores, são usados em cada ciclo de teste posterior.  Estamos aplicando neste caso qual  tipo de teste?
+
+Teste de regressão;
+Teste progressivo;
+Teste de desempenho, teste de stress, e volume de dados;
+Nenhuma das alternativas.
