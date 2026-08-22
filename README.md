@@ -103,7 +103,7 @@
       </p>
       <p>Coleção de 9 aplicações web e experimentos de front-end & client-server desenvolvidos durante o período de férias para consolidação de APIs nativas do navegador e manipulação DOM.</p>
       <ul>
-        <li><b>Inclui:</b> 🔋 Monitoramento de Bateria, 🎤 Karaokê Premium, 🌊 Waves of Focus, 🔑 Gerenciador de Senhas etc.</li>
+        <li><b>Inclui:</b> 🔋 Monitoramento de Bateria, 🎤 Karaokê Premium, 🌊 Waves of Focus, 🗓️ Planejamento Semanal etc.</li>
       </ul>
       <p align="center">
         <a href="https://github.com/douglasmasuzzo/Projetos_Ferias">
