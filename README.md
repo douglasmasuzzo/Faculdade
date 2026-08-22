@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=61AFEF&center=true&vcenter=true&width=600&lines=Olá%2C+sou+Douglas+Masuzzo!+👋;Desenvolvedor+Software+%7C+ADS+FATEC;Java+%7C+PHP+%7C+JavaScript+%7C+C%2B%2B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=61AFEF&center=true&vcenter=true&width=600&lines=Olá%2C+sou+Douglas+Masuzzo!+👋;Desenvolvedor+Software+%7C+ADS+FATEC;Java+%7C+PHP+%7C+JavaScript+%7C+C%2B%2B" alt="Typing SVG"/>
   
   <p align="center">
-    <strong>Estudante de Análise e Desenvolvimento de Sistemas (FATEC-PG). Desenvolvedor Front-end/Backend</strong>
+    <strong>Estudante de Análise e Desenvolvimento de Sistemas (FATEC-PG).</strong></br>
+    <strong>Interesse em atuar como Desenvolvedor Frontend/Backend,  Analista de Dados, Engenheiro de Software, Gestor de Projetos e Cybersegurança</strong>
   </p>
 
   <p align="center">
